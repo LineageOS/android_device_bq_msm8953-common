@@ -40,6 +40,7 @@ class Light : public ILight {
    public:
     Light();
 
+    static int rgbToBrightness(const LightState &state);
     Return<Status> setLight(Type type, const LightState& state) override;
     Return<void> getSupportedTypes(getSupportedTypes_cb _hidl_cb) override;
 
