@@ -51,7 +51,7 @@ static void set(std::string path, int value) {
 }
 
 static void handleBacklight(const LightState& state) {
-    uint32_t brightness = state.color & 0xFF;
+    uint32_t brightness = Light::rgbToBrightness(state);
     set(LCD_LED BRIGHTNESS, brightness);
 }
 
@@ -131,6 +131,12 @@ static std::map<Type, std::function<void(const LightState&)>> lights = {
 };
 
 Light::Light() {}
+
+int Light::rgbToBrightness(const LightState &state) {
+    int color = state.color & 0x00ffffff;
+    return ((77 * ((color >> 16) & 0x00ff))
+            + (150 * ((color >> 8) & 0x00ff)) + (29 * (color & 0x00ff))) >> 8;
+}
 
 Return<Status> Light::setLight(Type type, const LightState& state) {
     auto it = lights.find(type);
