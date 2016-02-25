@@ -35,7 +35,8 @@ on early-init
     insmod /system/vendor/lib/modules/wlan.ko
 
 on fs
-    wait /dev/block/bootdevice
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
 
     mount_all /vendor/etc/fstab.qcom
     write /proc/sys/vm/swappiness 100
