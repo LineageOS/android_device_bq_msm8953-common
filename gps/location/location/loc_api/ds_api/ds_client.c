@@ -34,15 +34,11 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include <wireless_data_service_v01.h>
 #include <loc_log.h>
-#include <qmi_client.h>
-#include <qmi_idl_lib.h>
-#include <qmi_cci_target_ext.h>
-#include <qmi_cci_target.h>
-#include <qmi_cci_common.h>
-#include <dsi_netctrl.h>
-#include <ds_client.h>
+#include "../include/qmi_client.h"
+#include "../include/qmi_idl_lib.h"
+#include "../include/dsi_netctrl.h"
+#include "ds_client.h"
 #include <sys/time.h>
 #include <loc_pla.h>
 #include <log_util.h>
@@ -387,7 +383,7 @@ err:
 static ds_client_status_enum_type ds_client_get_profile_list(
     qmi_client_type *ds_client_handle,
     ds_client_resp_union_type *profile_list_resp_msg,
-    wds_profile_type_enum_v01 profile_type)
+    int32_t profile_type)
 {
     ds_client_status_enum_type ret = E_DS_CLIENT_SUCCESS;
     ds_client_req_union_type req_union;
