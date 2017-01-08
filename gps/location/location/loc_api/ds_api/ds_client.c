@@ -152,13 +152,12 @@ static void net_ev_cb
 static ds_client_status_enum_type
 ds_client_qmi_ctrl_point_init(qmi_client_type *p_wds_qmi_client)
 {
-    qmi_client_type wds_qmi_client, notifier = NULL;
+    qmi_client_type wds_qmi_client;
     ds_client_status_enum_type status = E_DS_CLIENT_SUCCESS;
     qmi_service_info *p_service_info = NULL;
     uint32_t num_services = 0, num_entries = 0;
     qmi_client_error_type ret = QMI_NO_ERR;
     unsigned char no_signal = 0;
-    qmi_client_os_params os_params;
     int timeout = 0;
 
     LOC_LOGD("%s:%d]:Enter\n", __func__, __LINE__);
@@ -179,24 +178,11 @@ ds_client_qmi_ctrl_point_init(qmi_client_type *p_wds_qmi_client)
     LOC_LOGD("%s:%d]: qmi_client_get_service_list() first try ret %d, "
                    "num_services %d]\n", __func__, __LINE__, ret, num_services);
     if(ret != QMI_NO_ERR) {
-        //Register for service notification
-        ret = qmi_client_notifier_init(ds_client_service_object, &os_params, &notifier);
-        if (ret != QMI_NO_ERR) {
-            LOC_LOGE("%s:%d]: qmi_client_notifier_init failed %d\n",
-                              __func__, __LINE__, ret);
-            status = E_DS_CLIENT_FAILURE_INTERNAL;
-            goto err;
-        }
-
         do {
-            QMI_CCI_OS_SIGNAL_CLEAR(&os_params);
             ret = qmi_client_get_service_list(ds_client_service_object, NULL,
                                               NULL, &num_services);
             if(ret != QMI_NO_ERR) {
-                QMI_CCI_OS_SIGNAL_WAIT(&os_params, DS_CLIENT_SERVICE_TIMEOUT);
-                no_signal = QMI_CCI_OS_SIGNAL_TIMED_OUT(&os_params);
-                if(!no_signal)
-                    ret = qmi_client_get_service_list(ds_client_service_object, NULL,
+                ret = qmi_client_get_service_list(ds_client_service_object, NULL,
                                                       NULL, &num_services);
             }
             timeout += DS_CLIENT_SERVICE_TIMEOUT;
@@ -263,9 +249,6 @@ ds_client_qmi_ctrl_point_init(qmi_client_type *p_wds_qmi_client)
 
     status = E_DS_CLIENT_SUCCESS;
     LOC_LOGD("%s:%d]: init success\n", __func__, __LINE__);
-
-    if(notifier)
-        qmi_client_release(notifier);
 
 err:
     if(p_service_info)
