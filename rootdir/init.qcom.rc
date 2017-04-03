@@ -255,7 +255,8 @@ on post-fs-data
     mkdir /data/vendor/bluetooth 0770 bluetooth bluetooth
     mkdir /data/vendor/ramdump/bluetooth 0770 bluetooth bluetooth
 
-    mkdir /data/misc/ipa 0700 net_admin net_admin
+    mkdir /data/vendor/misc 0770 root radio
+    mkdir /data/vendor/misc/ipa 0770 root radio
 
     # Create the directories used by the Wireless subsystem
     mkdir /data/vendor/wifi 0770 wifi wifi
