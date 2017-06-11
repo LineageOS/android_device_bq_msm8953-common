@@ -192,7 +192,7 @@ PRODUCT_COPY_FILES += \
 
 # IRSC
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
+    $(LOCAL_PATH)/configs/sec_config:vendor/etc/sec_config
 
 # Keymaster
 PRODUCT_PACKAGES += \
