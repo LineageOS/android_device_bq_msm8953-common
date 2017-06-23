@@ -91,6 +91,7 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 debug.enable.sglscale=1
 debug.gralloc.enable_fb_ubwc=1
+debug.sf.enable_hwc_vds=1
 persist.mm.sta.enable=0
 
 # DPM
