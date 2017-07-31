@@ -158,6 +158,27 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
+# NFC
+PRODUCT_COPY_FILES += \
+    frameworks/base/nfc-extras/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
+    frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    $(LOCAL_PATH)/configs/nfc/libnfc-qrd.conf:system/etc/libnfc-qrd.conf
+
+PRODUCT_PACKAGES += \
+    com.nxp.nfc.nq \
+    libnqnfc-nci \
+    libp61-jcop-kit \
+    nfc_nci.nqx.default \
+    NQNfcNci \
+    nqnfcee_access.xml \
+    nqnfcse_access.xml \
+    Tag \
+    com.android.nfc_extras
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
