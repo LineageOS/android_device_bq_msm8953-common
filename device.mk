@@ -129,7 +129,8 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-        gps.msm8953
+    gps.msm8953 \
+    gps.conf
 
 # IPA Manager
 PRODUCT_PACKAGES += \
