@@ -48,6 +48,9 @@ audio.dolby.ds2.hardbypass=true
 qcom.hw.aac.encoder=true
 flac.sw.decoder.24bit.support=true
 
+# Bluetooth
+bluetooth.hfp.client=1
+
 # Camera
 #force HAL1 for below packages
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
