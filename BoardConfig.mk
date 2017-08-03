@@ -17,6 +17,7 @@
 LOCAL_PATH := device/bq/bardock
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+TARGET_OTA_ASSERT_DEVICE := bardock,bardock-pro
 
 # Architecture
 TARGET_ARCH := arm64
