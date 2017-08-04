@@ -59,7 +59,6 @@ camera.lowpower.record.enable=1
 camera.vidhance.reduction=0.6
 persist.camera.isp.clock.optmz=0
 
-
 # Display
 #property to enable user to access Google WFD settings
 persist.debug.wfd.enable=1
@@ -82,9 +81,15 @@ ro.opengles.version=196610
 # DRM
 drm.service.enabled=true
 
+#Enable B service adj transition by default
+ro.sys.fw.bservice_enable=true
+ro.sys.fw.bservice_limit=5
+ro.sys.fw.bservice_age=5000
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Media
 media.msm8956hw=0
 mm.enable.smoothstreaming=true
 mmp.enable.3g2=true
@@ -101,6 +106,7 @@ vidc.enc.disable.pq=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.am.reschedule_service=true
 ro.vendor.gt_library=libqti-gt.so
 ro.vendor.at_library=libqti-at.so
 
@@ -142,5 +148,12 @@ telephony.lteOnCdmaDevice=1,1
 # Time Services
 persist.timed.enable=true
 
-# WIFI
+# Trim properties
+ro.sys.fw.use_trim_settings=true
+ro.sys.fw.empty_app_percent=50
+ro.sys.fw.trim_empty_percent=100
+ro.sys.fw.trim_cache_percent=100
+ro.sys.fw.trim_enable_memory=2147483648
+
+# Wi-Fi
 wifi.interface=wlan0
