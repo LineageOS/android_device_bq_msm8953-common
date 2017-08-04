@@ -110,6 +110,11 @@ ro.am.reschedule_service=true
 ro.vendor.gt_library=libqti-gt.so
 ro.vendor.at_library=libqti-at.so
 
+# NETMGR
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=true
+persist.data.mode=concurrent
+
 # NITZ
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -143,7 +148,6 @@ ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
 service.qti.ims.enabled=1
 telephony.lteOnCdmaDevice=1,1
-
 
 # Time Services
 persist.timed.enable=true
