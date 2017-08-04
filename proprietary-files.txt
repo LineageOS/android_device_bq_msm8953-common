@@ -118,16 +118,20 @@ vendor/lib64/libxml.so
 # Camera
 bin/mm-qcamera-app
 bin/mm-qcamera-daemon
+lib/libarcsoft_beautyshot.so
 lib/libcam.beautyshot.so
 lib/libcam.vidhance.so
 lib/hw/camera.msm8953.so
 lib/libmm-qcamera.so
 lib/libmmcamera_interface.so
 lib/libmmjpeg_interface.so
+lib/libmpbase.so
 lib/libqomx_core.so
+lib/libvidhance.so
 vendor/lib/libChamomilePA.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libflash_gpio.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
