@@ -132,6 +132,7 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8953 \
+    libgnsspps \
     gps.conf
 
 # IPA Manager
