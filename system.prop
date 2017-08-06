@@ -161,6 +161,9 @@ ro.telephony.default_network=22,22
 service.qti.ims.enabled=1
 telephony.lteOnCdmaDevice=1,1
 
+# QMI
+persist.data.qmi.adb_logmask=0
+
 # Time Services
 persist.timed.enable=true
 
