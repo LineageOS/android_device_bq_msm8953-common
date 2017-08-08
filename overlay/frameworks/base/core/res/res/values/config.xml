@@ -73,12 +73,6 @@
         <item>255</item>
     </integer-array>
 
-
-    <!-- Screen brightness used to dim the screen when the user activity
-         timeout expires.  May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">10</integer>
-
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
     <integer name="config_screenBrightnessSettingMinimum">2</integer>
@@ -88,12 +82,6 @@
 
     <!-- Default LED off time for notification LED in milliseconds. -->
     <integer name="config_defaultNotificationLedOff">750</integer>
-
-    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
-
-    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
 
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
@@ -171,9 +159,6 @@
          scan and wake the host when a configured SSID is detected by the dongle. This chipset
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
-
-    <!-- Boolean indicating whether Hotspot 2.0/Passpoint and ANQP queries is enabled -->
-    <bool translatable="false" name="config_wifi_hotspot2_enabled">true</bool>
 
     <!-- This string array should be overridden by the device to present a list of network
          attributes.  This is used by the connectivity manager to decide which networks can coexist
@@ -267,11 +252,6 @@
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
 
-    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
-         it causes the device to wake up.
-         The default is false. -->
-    <bool name="config_lidControlsSleep">true</bool>
-
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
          if the sensor HAL correctly handles the proximity sensor as a wake-up source.
@@ -350,10 +330,6 @@
          so that applications can still use their own mechanisms. -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
-   <!-- Configure wifi tcp buffersizes in the form:
-         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
-    <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,2097152,262144,524288,1048576</string>
-
     <!-- Configure mobile tcp buffer sizes in the form:
          rat-name:rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max
          If no value is found for the rat-name in use, the system default will be applied.
@@ -389,9 +365,6 @@
 
     <!-- Flag specifying whether WFC over IMS is available on device -->
     <bool name="config_device_wfc_ims_available">true</bool>
-
-    <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
