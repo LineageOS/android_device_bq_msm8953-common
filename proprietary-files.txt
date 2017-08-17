@@ -1046,12 +1046,14 @@ vendor/lib64/libQtiTether.so
 bin/energy-awareness
 bin/iop
 bin/msm_irqbalance
+vendor/bin/esepmdaemon
 vendor/bin/perfd
 vendor/lib/libqti-iop-client.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib64/libqti-at.so
 vendor/lib64/libqti-iop-client.so
 vendor/lib64/libqti-perfd-client.so
+
 
 # Peripheral manager
 bin/pm-proxy
@@ -1113,6 +1115,7 @@ vendor/lib64/libsmemlog.so
 -app/fastdormancy/fastdormancy.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/shutdownlistener/shutdownlistener.apk
+bin/ATFWD-daemon
 bin/netmgrd
 bin/port-bridge
 bin/radish
