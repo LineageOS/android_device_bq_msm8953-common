@@ -23,7 +23,7 @@ PRODUCT_NAME := lineage_bardock
 BOARD_VENDOR := BQ
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=bq/bardock-pro/bardock-pro:7.1.1/NMF26F/1498469849:user/release-keys \
-    PRIVATE_BUILD_DESC="bardock-user 7.1.1 NMF26F 1.3.6_20170626-1133 release-keys"
+    BUILD_FINGERPRINT=bq/bardock-pro/bardock-pro:7.1.1/NMF26F/1502270114:user/release-keys \
+    PRIVATE_BUILD_DESC="bardock-user 7.1.1 NMF26F 1.4.3_20170809-1111 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-bq
