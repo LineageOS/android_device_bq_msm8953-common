@@ -85,6 +85,7 @@ dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 debug.enable.sglscale=1
 debug.gralloc.enable_fb_ubwc=1
+persist.mm.sta.enable=0
 
 ro.qualcomm.cabl=0
 ro.sf.lcd_density=480
@@ -97,6 +98,9 @@ drm.service.enabled=true
 ro.sys.fw.bservice_enable=true
 ro.sys.fw.bservice_limit=5
 ro.sys.fw.bservice_age=5000
+
+# Fingerprint
+persist.qfp=false
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
