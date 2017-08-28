@@ -1216,6 +1216,4 @@ vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
 bin/fstman
-bin/cnss-daemon
-bin/cnss_diag
 bin/wcnss_service
