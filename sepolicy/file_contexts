@@ -1,0 +1,2 @@
+# RIL
+/data/misc/netmgr(/.*)?                                  u:object_r:netmgr_data_file:s0
