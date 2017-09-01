@@ -853,6 +853,23 @@ vendor/lib64/libtzdrmgenprov.so
 
 # Fingerprint
 bin/gx_fpd
+etc/firmware/fpchips64.b00
+etc/firmware/fpchips64.b01
+etc/firmware/fpchips64.b02
+etc/firmware/fpchips64.b03
+etc/firmware/fpchips64.b04
+etc/firmware/fpchips64.b05
+etc/firmware/fpchips64.b06
+etc/firmware/fpchips64.flist
+etc/firmware/fpchips64.mdt
+etc/firmware/sw_fp.b00
+etc/firmware/sw_fp.b01
+etc/firmware/sw_fp.b02
+etc/firmware/sw_fp.b03
+etc/firmware/sw_fp.b04
+etc/firmware/sw_fp.b05
+etc/firmware/sw_fp.b06
+etc/firmware/sw_fp.mdt
 lib64/hw/gxfingerprint.default.so
 lib64/libfp_client.so
 lib64/libfpservice.so
