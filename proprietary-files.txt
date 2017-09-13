@@ -871,7 +871,9 @@ etc/firmware/sw_fp.b04
 etc/firmware/sw_fp.b05
 etc/firmware/sw_fp.b06
 etc/firmware/sw_fp.mdt
+lib64/csfingerprint.default.so
 lib64/hw/gxfingerprint.default.so
+lib64/hw/swfingerprint.default.so
 lib64/libfp_client.so
 lib64/libfpservice.so
 
