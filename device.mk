@@ -197,7 +197,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    lights.msm8953
+    android.hardware.light@2.0-service.bardock
 
 # Media
 PRODUCT_PACKAGES += \
