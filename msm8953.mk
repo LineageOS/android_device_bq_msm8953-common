@@ -275,7 +275,8 @@ PRODUCT_COPY_FILES += \
 
 # Network
 PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
+    netutils-wrapper-1.0 \
+    libandroid_net
 
 # NFC
 PRODUCT_COPY_FILES += \
