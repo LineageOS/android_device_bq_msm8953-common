@@ -128,6 +128,9 @@ TARGET_NO_RPC := true
 # Filesystem
 TARGET_ANDROID_FILESYSTEM_CONFIG_H := $(LOCAL_PATH)/android_filesystem_config.h
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
