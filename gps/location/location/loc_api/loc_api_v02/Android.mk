@@ -21,6 +21,7 @@ LOCAL_SHARED_LIBRARIES := \
     libloc_core \
     libgps.utils \
     libdl \
+    libloc_ds_api \
     liblog
 
 LOCAL_SRC_FILES = \
