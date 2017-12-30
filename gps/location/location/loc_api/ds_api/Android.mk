@@ -24,6 +24,11 @@ LOCAL_CFLAGS += \
     -fno-short-enums \
     -D_ANDROID_
 
+LOCAL_COPY_HEADERS_TO:= libloc_ds_api/
+
+LOCAL_COPY_HEADERS:= \
+    ds_client.h
+
 LOCAL_LDFLAGS += -Wl,--export-dynamic
 
 ## Includes
