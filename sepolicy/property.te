@@ -1,2 +1,5 @@
 type cnss_prop, property_type;
 type camera_dbg_prop, property_type;
+
+# Power HAL
+type power_prop, property_type;
