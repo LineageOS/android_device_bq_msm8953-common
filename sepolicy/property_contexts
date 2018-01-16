@@ -8,5 +8,6 @@ vendor.target.init.complete                     u:object_r:vendor_mpctl_prop:s0
 persist.debug.sf.showfps                        u:object_r:camera_dbg_prop:s0
 
 # PowerHAL
+vendor.powerhal.audio      u:object_r:power_prop:s0
 vendor.powerhal.state      u:object_r:power_prop:s0
 
