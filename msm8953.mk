@@ -283,7 +283,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-service \
+    android.hardware.nfc@1.1-service \
     com.android.nfc_extras \
     com.gsma.services.nfc \
     com.nxp.nfc.nq \
@@ -297,9 +297,8 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-impl \
-    vendor.nxp.hardware.nfc@1.0-impl \
-    vendor.nxp.hardware.nfc@1.0-service
+    vendor.nxp.hardware.nfc@1.1-impl \
+    vendor.nxp.hardware.nfc@1.1-service
 
 # OMX
 PRODUCT_PACKAGES += \
