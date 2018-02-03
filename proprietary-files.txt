@@ -662,30 +662,8 @@ vendor/lib64/libwms.so|59bfa19fd491c8c987d74604ec97d806399abe83
 # NFC - from nfc_repo - NFC_NCIHALx_AR180C.8.3.0_O_OpnSrc
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2f71a69f37ec8261fb05b8
 
-# Perf Config - from repo4 - misc
-vendor/etc/perf/perfboostsconfig.xml|a11bb2da41dd1d54ecf07f8c4ec2d6bd7ffad38e
-vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
-vendor/etc/perf/targetresourceconfigs.xml|8d2c2976902884c512cf33b2cc66bfa28b340b83
-
 # Perf Energy Awareness - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
-
-# Perf - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|98654005d78109d44fc1b53a41803184dd35939a
-vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/etc/perf/commonresourceconfigs.xml|89d443b2b67d58fff1ef34c33e3f1c393164cf5d
-vendor/etc/perf/perfconfigstore.xml|dfa3a78fd24cba4b870a3cd04d657cc9962c8331
-vendor/lib/libperfconfig.so|9c6280cded15fc4f174554cdc8d473a03d28e86e
-vendor/lib/libperfgluelayer.so|60aa1a8cbeb307c15a263176ed86186ab7c1b4b7
-vendor/lib/libqti-perfd-client.so|99d542254fb5d4dc3fe2f5432c5ac4845995f75b
-vendor/lib/libqti-perfd.so|d12d8902ce3d68039cb90d3a3b122fdf72d19f07
-vendor/lib/libqti-util.so|7f1b080e1d5c2e03261b80699232b3153146d215
-vendor/lib64/libperfconfig.so|12eef9b5b6239a2aef2bd6fb8cbbec47853619a2
-vendor/lib64/libperfgluelayer.so|0bf84cafdc9922ad5b40d2a4aca05bd4fcd637be
-vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
-vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
-vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 
 # Peripheral manager - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd
