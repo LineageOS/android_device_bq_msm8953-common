@@ -161,12 +161,6 @@ persist.vendor.data.iwlan.enable=true
 persist.vendor.sys.cnd.iwlan=1
 ro.telephony.iwlan_operation_mode=legacy
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.qti.am.reschedule_service=true
-ro.vendor.gt_library=libqti-gt.so
-ro.vendor.at_library=libqti-at.so
-
 # NETMGR
 ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
