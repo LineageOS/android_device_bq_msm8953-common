@@ -500,7 +500,7 @@ service vendor.bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
 
 service vendor.port-bridge /system/vendor/bin/port-bridge
     class main
-    user radio system
+    user radio
     group radio system inet
     oneshot
 
