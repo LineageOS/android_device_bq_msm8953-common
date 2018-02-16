@@ -427,8 +427,8 @@ on property:bluetooth.dun.status=stopped
     stop bt-dun
 
 on property:vold.decrypt=trigger_restart_framework
-    stop vendor.camera-provider-2-4
-    start vendor.camera-provider-2-4
+    stop camera-provider-2-4
+    start camera-provider-2-4
     start cnss_diag
     start wcnss-service
 
