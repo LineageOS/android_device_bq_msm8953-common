@@ -363,6 +363,10 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc
 
+# Recovery
+PRODUCT_PACKAGES += \
+    libgptutils
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
