@@ -171,9 +171,10 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    gps.msm8953 \
+    android.hardware.gnss@1.0-service-qti \
+    libgnss \
     libgnsspps \
-    gps.conf
+    libcurl
 
 # IPA Manager
 PRODUCT_PACKAGES += \
