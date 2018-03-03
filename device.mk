@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     libdisplayconfig \
     memtrack.msm8953 \
-    liboverlay
+    liboverlay \
+    libtinyxml
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -275,8 +276,12 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcurl \
     libjson \
-    libtinyxml \
     libxml2
+
+# Seccomp
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    $(LOCAL_PATH)/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
 # Sensors
 PRODUCT_COPY_FILES += \
