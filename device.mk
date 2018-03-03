@@ -66,6 +66,12 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.effect@2.0-service \
+    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.0-service \
     audiod \
     audio.a2dp.default \
     audio.primary.msm8953 \
@@ -117,13 +123,47 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_mtp.xml:system/etc/mixer_paths_mtp.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_mtp_no_hifi.xml:system/etc/mixer_paths_mtp_no_hifi.xml
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth@1.0-service \
+    libbt-vendor
+
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service
+
+
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.allocator@2.0-service \
+    android.hardware.graphics.composer@2.1-impl \
+    android.hardware.graphics.composer@2.1-service \
+    android.hardware.graphics.mapper@2.0-impl \
+    android.hardware.memtrack@1.0-impl \
+    android.hardware.memtrack@1.0-service \
     copybit.msm8953 \
     gralloc.msm8953 \
     hwcomposer.msm8953 \
+    libdisplayconfig \
     memtrack.msm8953 \
     liboverlay
+
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -147,6 +187,11 @@ PRODUCT_COPY_FILES += \
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
+
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -177,15 +222,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-qrd.conf:system/etc/libnfc-qrd.conf
 
 PRODUCT_PACKAGES += \
-    com.nxp.nfc.nq \
-    libnqnfc-nci \
-    libp61-jcop-kit \
-    nfc_nci.nqx.default \
-    NQNfcNci \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
-    Tag \
-    com.android.nfc_extras
+    android.hardware.nfc@1.0-impl \
+    android.hardware.nfc@1.0-service \
+    com.android.nfc_extras \
+    nfc_nci.msm8953 \
+    NfcNci \
+    Tag
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -202,7 +244,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.msm8953
+    android.hardware.power@1.0-service-qti
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -220,6 +262,10 @@ PRODUCT_PACKAGES += \
     init.qcom.wifi.sh \
     ueventd.qcom.rc
 
+# RenderScript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
@@ -231,16 +277,26 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sensors/apdr.conf:system/etc/apdr.conf \
-    $(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf \
-    $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf
+    $(LOCAL_PATH)/configs/sensors/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
 PRODUCT_PACKAGES += \
-    sensors.msm8953
+    android.hardware.sensors@1.0-impl \
+    android.hardware.sensors@1.0-service
 
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
+
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
 
 # Vulkan
 PRODUCT_COPY_FILES += \
@@ -250,7 +306,6 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
-    hostapd \
     libqsap_sdk \
     libQWiFiSoftApCfg \
     libwifi-hal-qcom \
@@ -259,6 +314,8 @@ PRODUCT_PACKAGES += \
     wificond \
     wifilogd \
     wlutil \
+    hostapd \
+	wlutil \
     wpa_supplicant \
     wpa_supplicant.conf
 
