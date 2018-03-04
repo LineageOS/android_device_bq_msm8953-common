@@ -57,10 +57,10 @@
     <ctl name="RX1 Digital Volume" value="84" />
     <ctl name="RX2 Digital Volume" value="84" />
     <ctl name="RX3 Digital Volume" value="84" />
-    <ctl name="IIR1 INP1 Volume" value="84" />
-    <ctl name="IIR1 INP2 Volume" value="84" />
-    <ctl name="IIR1 INP3 Volume" value="84" />
-    <ctl name="IIR1 INP4 Volume" value="84" />
+    <ctl name="IIR1 INP1 Volume" value="53" />
+    <ctl name="IIR1 INP2 Volume" value="53" />
+    <ctl name="IIR1 INP3 Volume" value="53" />
+    <ctl name="IIR1 INP4 Volume" value="53" />
     <ctl name="ADC1 Volume" value="4" />
     <ctl name="ADC2 Volume" value="4" />
     <ctl name="ADC3 Volume" value="4" />
@@ -127,9 +127,6 @@
     <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia12" value="0" />
     <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia13" value="0" />
     <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia14" value="0" />
-    <!-- These are initial mixer settings for QUIN_I2S-->
-    <ctl name="QUIN_MI2S_RX_DL_HL Switch" value="0" />
-    <ctl name="QUIN_MI2S_RX Port Mixer INTERNAL_FM_TX" value="0" />
     <!-- Voice BTSCO -->
     <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_8KHZ" />
     <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer CSVoice" value="0" />
@@ -168,9 +165,6 @@
     <!-- VoWLAN -->
 
     <!-- Multimode Voice1 -->
-    <ctl name="VOC_EXT_EC MUX" value="NONE" />
-    <ctl name="AUDIO_REF_EC_UL1 MUX" value="None" />
-    <ctl name="QUIN_MI2S_RX_Voice Mixer VoiceMMode1" value="0" />
     <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="0" />
     <ctl name="VoiceMMode1_Tx Mixer TERT_MI2S_TX_MMode1" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer VoiceMMode1" value="0" />
@@ -276,14 +270,6 @@
     <path name="deep-buffer-playback">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
     </path>
-	
-    <path name="deep-buffer-playback headphones-hifi">
-        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-    </path>
-
-    <path name="deep-buffer-playback smpa">
-	    <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-    </path>
 
     <path name="deep-buffer-playback bt-sco">
         <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia1" value="1" />
@@ -324,25 +310,8 @@
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
     </path>
 
-     <path name="low-latency-playback spkhph-smpa">
-	     <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-	    <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-    </path>
-
-    <path name="audio-ull-playback smpa">
-        <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia3" value="1" />
-    </path>
-
-    <path name="low-latency-playback smpa">
-	    <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-    </path>
-
     <path name="low-latency-playback speaker-protected">
         <path name="low-latency-playback" />
-    </path>
-	
-	<path name="low-latency-playback headphones-hifi">
-        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback bt-sco">
@@ -427,14 +396,6 @@
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia4" value="1" />
     </path>
 
-    <path name="compress-offload-playback smpa">
-        <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-    </path>
-	
-    <path name="compress-offload-playback headphones-hifi">
-        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
-    </path>
-
     <path name="compress-offload-playback speaker-protected">
         <path name="compress-offload-playback" />
     </path>
@@ -471,14 +432,6 @@
 
     <path name="compress-offload-playback2">
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="1" />
-    </path>
-
-    <path name="compress-offload-playback2 smpa">
-        <ctl name="QUIN_MI2S_RX Audio Mixer MultiMedia7" value="1" />
-    </path>
-	
-	<path name="compress-offload-playback2 headphones-hifi">
-        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia7" value="1" />
     </path>
 
     <path name="compress-offload-playback2 bt-sco">
@@ -702,25 +655,10 @@
        <path name="voice2-call usb-headphones" />
     </path>
 
-    <path name="fm-start">
-        <ctl name="FMRadio" value="ON" />
-    </path>
     <path name="play-fm">
         <ctl name="Internal FM RX Volume" value="1" />
         <ctl name="PRI_MI2S_RX Port Mixer INTERNAL_FM_TX" value="1" />
-	<ctl name="PRI_MI2S_RX_DL_HL Switch" value="1" />
-    </path>
-    
-   <path name="play-fm speaker">
-        <ctl name="Internal FM RX Volume" value="1" />
-        <ctl name="QUIN_MI2S_RX Port Mixer INTERNAL_FM_TX" value="1" />
-        <ctl name="QUIN_MI2S_RX_DL_HL Switch" value="1" />
-    </path>
-
-   <path name="play-fm smpa">
-        <ctl name="Internal FM RX Volume" value="1" />
-        <ctl name="QUIN_MI2S_RX Port Mixer INTERNAL_FM_TX" value="1" />
-        <ctl name="QUIN_MI2S_RX_DL_HL Switch" value="1" />
+        <ctl name="MI2S_DL_HL Switch" value="1" />
     </path>
 
     <path name="vowlan-call">
@@ -988,12 +926,7 @@
         <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer TERT_MI2S_TX_Voip" value="1" />
     </path>
-    
-    <path name="compress-voip-call smpa">
-        <ctl name="QUIN_MI2S_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer TERT_MI2S_TX_Voip" value="1" />
-    </path>
-    
+
     <path name="compress-voip-call bt-sco">
         <ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="1" />
         <ctl name="Voip_Tx Mixer INTERNAL_BT_SCO_TX_Voip" value="1" />
@@ -1059,11 +992,8 @@
     </path>
 
     <path name="speaker">
-        <ctl name="quad Profile" value="loud" />
-    </path>
-
-    <path name="speaker_hq">
-        <ctl name="quad Profile" value="hq" />
+        <ctl name="RX3 MIX1 INP1" value="RX1" />
+        <ctl name="SPK" value="Switch" />
     </path>
 
     <path name="speaker-and-hdmi">
@@ -1111,107 +1041,20 @@
     </path>
 
     <path name="handset-mic">
-        <ctl name="ADC1 Volume" value="4" />
-        <ctl name="DEC1 MUX" value="ADC1" />
+        <path name="adc1" />
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
-    <path name="handset-secondary-mic">
-        <path name="adc3" />
-    </path>
+
     <path name="headphones">
-    	    
         <ctl name="MI2S_RX Channels" value="Two" />
         <ctl name="RX1 MIX1 INP1" value="RX1" />
-        <ctl name="RX2 MIX1 INP1" value="RX2" />       
+        <ctl name="RX2 MIX1 INP1" value="RX2" />
+        <ctl name="RX HPH Mode" value="HD2" />
+        <ctl name="COMP0 RX1" value="1" />
+        <ctl name="COMP0 RX2" value="1" />
         <ctl name="RDAC2 MUX" value="RX2" />
         <ctl name="HPHL" value="Switch" />
         <ctl name="HPHR" value="Switch" />
-	<ctl name="RX1 Digital Volume" value="77" />
-        <ctl name="RX2 Digital Volume" value="77" />
-    </path>
-	
-	<path name="headphones-hifi-44p1-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV16" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-48-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" />
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV16" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-88p2-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV8" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-96-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" />
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV8" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-176p4-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV4" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-192-16bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" /> 
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV4" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-44p1-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV16" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-48-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" />
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV16" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-88p2-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV8" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-96-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" />
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV8" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-176p4-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Master" />
-		<ctl name="Es9118 Master" value="Master" />
-        <ctl name="Es9118 CLK Divider" value="DIV4" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
-    </path>
-	
-	<path name="headphones-hifi-192-24bits">
-	    <ctl name="QUAT_MI2S Work Mode" value="Slave" /> 
-		<ctl name="Es9118 Master" value="Slave" />
-        <ctl name="Es9118 CLK Divider" value="DIV4" />
-		<ctl name="Es9118 I2S Length" value="32Bit" />
     </path>
 
     <path name="headset-mic">
@@ -1247,7 +1090,7 @@
     </path>
 
     <path name="voice-speaker">
-   	  <ctl name="quad Profile" value="speech" />
+        <path name="speaker" />
     </path>
 
     <path name="wsa-voice-speaker">
@@ -1255,14 +1098,9 @@
     </path>
 
     <path name="voice-speaker-mic">
-    <!--path name="speaker-mic" /-->
-	<path name="handset-secondary-mic" />
-	<ctl name="ADC3 Volume" value="12" />
+        <path name="speaker-mic" />
     </path>
 
-    <path name="voice-speaker-dmic-mono">
-			<path name="handset-secondary-mic" />
-    </path>
     <path name="voice-headphones">
         <path name="headphones" />
     </path>
@@ -1327,8 +1165,7 @@
 
     <!-- Dual MIC devices -->
     <path name="speaker-dmic-endfire">
-        <ctl name="ADC1 Volume" value="6" />
-        <ctl name="DEC1 MUX" value="ADC1" />
+        <path name="adc1" />
         <ctl name="ADC3 Volume" value="6" />
         <ctl name="DEC2 MUX" value="ADC2" />
         <ctl name="MI2S_TX Channels" value="Two" />
@@ -1360,12 +1197,7 @@
     </path>
 
     <path name="handset-stereo-dmic-ef">
-        <ctl name="ADC1 Volume" value="2" />
-        <ctl name="DEC1 MUX" value="ADC1" />
-        <ctl name="ADC3 Volume" value="2" />
-        <ctl name="DEC2 MUX" value="ADC2" />
-        <ctl name="MI2S_TX Channels" value="Two" />
-        <ctl name="ADC2 MUX" value="INP3" />
+        <path name="speaker-dmic-endfire" />
     </path>
 
     <path name="speaker-stereo-dmic-ef">
@@ -1389,7 +1221,7 @@
     </path>
 
     <path name="echo-reference">
-    	<ctl name="AUDIO_REF_EC_UL1 MUX" value="QUIN_MI2S_TX" />      
+        <ctl name="AUDIO_REF_EC_UL1 MUX" value="I2S_RX" />
     </path>
 
     <!-- TTY devices -->
@@ -1461,16 +1293,4 @@
           <path name="wsa-speaker-and-headphones" />
     </path>
 
-    <path name="voicemmode1-call smpa"> 
-        <ctl name="VOC_EXT_EC MUX" value="QUIN_MI2S_TX" />
-        <ctl name="QUIN_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
-        <ctl name="VoiceMMode1_Tx Mixer TERT_MI2S_TX_MMode1" value="1" />
-    </path>
-    
-    <path name="voicemmode2-call smpa"> 
-        <ctl name="VOC_EXT_EC MUX" value="QUIN_MI2S_TX" />
-        <ctl name="QUIN_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
-        <ctl name="VoiceMMode2_Tx Mixer TERT_MI2S_TX_MMode2" value="1" />
-    </path>
-    
 </mixer>
