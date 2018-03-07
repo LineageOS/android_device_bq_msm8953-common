@@ -413,6 +413,7 @@ service vendor.iop /system/vendor/bin/iop
     group root
     disabled
     socket iop seqpacket 0666 root system
+    writepid /dev/cpuset/system-background/tasks
 
 on property:persist.sys.mba_boot_timeout=*
     write /sys/module/pil_msa/parameters/pbl_mba_boot_timeout_ms ${persist.sys.mba_boot_timeout}
@@ -456,20 +457,24 @@ service vendor.irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
     user vendor_qrtr
     group vendor_qrtr
     capabilities NET_BIND_SERVICE
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.rmt_storage /vendor/bin/rmt_storage
     class core
     user root
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.tftp_server /vendor/bin/tftp_server
    class core
    user root
+   writepid /dev/cpuset/system-background/tasks
 
 on property:vendor.wc_transport.start_hci=true
     start vendor.start_hci_filter
@@ -483,6 +488,7 @@ service vendor.start_hci_filter /system/vendor/bin/wcnss_filter
     group bluetooth diag system wakelock
     seclabel u:r:bluetooth:s0
     disabled
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
     class late_start
@@ -490,17 +496,20 @@ service vendor.bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
     group bluetooth net_bt_admin inet
     disabled
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.port-bridge /system/vendor/bin/port-bridge
     class main
     user radio
     group radio system inet
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.sensors /vendor/bin/sensors.qti
     class core
     user system
     group system
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.cnss_diag /system/vendor/bin/cnss_diag -q
     class main
@@ -508,12 +517,14 @@ service vendor.cnss_diag /system/vendor/bin/cnss_diag -q
     group system wifi inet net_admin sdcard_rw media_rw diag
     disabled
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.cnss-daemon /system/vendor/bin/cnss-daemon -n -l
     class late_start
     user system
     group system inet net_admin wifi
     capabilities NET_ADMIN
+    writepid /dev/cpuset/system-background/tasks
 
 on property:sys.shutdown.requested=*
     stop vendor.cnss-daemon
@@ -522,12 +533,14 @@ service vendor.loc_launcher /system/vendor/bin/loc_launcher
     class late_start
     user gps
     group gps
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
     group root system radio
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
@@ -537,6 +550,7 @@ service vendor.qcom-c_main-sh /vendor/bin/init.class_main.sh
     user root
     group root system
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     class late_start
@@ -544,6 +558,7 @@ service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     group root system
     disabled
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 on property:sys.boot_completed=1
     start vendor.qcom-post-boot
@@ -552,6 +567,7 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     class late_start
     user system
     group system radio
+    writepid /dev/cpuset/system-background/tasks
 
 on property:persist.vendor.radio.atfwd.start=true
     start vendor.atfwd
@@ -562,6 +578,7 @@ service hostapd_fst /vendor/bin/hostapd -dd -g /data/vendor/wifi/hostapd/global 
     group wifi inet keystore net_admin net_raw
     oneshot
     disabled
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
@@ -569,6 +586,7 @@ service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     disabled
     group radio cache inet misc audio sdcard_r sdcard_rw diag log
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
+    writepid /dev/cpuset/system-background/tasks
 
 service charger /system/bin/charger
     class charger
@@ -576,10 +594,12 @@ service charger /system/bin/charger
     group system graphics input
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
+    writepid /dev/cpuset/system-background/tasks
 
 service vendor.qbcharger /charger -m 1
     disabled
     oneshot
+    writepid /dev/cpuset/system-background/tasks
 
 on property:sys.qbcharger.enable=true
     start vendor.qbcharger
@@ -592,6 +612,7 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     user root
     group root
     disabled
+    writepid /dev/cpuset/system-background/tasks
 
 on charger
     setprop persist.sys.usb.config charging
