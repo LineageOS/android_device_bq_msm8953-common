@@ -1,3 +1,5 @@
+#! /vendor/bin/sh
+
 function do_set_property_from_file()
 {
 	local ret_string

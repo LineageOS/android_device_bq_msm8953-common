@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/vendor/bin/sh
 # Copyright (c) 2012, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -51,8 +51,8 @@ fi
 # prevent slowdown at boot.
 
 # Run wifi script
-if [ -f /system/etc/init.qcom.wifi.sh ]; then
-  /system/bin/sh /system/etc/init.qcom.wifi.sh "$target" "$serial"
+if [ -f /vendor/bin/init.qcom.wifi.sh ]; then
+  /vendor/bin/sh /vendor/bin/init.qcom.wifi.sh "$target" "$serial"
 fi
 
 touch /system/etc/boot_fixup

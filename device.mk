@@ -255,15 +255,14 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.qcom.bt.sh \
     init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.target.rc \
     init.qcom.syspart_fixup.sh \
-    init.bq.modelselect.sh \
     init.bq.tp.sh \
     init.qcom.wifi.sh \
     ueventd.qcom.rc
@@ -310,7 +309,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK-SP:
 PRODUCT_PACKAGES += \
-    vndk-sp \
+    vndk-sp
 
 # Vulkan
 PRODUCT_COPY_FILES += \
@@ -329,7 +328,6 @@ PRODUCT_PACKAGES += \
     wifilogd \
     wlutil \
     hostapd \
-	wlutil \
     wpa_supplicant \
     wpa_supplicant.conf
 
