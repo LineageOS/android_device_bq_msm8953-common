@@ -117,7 +117,7 @@ vidc.enc.disable_bframes=1
 vidc.enc.disable_pframes=1
 vidc.dec.downscalar_width=1920
 vidc.dec.downscalar_height=1088
-vidc.disable.split.mode=1
+vendor.vidc.disable.split.mode=1
 vidc.enc.disable.pq=true
 
 # Perf
