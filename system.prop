@@ -2,9 +2,6 @@
 # system.prop for bardock
 #
 
-# Art
-ro.sys.fw.dex2oat_thread_count=4
-
 # Audio
 af.fast_track_multiplier=1
 audio.deep_buffer.media=true
@@ -14,16 +11,13 @@ vendor.audio.playback.mch.downsample=true
 vendor.audio.pp.asphere.enabled=false
 vendor.audio.safx.pbe.enabled=true
 vendor.audio_hal.period_size=192
-vendor.persist.audio.fluence.speaker=true
-vendor.persist.audio.fluence.voicecall=true
-vendor.persist.audio.fluence.voicerec=false
-vendor.persist.speaker.prot.enable=false
+persist.vendor.audio.speaker.prot.enable=false
 vendor.ro.qc.sdk.audio.fluencetype=fluence
 vendor.ro.qc.sdk.audio.ssr=false
-vendor.tunnel.audio.encode=false
-vendor.use.qti.sw.alac.decoder=true
-vendor.use.qti.sw.ape.decoder=true
-vendor.use.voice.path.for.pcm.voip=true
+vendor.audio.tunnel.encode=false
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.use.sw.ape.decoder=true
+vendor.voice.path.for.pcm.voip=true
 vendor.voice.conc.fallbackpath=deep-buffer
 vendor.voice.playback.conc.disabled=true
 vendor.voice.record.conc.disabled=false
@@ -39,12 +33,15 @@ audio.offload.pcm.24bit.enable=true
 vendor.audio.offload.track.enable=true
 audio.offload.video=true
 vendor.audio.offload.passthrough=false
-vendor.persist.audio.fluence.audiorec=false
-vendor.persist.audio.fluence.spk.mono=true
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.voicecall=true
+persist.vendor.audio.fluence.voicerec=false
+persist.vendor.audio.fluence.audiorec=false
+persist.vendor.audio.fluence.spk.mono=true
 vendor.audio.offload.multiaac.enable=true
-vendor.audio.dolby.ds2.enabled=true
-vendor.audio.dolby.ds2.hardbypass=true
-vendor.flac.sw.decoder.24bit.support=true
+vendor.audio.dolby.ds2.enabled=false
+vendor.audio.dolby.ds2.hardbypass=false
+vendor.audio.flac.sw.decoder.24bit=true
 
 # Bluetooth
 bluetooth.hfp.client=1
@@ -122,7 +119,7 @@ vendor.vidc.enc.disable.pq=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.am.reschedule_service=true
+ro.vendor.qti.am.reschedule_service=true
 ro.vendor.gt_library=libqti-gt.so
 ro.vendor.at_library=libqti-at.so
 
@@ -172,11 +169,11 @@ persist.data.qmi.adb_logmask=0
 persist.timed.enable=true
 
 # Trim properties
-ro.sys.fw.use_trim_settings=true
-ro.sys.fw.empty_app_percent=50
-ro.sys.fw.trim_empty_percent=100
-ro.sys.fw.trim_cache_percent=100
-ro.sys.fw.trim_enable_memory=2147483648
+ro.vendor.qti.sys.fw.use_trim_settings=true
+ro.vendor.qti.sys.fw.empty_app_percent=50
+ro.vendor.qti.sys.fw.trim_empty_percent=100
+ro.vendor.qti.sys.fw.trim_cache_percent=100
+ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
 # Wi-Fi
 wifi.interface=wlan0
