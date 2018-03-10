@@ -73,6 +73,8 @@ persist.camera.isp.clock.optmz=0
 persist.debug.wfd.enable=1
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
+debug.sf.enable_hwc_vds=1
+debug.sf.latch_unsignaled=1
 debug.sf.hw=0
 debug.egl.hw=0
 persist.hwc.mdpcomp.enable=true
