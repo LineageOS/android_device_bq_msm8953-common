@@ -182,7 +182,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
 
-# Gatekeeper
+# Fingerprint (Sunwave)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sw_config.xml:system/etc/sw_config.xml
+
+# Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service

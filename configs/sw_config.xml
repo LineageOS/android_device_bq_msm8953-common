@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sunwave:Config xmlns:sunwave="http://www.sunwavecorp.com/some-location" Environment="TEE" platform="项目信息: BQ/龙旗/信利/L8500/sw9261">
+  <feature>
+    <key_emulation cname="按键功能开关" default="false" desc="默认：false" format="boolean" useable="true">false</key_emulation>
+    <navigation cname="导航功能开关" default="false" desc="默认：false" format="boolean" useable="true">false</navigation>
+  </feature>
+  <navigation>
+    <mode cname="导航方向模式选择" default="3" desc="导航方向模式选择。默认：SF_NAV_MODE_AUTO" format="array" options="SF_NAV_MODE_ALL|SF_NAV_MODE_LMR|SF_NAV_MODE_UMD|SF_NAV_MODE_AUTO" useable="true" values="0|1|2|3">3</mode>
+    <direct cname="导航方向映射" default="UDLR" desc="导航方向映射。默认：UDLR" format="string" useable="true">UDLR</direct>
+    <longkey_en cname="导航长按开关" default="true" desc="默认：true" format="boolean" useable="true">true</longkey_en>
+  </navigation>
+  <solution>
+    <qsee_spi_id cname="QSEE SPI 设备号" default="6" desc="QSEE SPI 设备号。默认：QSEE_SPI_DEVICE_6" format="array" options="QSEE_SPI_DEVICE_1|QSEE_SPI_DEVICE_2|QSEE_SPI_DEVICE_3|QSEE_SPI_DEVICE_4|QSEE_SPI_DEVICE_5|QSEE_SPI_DEVICE_6|QSEE_SPI_DEVICE_7|QSEE_SPI_DEVICE_8|QSEE_SPI_DEVICE_9|QSEE_SPI_DEVICE_10|QSEE_SPI_DEVICE_11|QSEE_SPI_DEVICE_12" useable="true" values="1|2|3|4|5|6|7|8|9|10|11|12">8</qsee_spi_id>
+  </solution>
+</sunwave:Config>
