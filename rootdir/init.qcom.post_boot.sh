@@ -433,7 +433,7 @@ echo 128 > /sys/block/dm-0/queue/read_ahead_kb
 echo 128 > /sys/block/dm-1/queue/read_ahead_kb
 echo 128 > /sys/block/mmcblk0rpmb/bdi/read_ahead_kb
 echo 128 > /sys/block/mmcblk0rpmb/queue/read_ahead_kb
-setprop sys.post_boot.parsed 1
+setprop vendor.sys.post_boot.parsed 1
 
 # Let kernel know our image version/variant/crm_version
 if [ -f /sys/devices/soc0/select_image ]; then
