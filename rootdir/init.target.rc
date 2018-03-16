@@ -62,6 +62,11 @@ on fs
     wait /dev/block/bootdevice/by-name/oem
     mount ext4 /dev/block/bootdevice/by-name/oem /oem ro nosuid nodev barrier=1
 
+on post-fs
+    start vendor.qseecomd
+    wait_for_prop vendor.sys.listeners.registered true
+    write /dev/ipa 1
+
 on post-fs-data
     mkdir /data/tombstones 0771 system system
     mkdir /tombstones/modem 0771 system system
@@ -72,7 +77,6 @@ on post-fs-data
     mkdir /persist/data/tz 0700 system system
     mkdir /data/misc/dts 0770 media audio
     mkdir /data/vendor/hbtp 0750 system system
-
 
 #Create folder for mm-qcamera-daemon
     mkdir /data/vendor/camera 0770 camera camera
