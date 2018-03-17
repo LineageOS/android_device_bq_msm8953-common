@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.hardware;
+package org.lineageos.hardware;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import org.lineageos.internal.util.FileUtils;
 
 public class VibratorHW {
     private static String CONTROL_PATH = "/sys/devices/virtual/timed_output/vibrator/vtg_level";
