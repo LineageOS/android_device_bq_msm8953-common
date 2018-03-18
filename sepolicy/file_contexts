@@ -2,3 +2,4 @@
 /data/misc/netmgr(/.*)?                                  u:object_r:netmgr_data_file:s0
 
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service.bardock            u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service.bardock            u:object_r:hal_fingerprint_default_exec:s0
