@@ -311,4 +311,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- Disable button backlight settings -->
+    <integer name="config_buttonBrightnessSettingDefault">0</integer>
 </resources>
