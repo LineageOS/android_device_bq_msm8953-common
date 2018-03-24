@@ -244,6 +244,8 @@ on post-fs-data
     # Create directory for apps access via QTEEConnector
     mkdir /data/vendor/qtee 0770 system system
 
+    #Create folder of camera
+    mkdir /data/vendor/camera 0770 camera camera
 
     #Create directory for tftp
     mkdir /data/vendor/tombstones 0771 system system
