@@ -66,7 +66,6 @@ camera.display.umax=1920x1080
 camera.display.lmax=1280x720
 camera.lowpower.record.enable=1
 camera.vidhance.reduction=0.6
-persist.camera.isp.clock.optmz=0
 
 # Display
 #property to enable user to access Google WFD settings
