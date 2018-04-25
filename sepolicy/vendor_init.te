@@ -6,6 +6,8 @@ allow vendor_init rootfs:dir r_dir_perms;
 allow vendor_init proc_dirty:file w_file_perms;
 allow vendor_init proc_dirty_ratio:file w_file_perms;
 
+allow vendor_init proc_sysctl_autogroup:file w_file_perms;
+
 # [NEVERALLOW]: Allow vendor_init to change SELinux labels { setattr relabelfrom }
 # [NEVERALLOW]: Allow vendor_init to access system_data_file
 allow vendor_init { system_data_file fingerprintd_data_file wallpaper_file icon_file }:{ dir file } { read open getattr setattr relabelfrom relabelto };
