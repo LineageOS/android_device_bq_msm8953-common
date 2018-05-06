@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.bardock"
+#define LOG_TAG "android.hardware.light@2.0-service.bardockpro"
 
 #include <hidl/HidlTransportSupport.h>
 
