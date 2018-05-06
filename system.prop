@@ -1,5 +1,5 @@
 #
-# system.prop for bardock
+# system.prop for bardockpro
 #
 
 # Audio
@@ -39,8 +39,6 @@ persist.vendor.audio.fluence.voicerec=false
 persist.vendor.audio.fluence.audiorec=false
 persist.vendor.audio.fluence.spk.mono=true
 vendor.audio.offload.multiaac.enable=true
-vendor.audio.dolby.ds2.enabled=false
-vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.flac.sw.decoder.24bit=true
 
 # Bluetooth

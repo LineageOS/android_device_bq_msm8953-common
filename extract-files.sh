@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=bardock
+DEVICE=bardockpro
 VENDOR=bq
 
 # Load extract_utils and do some sanity checks

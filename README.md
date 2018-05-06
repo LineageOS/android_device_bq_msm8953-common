@@ -1,7 +1,9 @@
 Copyright 2017 - The LineageOS Project
 
-Device configuration for BQ Aquaris X/X Pro (_bardock-pro_)
+Device configuration for BQ Aquaris X Pro (_bardockpro_)
 =====================================================
+
+If you have the non "pro" variant, please use [THIS](https://github.com/ZeD73/android_device_bq_bardock) device tree.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
