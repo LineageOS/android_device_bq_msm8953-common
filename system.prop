@@ -141,7 +141,7 @@ ro.vendor.at_library=libqti-at.so
 # NETMGR
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
-persist.data.mode=concurrent
+persist.vendor.data.mode=concurrent
 
 # NFC
 persist.nfc.smartcard.config=SIM1
