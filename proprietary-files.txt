@@ -66,9 +66,6 @@ vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 
-# BQ (misc)
-bin/nvtool
-
 # Camera
 lib/libtrueportrait.so
 lib/libtruescanner.so
