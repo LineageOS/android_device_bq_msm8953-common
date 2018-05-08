@@ -655,9 +655,6 @@ on property:netd.fstman.start=true
 on property:netd.fstman.start=false
     stop fstman
 
-on property:wifi.ftmd.load=true
-    insmod /system/vendor/lib/modules/wlan.ko con_mode=5
-
 service cnss_diag /system/vendor/bin/cnss_diag -q -f
     class main
     user system
