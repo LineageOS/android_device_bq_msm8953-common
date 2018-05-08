@@ -566,6 +566,7 @@ service config_bt_addr /system/vendor/bin/btnvtool -O
     class core
     user bluetooth
     group bluetooth radio
+    seclabel u:r:btnvtool:s0
     oneshot
 
 service bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
