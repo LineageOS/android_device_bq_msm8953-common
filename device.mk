@@ -311,7 +311,6 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.target.rc \
     init.qcom.syspart_fixup.sh \
-    init.bq.tp.sh \
     init.qcom.wifi.sh \
     ueventd.qcom.rc
 

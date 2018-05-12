@@ -698,7 +698,6 @@ service qcom-kickoff /vendor/bin/init.qcom.syspart_fixup.sh
 on property:sys.boot_completed=1
     start qcom-post-boot
     start qcom-kickoff
-    start tpver
 
 service atfwd /vendor/bin/ATFWD-daemon
     class late_start

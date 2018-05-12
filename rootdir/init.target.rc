@@ -159,12 +159,6 @@ on boot
     chown root system /sys/android_touch/wakeup_gesture_enable
     chmod 0660 /sys/android_touch/wakeup_gesture_enable
 
-service tpver /system/bin/sh /system/etc/init.bq.tp.sh
-    class late_start
-    user root
-    oneshot
-    seclabel u:r:tpver:s0
-
 service wcnss-service /system/vendor/bin/wcnss_service
     class main
     user system
