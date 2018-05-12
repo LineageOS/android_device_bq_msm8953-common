@@ -666,14 +666,8 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     disabled
     oneshot
 
-service qcom-kickoff /vendor/bin/init.qcom.syspart_fixup.sh
-    class late_start
-    user root
-    oneshot
-
 on property:sys.boot_completed=1
     start qcom-post-boot
-    start qcom-kickoff
 
 service atfwd /vendor/bin/ATFWD-daemon
     class late_start
