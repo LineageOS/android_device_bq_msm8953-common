@@ -324,7 +324,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libcurl \
     libjson \
-    libxml2
+    libxml2 \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Seccomp
 PRODUCT_COPY_FILES += \
