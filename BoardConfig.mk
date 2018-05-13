@@ -175,6 +175,9 @@ USE_SENSOR_MULTI_HAL := true
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
+# Tap to wake
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
+
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 
