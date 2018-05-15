@@ -67,7 +67,6 @@ vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 
 # Camera
-lib/libtrueportrait.so
 lib/libtruescanner.so
 vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.msm8953.so
@@ -83,6 +82,7 @@ lib/libcam.vidhance.so
 lib/libdualcameraddm.so
 lib/libmpbase.so
 lib/libtrueportrait.so
+lib64/libtrueportrait.so
 lib/libvidhance.so
 lib64/libdualcameraddm.so
 vendor/lib/libmmcamera_dcrf_lib.so
@@ -92,7 +92,6 @@ vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmm-qcamera.so
-vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_dbg.so
@@ -155,13 +154,10 @@ vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
 vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so
 vendor/lib/libmmcamera_s5k2l7.so
 vendor/lib/libSonyIMX298PdafLibrary.so
 vendor/lib/libmmcamera_s5k4h8_OFF0380.so
-vendor/lib/libmmcamera_sonyimx135_eeprom.so
 vendor/lib/libmmcamera_sony_imx298_ofilm_eeprom.so
 vendor/lib/libmmcamera_sony_imx298_sunny_eeprom.so
 vendor/lib/libmmcamera_stillmore_lib.so
@@ -223,6 +219,7 @@ vendor/lib/libts_face_beautify_hal.so
 vendor/lib64/libmmcamera_dbg.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_cac3_lib.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
@@ -231,7 +228,6 @@ vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
 vendor/lib64/libts_detected_face_hal.so
 vendor/lib64/libts_face_beautify_hal.so
-vendor/lib64/libmmcamera_cac3_lib.so
 vendor/lib/libmmcamera_cac3_lib.so
 vendor/lib64/libscveBlobDescriptor.so
 vendor/lib64/libscveBlobDescriptor_stub.so
@@ -266,7 +262,6 @@ lib64/libjni_sharpshooter.so
 lib64/libjni_trueportrait.so
 lib64/libjni_truescanner_v2.so
 lib64/libjni_ubifocus.so
-
 
 # Camera actuators
 vendor/lib/libactuator_bu64297.so
@@ -565,7 +560,6 @@ vendor/etc/camera/s5k2l7_chromatix.xml
 vendor/etc/camera/s5k4h8_OFF0380_chromatix.xml
 
 # CNE
-
 etc/cne/SwimConfig.xml
 etc/cne/andsfCne.xml
 etc/permissions/cneapiclient.xml
