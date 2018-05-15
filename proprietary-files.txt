@@ -277,11 +277,6 @@ vendor/lib/libactuator_dw9763.so
 vendor/lib/libactuator_pseudo.so
 
 # Camera - Chromatix
-vendor/lib/libchromatix_csidtg_common.so
-vendor/lib/libchromatix_csidtg_cpp_preview.so
-vendor/lib/libchromatix_csidtg_postproc.so
-vendor/lib/libchromatix_csidtg_preview.so
-vendor/lib/libchromatix_csidtg_zsl_preview.so
 vendor/lib/libchromatix_imx298_4K_preview.so
 vendor/lib/libchromatix_imx298_4K_video.so
 vendor/lib/libchromatix_imx298_common.so
@@ -486,11 +481,6 @@ vendor/lib/libchromatix_s5k4h8_OFF0380_preview.so
 vendor/lib/libchromatix_s5k4h8_OFF0380_snapshot.so
 vendor/lib/libchromatix_s5k4h8_OFF0380_zsl_preview.so
 vendor/lib/libchromatix_s5k4h8_OFF0380_zsl_video.so
-vendor/lib/libchromatix_csidtg_common.so
-vendor/lib/libchromatix_csidtg_cpp_preview.so
-vendor/lib/libchromatix_csidtg_postproc.so
-vendor/lib/libchromatix_csidtg_preview.so
-vendor/lib/libchromatix_csidtg_zsl_preview.so
 vendor/lib/libchromatix_imx298_4K_preview.so
 vendor/lib/libchromatix_imx298_4K_video.so
 vendor/lib/libchromatix_imx298_common.so
@@ -711,8 +701,6 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera configs
 vendor/etc/camera/camera_config.xml
-vendor/etc/camera/csidtg_camera.xml
-vendor/etc/camera/csidtg_chromatix.xml
 vendor/etc/camera/imx298_chromatix.xml
 vendor/etc/camera/imx298_gt24c64_chromatix.xml
 vendor/etc/camera/imx362_chromatix_bear.xml
