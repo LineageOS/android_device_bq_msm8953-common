@@ -274,7 +274,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    $(LOCAL_PATH)/configs/nfc/libnfc-qrd_default.conf:system/etc/libnfc-qrd_default.conf
+    $(LOCAL_PATH)/configs/nfc/libnfc-qrd_default.conf:system/etc/libnfc-qrd_default.conf \
+    $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl \
