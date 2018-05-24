@@ -928,15 +928,12 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Media
 lib/libstagefright_soft_flacdec.so
-#lib64/libstagefright_soft_flacdec.so
-
 lib/vendor.qti.hardware.vpp@1.1.so
 lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libI420colorconvert.so
-vendor/lib64/libI420colorconvert.so
 -vendor/lib/libgpustats.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libOmxAacDec.so
@@ -956,6 +953,7 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libvqzip.so
 vendor/lib/vendor.qti.hardware.vpp@1.1_vendor.so
+vendor/lib64/libI420colorconvert.so
 vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
