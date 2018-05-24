@@ -747,6 +747,7 @@ lib64/libgf_ca.so
 lib64/libgf_hal.so
 lib64/libgoodixfingerprintd_binder.so
 lib64/hw/csfingerprint.default.so
+lib64/hw/fingerprint.default.so
 lib64/hw/swfingerprint.default.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
