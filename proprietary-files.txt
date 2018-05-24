@@ -78,7 +78,6 @@ vendor/bin/mm-qcamera-app
 lib/libarcsoft_beautyshot.so
 lib/libcam.beautyshot.so
 lib/libcam.vidhance.so
-lib/libclearsight.so
 lib/libdualcameraddm.so
 lib/libmpbase.so
 lib/libtruescanner.so
@@ -87,6 +86,7 @@ lib/libts_detected_face_jni.so
 lib/libts_face_beautify_hal.so
 lib/libts_face_beautify_jni.so
 lib/libvidhance.so
+lib64/libclearsight.so
 lib64/libdualcameraddm.so
 lib64/libtrueportrait.so
 lib64/libtruescanner.so
