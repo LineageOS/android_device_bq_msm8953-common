@@ -1157,6 +1157,7 @@ lib64/librcc.so
 vendor/bin/imsrcsd
 vendor/framework/qti-vzw-ims-internal.jar
 vendor/lib/lib-imscmservice.so
+vendor/lib/lib-imsrcs-v2.so
 vendor/lib/lib-imsxml.so
 vendor/lib/lib-uceservice.so
 vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
