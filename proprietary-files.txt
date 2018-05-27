@@ -985,9 +985,6 @@ vendor/media/LMspeed_508.emd
 vendor/media/PFFprec_600.emd
 
 # NFC
-vendor/lib/hw/android.hardware.nfc@1.0-impl.so
-vendor/lib64/hw/vendor.nxp.nxpnfc@1.0-impl.so
-lib64/vendor.nxp.nxpnfc@1.0.so
 vendor/firmware/libpn548ad_fw.so
 
 # Perf
