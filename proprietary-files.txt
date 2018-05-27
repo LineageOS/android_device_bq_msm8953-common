@@ -68,18 +68,15 @@ vendor/lib64/libbtnv.so
 
 # Camera
 vendor/bin/mm-qcamera-daemon
-vendor/lib/hw/camera.msm8953.so
-vendor/lib/libchromaflash.so
-vendor/lib/libqomx_core.so
-vendor/lib64/liboptizoom.so
-vendor/lib64/libseemore.so
-vendor/lib64/libubifocus.so
 vendor/bin/mm-qcamera-app
 lib/libarcsoft_beautyshot.so
 lib/libcam.beautyshot.so
 lib/libcam.vidhance.so
 lib/libdualcameraddm.so
+lib/libhazebuster.so
 lib/libmpbase.so
+lib/libseemore.so
+lib/libseestraight.so
 lib/libtruescanner.so
 lib/libtrueportrait.so
 lib/libts_detected_face_jni.so
@@ -88,11 +85,20 @@ lib/libts_face_beautify_jni.so
 lib/libvidhance.so
 lib64/libclearsight.so
 lib64/libdualcameraddm.so
+lib64/libhazebuster.so
+lib64/libseemore.so
+lib64/libseestraight.so
 lib64/libtrueportrait.so
 lib64/libtruescanner.so
 lib64/libts_detected_face_jni.so
 lib64/libts_face_beautify_hal.so
 lib64/libts_face_beautify_jni.so
+vendor/lib/libchromaflash.so
+vendor/lib/libqomx_core.so
+vendor/lib/hw/camera.msm8953.so
+vendor/lib64/liboptizoom.so
+vendor/lib64/libseemore.so
+vendor/lib64/libubifocus.so
 vendor/lib/libmmcamera_dcrf_lib.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libflash_gpio.so
