@@ -127,7 +127,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/bq/msm8953
-TARGET_KERNEL_CONFIG := bardockpro_defconfig
+TARGET_KERNEL_CONFIG := bardock_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Media
