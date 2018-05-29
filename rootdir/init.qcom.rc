@@ -646,10 +646,6 @@ service loc_launcher /system/vendor/bin/loc_launcher
     class late_start
     group gps inet diag wifi
 
-on property:crypto.driver.load=1
-     insmod /system/lib/modules/qce.ko
-     insmod /system/lib/modules/qcedev.ko
-
 service qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
