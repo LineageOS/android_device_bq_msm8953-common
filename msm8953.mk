@@ -14,10 +14,6 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-
-$(call inherit-product, vendor/bq/bardockpro/bardockpro-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -250,7 +246,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.bardockpro
+    android.hardware.light@2.0-service.msm8953
 
 # Media
 PRODUCT_PACKAGES += \
@@ -332,7 +328,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
-    init.target.rc \
     ueventd.qcom.rc
 
 # RenderScript

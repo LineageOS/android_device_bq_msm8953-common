@@ -14,10 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/bq/bardockpro
+LOCAL_PATH := device/bq/msm8953-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
-TARGET_OTA_ASSERT_DEVICE := bardock,bardock-pro,bardockpro
 
 # Architecture
 TARGET_ARCH := arm64
@@ -127,7 +126,6 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/bq/msm8953
-TARGET_KERNEL_CONFIG := bardock_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Media
@@ -195,6 +193,3 @@ WIFI_DRIVER_FW_PATH_AP  := "ap"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 TARGET_USES_WCNSS_CTRL  := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
-
-# Inherit from the proprietary version
--include vendor/bq/bardockpro/BoardConfigVendor.mk
