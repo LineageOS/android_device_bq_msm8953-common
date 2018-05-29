@@ -1,0 +1,1 @@
+allow init wcnss_device:chr_file write;

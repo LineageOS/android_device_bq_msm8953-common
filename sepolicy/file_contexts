@@ -1,3 +1,9 @@
+# Fingerprint
+/dev/sunwave_fp    u:object_r:fingerprint_device:s0
+
+# Gestures
+/sys/android_touch/wakeup_gesture_enable                 u:object_r:sysfs_gesture:s0
+
 # RIL
 /data/misc/netmgr(/.*)?                                  u:object_r:netmgr_data_file:s0
 

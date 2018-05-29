@@ -1,0 +1,1 @@
+allow netmrg self:capability net_raw;
