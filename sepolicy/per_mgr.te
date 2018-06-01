@@ -1,1 +1,1 @@
-allow netmrg self:capability net_raw;
+allow per_mgr self:capability net_raw;
