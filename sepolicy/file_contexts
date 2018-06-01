@@ -1,10 +1,4 @@
 # Fingerprint
 /dev/sunwave_fp    u:object_r:fingerprint_device:s0
 
-# Gestures
-/sys/android_touch/wakeup_gesture_enable                 u:object_r:sysfs_gesture:s0
-
-# RIL
-/data/misc/netmgr(/.*)?                                  u:object_r:netmgr_data_file:s0
-
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953            u:object_r:hal_light_default_exec:s0
+/system/vendor/bin/hw/android\.hardware\.light@2\.0-service.msm8953							u:object_r:hal_light_default_exec:s0
