@@ -1,0 +1,2 @@
+# Gestures
+genfscon sysfs /android_touch/wakeup_gesture_enable                 u:object_r:sysfs_gesture:s0
