@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2f9a833_fcebb4a7",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-02T23:36:11Z",
+      "side": 1,
+      "message": "This is probably useless",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 87
+      },
+      "revId": "0e3f900049725210ef5d239bd86443568559459d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bceecf98_93f846f7",
+        "filename": "sepolicy/hal_fingerprint_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-02T23:36:11Z",
+      "side": 1,
+      "message": "I\u0027d leave it rw_file_perms",
+      "range": {
+        "startLine": 3,
+        "startChar": 50,
+        "endLine": 3,
+        "endChar": 75
+      },
+      "revId": "0e3f900049725210ef5d239bd86443568559459d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff4c95c4_a8907bda",
+        "filename": "sepolicy/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-02T23:36:11Z",
+      "side": 1,
+      "message": "This isn\u0027t needed",
+      "revId": "0e3f900049725210ef5d239bd86443568559459d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
