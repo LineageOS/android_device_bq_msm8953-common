@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/bq/msm8953-common
+COMMON_PATH := device/bq/msm8953-common
 
-TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
 # Architecture
 TARGET_ARCH := arm64
@@ -109,9 +109,9 @@ TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(LOCAL_PATH)/compatibility_matrix.xml
-TARGET_FS_CONFIG_GEN := $(LOCAL_PATH)/config.fs
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
@@ -144,7 +144,7 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
 BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.qcom
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
@@ -156,7 +156,7 @@ TARGET_HAS_NO_WIFI_STATS := true
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
-TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
@@ -170,7 +170,7 @@ USE_SENSOR_MULTI_HAL := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
+BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
 # Tap to wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
