@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0d6aa3db_e9794bd1",
+        "filename": "sepolicy/hal_light_default.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-18T20:16:42Z",
+      "side": 1,
+      "message": "You should label your leds sysfs instead",
+      "revId": "e71ec480a10d1febbdd5e7a5fa63acfc1361d89c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
