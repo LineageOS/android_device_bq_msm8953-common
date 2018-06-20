@@ -390,8 +390,8 @@ on post-fs-data
     chmod 0660 /data/vendor/radio/db_check_done
 
     #Create SWAP related dirs
-    mkdir /data/system/swap 0770 root system
-    chmod 2770 /data/system/swap
+    mkdir /data/vendor/swap 0770 root system
+    chmod 2770 /data/vendor/swap
 
     # Sensors
     chmod 0775 /persist/sensors
