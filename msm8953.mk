@@ -416,7 +416,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.onclite-libperfmgr
+    android.hardware.power@1.3-service.onclite-libperfmgr
 
 # Protobuf
 PRODUCT_PACKAGES += \
