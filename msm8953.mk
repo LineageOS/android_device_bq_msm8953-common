@@ -359,7 +359,9 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     init.msm.usb.configfs.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.recovery.qcom.rc \
+    init.recovery.qcom.usb.rc
 
 # RenderScript
 PRODUCT_PACKAGES += \
