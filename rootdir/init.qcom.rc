@@ -697,6 +697,10 @@ service time_daemon /system/vendor/bin/time_daemon
     user root
     group root
 
+#Set GPU Opengles version
+on property:vendor.opengles.version=*
+    setprop ro.opengles.version ${vendor.opengles.version}
+
 # FM enable/disable triggers
 on property:hw.fm.init=1
     write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
