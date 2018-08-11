@@ -174,17 +174,16 @@
     <hal format="hidl">
         <name>android.hardware.nfc</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>INfc</name>
             <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.nxp.hardware.nfc</name>
+        <name>android.nxp.hardware.nfc</name>
         <transport>hwbinder</transport>
-        <impl level="generic"></impl>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>INqNfc</name>
             <instance>default</instance>
