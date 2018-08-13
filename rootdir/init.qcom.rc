@@ -600,7 +600,7 @@ on property:netd.fstman.start=true
 on property:netd.fstman.start=false
     stop fstman
 
-service cnss_diag /system/vendor/bin/cnss_diag -q -f
+service cnss_diag /system/vendor/bin/cnss_diag -q
     class main
     user system
     group system wifi inet net_admin sdcard_rw media_rw diag
