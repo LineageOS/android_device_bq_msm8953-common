@@ -424,7 +424,7 @@ on post-fs-data
     # Create vpp directory
     mkdir /data/vendor/vpp 0770 media media
 
-service iop /system/vendor/bin/iop
+service vendor.iop /system/vendor/bin/iop
     class main
     user root
     group root
@@ -463,8 +463,8 @@ on property:vendor.bluetooth.dun.status=stopped
 
 on property:vold.decrypt=trigger_restart_framework
     restart vendor.camera-provider-2-4
-    start cnss_diag
-    start wcnss-service
+    start vendor.cnss_diag
+    start vendor.wcnss-service
 
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
@@ -474,12 +474,12 @@ service vendor.cnd /system/vendor/bin/cnd
     user system
     group system wifi inet radio wakelock net_admin
 
-service dpmQmiMgr /system/vendor/bin/dpmQmiMgr
+service vendor.dpmQmiMgr /system/vendor/bin/dpmQmiMgr
     class main
     user system
     group radio system
 
-service irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
+service vendor.irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
     oneshot
@@ -544,7 +544,7 @@ service vendor.sensors /vendor/bin/sensors.qti
 
 on property:ro.use_data_netmgrd=false
     # netmgr not supported on specific target
-    stop netmgrd
+    stop vendor.netmgrd
 
 # Adjust socket buffer to enlarge TCP receive window for high bandwidth
 # but only if ro.data.large_tcp_window_size property is set.
@@ -568,7 +568,7 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     oneshot
 
 # FST Manager with hostapd (softap) - all settings inside ini file
-service fstman /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini
+service vendor.fstman /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini
     user wifi
     group wifi net_admin net_raw
     class main
@@ -576,7 +576,7 @@ service fstman /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini
     oneshot
 
 # FST Manager with supplicant - connect to supplicant socket
-service fstman_wlan0 /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini @android:wpa_wlan0
+service vendor.fstman_wlan0 /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini @android:wpa_wlan0
     user wifi
     group wifi net_admin net_raw
     class main
@@ -584,32 +584,32 @@ service fstman_wlan0 /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini 
     oneshot
 
 on property:netd.fstman.start=true
-    start fstman
+    start vendor.fstman
 
 on property:netd.fstman.start=false
-    stop fstman
+    stop vendor.fstman
 
-service cnss_diag /system/vendor/bin/cnss_diag -q
+service vendor.cnss_diag /system/vendor/bin/cnss_diag -q
     class main
     user system
     group system wifi inet net_admin sdcard_rw media_rw diag
     oneshot
 
-service cnss-daemon /system/vendor/bin/cnss-daemon -n -l
+service vendor.cnss-daemon /system/vendor/bin/cnss-daemon -n -l
     class late_start
     user system
     group system inet net_admin wifi
     capabilities NET_ADMIN
 
 on property:sys.shutdown.requested=*
-    stop cnss-daemon
+    stop vendor.cnss-daemon
 
-service loc_launcher /system/vendor/bin/loc_launcher
+service vendor.loc_launcher /system/vendor/bin/loc_launcher
     class late_start
     user gps
     group gps
 
-service qcom-sh /vendor/bin/init.qcom.sh
+service vendor.qcom-sh /vendor/bin/init.qcom.sh
     class late_start
     user root
     group root system radio
@@ -618,7 +618,7 @@ service qcom-sh /vendor/bin/init.qcom.sh
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
-service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
+service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     class late_start
     user root
     group root system
@@ -626,7 +626,7 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     oneshot
 
 on property:sys.boot_completed=1
-    start qcom-post-boot
+    start vendor.qcom-post-boot
 
 service vendor.atfwd /vendor/bin/ATFWD-daemon
     class late_start
@@ -634,7 +634,7 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     group system radio
 
 on property:persist.radio.atfwd.start=true
-    start atfwd
+    start vendor.atfwd
 
 service hostapd_fst /vendor/bin/hostapd -dd -g /data/vendor/wifi/hostapd/global /data/misc/wifi/hostapd.conf
     class late_start
@@ -644,7 +644,7 @@ service hostapd_fst /vendor/bin/hostapd -dd -g /data/vendor/wifi/hostapd/global 
     disabled
 
 on property:persist.ims.regmanager.mode=1
-    start ims_regmanager
+    start vendor.ims_regmanager
 
 on property:ro.data.large_tcp_window_size=true
     # Adjust socket buffer to enlarge TCP receive window for high bandwidth (e.g. DO-RevB)
@@ -661,15 +661,15 @@ service charger /charger
     group system graphics
     seclabel u:r:healthd:s0
 
-service qbcharger /charger -m 1
+service vendor.qbcharger /charger -m 1
     disabled
     oneshot
 
 on property:sys.qbcharger.enable=true
-    start qbcharger
+    start vendor.qbcharger
 
 on property:sys.qbcharger.enable=false
-    stop qbcharger
+    stop vendor.qbcharger
 
 service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
@@ -694,7 +694,7 @@ on charger
 on property:init.svc.surfaceflinger=restarting
     restart vendor.hwcomposer-2-1
 
-service time_daemon /system/vendor/bin/time_daemon
+service vendor.time_daemon /system/vendor/bin/time_daemon
     class main
     user root
     group root

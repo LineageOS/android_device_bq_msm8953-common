@@ -78,7 +78,7 @@ on post-fs-data
     mkdir /data/vendor/camera 0770 camera camera
 
 #start camera server as daemon
-service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
+service vendor.qcamerasvr /system/vendor/bin/mm-qcamera-daemon
     class late_start
     user camera
     group camera system inet input graphics
@@ -93,12 +93,12 @@ on property:persist.usb.chgdisabled=1
 on property:persist.usb.chgdisabled=0
     write /sys/class/power_supply/battery/charging_enabled 1
 
-service qseecomd /vendor/bin/qseecomd
+service vendor.qseecomd /vendor/bin/qseecomd
    class core
    user root
    group root
 
-service thermal-engine /system/vendor/bin/thermal-engine
+service vendor.thermal-engine /system/vendor/bin/thermal-engine
    class main
    user root
    socket thermal-send-client stream 0666 system system
@@ -108,7 +108,7 @@ service thermal-engine /system/vendor/bin/thermal-engine
    group root
 
 on boot
-    start rmt_storage
+    start vendor.rmt_storage
     insmod /system/lib/modules/adsprpc.ko
 # access permission for secure touch
     chmod 0660 /sys/devices/soc.0/78b7000.i2c/i2c-3/3-0020/input/input0/secure_touch_enable
@@ -166,7 +166,7 @@ on boot
     chown root system /sys/android_touch/wakeup_gesture_enable
     chmod 0660 /sys/android_touch/wakeup_gesture_enable
 
-service wcnss-service /system/vendor/bin/wcnss_service
+service vendor.wcnss-service /system/vendor/bin/wcnss_service
     class main
     user system
     group system wifi radio
@@ -203,13 +203,13 @@ service vendor.imsrcsservice /vendor/bin/imsrcsd
 on property:vendor.ims.DATA_DAEMON_STATUS=1
     restart vendor.ims_rtp_daemon
 
-service hbtp /system/vendor/bin/hbtp_daemon
+service vendor.hbtp /system/vendor/bin/hbtp_daemon
     class main
     user system
     group system
     disabled
 
-service ppd /system/vendor/bin/mm-pp-dpps
+service vendor.ppd /system/vendor/bin/mm-pp-dpps
     class late_start
     disabled
     user system
@@ -217,22 +217,22 @@ service ppd /system/vendor/bin/mm-pp-dpps
     group system graphics
 
 on property:init.svc.surfaceflinger=stopped
-    stop ppd
+    stop vendor.ppd
 
 on property:init.svc.surfaceflinger=running
-    start ppd
+    start vendor.ppd
 
 on property:init.svc.surfaceflinger=restarting
-    stop ppd
+    stop vendor.ppd
 
 on property:init.svc.zygote=stopped
-    stop ppd
+    stop vendor.ppd
 
 on property:init.svc.zygote=running
-    start ppd
+    start vendor.ppd
 
 on property:init.svc.zygote=restarting
-    stop ppd
+    stop vendor.ppd
 
 on charger
     wait /dev/block/bootdevice/by-name/system
@@ -240,16 +240,16 @@ on charger
     load_all_props
     setprop sys.usb.configfs 0
     setprop persist.sys.usb.config mass_storage
-    start qcom-post-boot
+    start vendor.qcom-post-boot
     setprop persist.sys.usb.config mass_storage
-    start hvdcp_opti
+    start vendor.hvdcp_opti
 
-service adsprpcd /system/vendor/bin/adsprpcd
+service vendor.adsprpcd /system/vendor/bin/adsprpcd
     class main
     user media
     group media
 
-service hvdcp_opti /system/vendor/bin/hvdcp_opti
+service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
    class main
    user root
    group system wakelock
@@ -272,7 +272,7 @@ on property:sys.powerctl=*
     stop vendor.per_proxy
     stop vendor.ims_rtp_daemon
 
-service energy-awareness /system/vendor/bin/energy-awareness
+service vendor.energy-awareness /system/vendor/bin/energy-awareness
     class main
     user root
     group system
