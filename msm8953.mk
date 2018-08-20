@@ -365,7 +365,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    libgptutils
+    libgptutils.bq.recovery
 
 # RenderScript
 PRODUCT_PACKAGES += \
