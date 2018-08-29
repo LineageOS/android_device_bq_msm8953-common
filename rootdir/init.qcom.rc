@@ -703,3 +703,10 @@ service time_daemon /system/vendor/bin/time_daemon
     class main
     user root
     group root
+
+# FM enable/disable triggers
+on property:hw.fm.init=1
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
+
+on property:hw.fm.init=0
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set 0

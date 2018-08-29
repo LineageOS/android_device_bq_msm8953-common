@@ -189,6 +189,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sw_config.xml:system/etc/sw_config.xml
 
+# FM packages
+PRODUCT_PACKAGES += \
+    FMRadio \
+    libfmjni
+
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
