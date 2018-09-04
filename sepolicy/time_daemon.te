@@ -1,0 +1,3 @@
+# Allow time_daemon to read, write and create files in time_data_file
+allow time_daemon time_data_file:file create_file_perms;
+allow time_daemon time_data_file:dir w_dir_perms;
