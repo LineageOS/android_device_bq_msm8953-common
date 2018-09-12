@@ -49,8 +49,8 @@
         <usecase name="USECASE_VOICEMMODE2_CALL" type="out" id="35"/>
     </pcm_ids>
     <config_params>
-        <param key="spkr_1_tz_name" value="wsatz.11"/>
-        <param key="spkr_2_tz_name" value="wsatz.12"/>
+        <param key="spkr_1_tz_name" value="wsa881x.0f"/>
+        <param key="spkr_2_tz_name" value=""/>
         <param key="native_audio_mode" value="src"/>
         <param key="input_mic_max_count" value="4"/>
     </config_params>
