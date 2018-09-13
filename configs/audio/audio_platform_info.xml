@@ -49,9 +49,7 @@
         <usecase name="USECASE_VOICEMMODE2_CALL" type="out" id="35"/>
     </pcm_ids>
     <config_params>
-        <param key="spkr_1_tz_name" value="wsatz.11"/>
-        <param key="spkr_2_tz_name" value="wsatz.12"/>
-        <param key="native_audio_mode" value="src"/>
+        <param key="spkr_1_tz_name" value="wsa881x.0f"/>
         <param key="input_mic_max_count" value="4"/>
     </config_params>
     <acdb_ids>
@@ -77,7 +75,7 @@
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" acdb_id="135"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_WSA" acdb_id="14"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_VBAT" acdb_id="135"/>
-        <device name="SND_DEVICE_OUT_VOICE_HEADPHONES" acdb_id="135"/>
+        <device name="SND_DEVICE_OUT_VOICE_HEADPHONES" acdb_id="10"/>
         <device name="SND_DEVICE_OUT_VOICE_LINE" acdb_id="10"/>
         <device name="SND_DEVICE_OUT_HDMI" acdb_id="10"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HDMI" acdb_id="18"/>
@@ -141,7 +139,7 @@
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB" acdb_id="4"/>
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB_NREC" acdb_id="21"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="122"/>
-        <device name="SND_DEVICE_IN_VOICE_DMIC" acdb_id="38"/>
+        <device name="SND_DEVICE_IN_VOICE_DMIC" acdb_id="41"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC" acdb_id="4"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_QMIC" acdb_id="41"/>
         <device name="SND_DEVICE_IN_VOICE_TTY_FULL_HEADSET_MIC" acdb_id="42"/>
