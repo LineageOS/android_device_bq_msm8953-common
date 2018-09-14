@@ -41,6 +41,7 @@ persist.vendor.audio.fluence.audiorec=false
 persist.vendor.audio.fluence.spk.mono=true
 vendor.audio.offload.multiaac.enable=true
 vendor.audio.flac.sw.decoder.24bit=true
+audio.offload.disable=1
 
 # Bluetooth
 bluetooth.hfp.client=1
