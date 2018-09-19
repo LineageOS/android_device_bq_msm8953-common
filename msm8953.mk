@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
     libcurl \
     libjson \
     libxml2 \
+    qti-telephony-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
