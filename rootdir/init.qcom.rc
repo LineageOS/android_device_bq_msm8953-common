@@ -416,6 +416,9 @@ on post-fs-data
 
     # Create vpp directory
     mkdir /data/vendor/vpp 0770 media media
+    
+    # Change default intensity
+    write /sys/class/timed_output/vibrator/vtg_level 1000
 
 service iop /system/vendor/bin/iop
     class main
