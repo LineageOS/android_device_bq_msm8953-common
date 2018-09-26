@@ -2,3 +2,6 @@
 
 # talk to bootloader HAL
 hal_client_domain(vold, hal_bootctl)
+
+# For setting read_ahead_kb
+allow vold sysfs_mmc_host:file create_file_perms;
