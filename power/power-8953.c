@@ -298,6 +298,26 @@ int power_hint_override(power_hint_t hint, void *data)
         case POWER_HINT_VR_MODE:
             ret_val = process_perf_hint(data, VR_MODE);
             break;
+        case POWER_HINT_INTERACTION:
+        {
+            int resource_values[] = {
+                /*
+                 * Raise and fix the minimum frequency of the cores on little cluster
+                 * to next possible frequency above 1400 MHz.
+                 */
+                MIN_FREQ_LITTLE_CORE_0, 0x578,
+
+                /*
+                 * Raise and fix the minimum frequency of the cores on big cluster
+                 * to next possible frequency above 1800 MHz.
+                 */
+                MIN_FREQ_BIG_CORE_0, 0x708
+            };
+            int duration = 3000;
+
+            interaction(duration, ARRAY_SIZE(resource_values), resource_values);
+            return HINT_HANDLED;
+        }
         default:
             break;
     }
