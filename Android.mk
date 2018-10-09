@@ -35,9 +35,6 @@ $(DSP_MOUNT_POINT):
 	@echo "Creating $(DSP_MOUNT_POINT)"
 	@mkdir -p $(TARGET_OUT_VENDOR)/dsp
 
-$(PERSIST_MOUNT_POINT):
-	@echo "Creating $(PERSIST_MOUNT_POINT)"
-
 ALL_DEFAULT_INSTALLED_MODULES += $(FIRMWARE_MOUNT_POINT) $(DSP_MOUNT_POINT)
 
 IMS_LIBS := libimscamera_jni.so libimsmedia_jni.so
