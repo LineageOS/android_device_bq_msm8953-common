@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "283b7781_d3a40068",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-13T08:04:44Z",
+      "side": 1,
+      "message": "This is not a pull request.",
+      "range": {
+        "startLine": 9,
+        "startChar": 168,
+        "endLine": 9,
+        "endChar": 219
+      },
+      "revId": "81af4595e804521927fa3dd1b8a8f170aa54dfbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "667a0147_d186799d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-13T08:04:44Z",
+      "side": 1,
+      "message": "And this is the kind of things that you don\u0027t write in a commit message. If you want to add those notes, do it by replying in the gerrit change.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 215
+      },
+      "revId": "81af4595e804521927fa3dd1b8a8f170aa54dfbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
