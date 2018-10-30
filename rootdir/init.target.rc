@@ -248,6 +248,7 @@ on property:init.svc.vendor.per_mgr=running
 
 on property:sys.powerctl=*
     stop vendor.per_proxy
+    stop vendor.ims_rtp_daemon
 
 service energy-awareness /system/vendor/bin/energy-awareness
     class main
