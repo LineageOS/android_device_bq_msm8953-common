@@ -1,7 +1,10 @@
 # Fingerprint
-/dev/sunwave_fp    u:object_r:fingerprint_device:s0
+/dev/sunwave_fp										u:object_r:fingerprint_device:s0
 
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953            u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.msm8953		u:object_r:hal_light_default_exec:s0
 
 # Leds
-/sys/devices/soc/78b7000.i2c/i2c-3/3-0030/leds(/.*)?    u:object_r:sysfs_leds:s0
+/sys/devices/soc/78b7000.i2c/i2c-3/3-0030/leds(/.*)?					u:object_r:sysfs_leds:s0
+
+# Block devices
+/dev/block/mmcblk0p26									u:object_r:persist_block_device:s0
