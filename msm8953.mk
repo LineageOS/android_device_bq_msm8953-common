@@ -18,8 +18,7 @@
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # RRO (Runtime Resource Overlay)
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
+PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
