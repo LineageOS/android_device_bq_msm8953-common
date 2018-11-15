@@ -212,6 +212,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ilitek_i2c.kl:system/usr/keylayout/ilitek_i2c.kl \
     $(LOCAL_PATH)/keylayout/fts_ts.kl:system/usr/keylayout/fts_ts.kl
 
+# Healthd
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
