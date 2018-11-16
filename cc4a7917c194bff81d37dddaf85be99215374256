@@ -16,6 +16,24 @@
       "revId": "cc4a7917c194bff81d37dddaf85be99215374256",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f3f2477e_f0e5b949",
+        "filename": "packages/apps/Dialer/java/com/android/dialer/callrecord/res/values/config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 19552
+      },
+      "writtenOn": "2018-11-16T18:56:04Z",
+      "side": 1,
+      "message": "So I should just delete the 1 and leave it empty without any spaces in there, or?",
+      "parentUuid": "6204e1e0_d896671e",
+      "revId": "cc4a7917c194bff81d37dddaf85be99215374256",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
