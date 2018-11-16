@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6204e1e0_d896671e",
+        "filename": "packages/apps/Dialer/java/com/android/dialer/callrecord/res/values/config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 9760
+      },
+      "writtenOn": "2018-11-16T12:48:26Z",
+      "side": 1,
+      "message": "1 - is the default value. No need to specify it.",
+      "revId": "cc4a7917c194bff81d37dddaf85be99215374256",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
