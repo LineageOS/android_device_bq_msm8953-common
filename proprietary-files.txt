@@ -69,12 +69,12 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 # Camera
 vendor/bin/mm-qcamera-daemon
 vendor/bin/mm-qcamera-app
-lib/libarcsoft_beautyshot.so
-lib/libcam.beautyshot.so
-lib/libcam.vidhance.so
+vendor/lib/libarcsoft_beautyshot.so
+vendor/lib/libcam.beautyshot.so
+vendor/lib/libcam.vidhance.so
 lib/libdualcameraddm.so
 lib/libhazebuster.so
-lib/libmpbase.so
+vendor/lib/libmpbase.so
 lib/libseemore.so
 lib/libseestraight.so
 lib/libtruescanner.so
@@ -82,7 +82,7 @@ lib/libtrueportrait.so
 lib/libts_detected_face_jni.so
 lib/libts_face_beautify_hal.so
 lib/libts_face_beautify_jni.so
-lib/libvidhance.so
+vendor/lib/libvidhance.so
 lib64/libclearsight.so
 lib64/libdualcameraddm.so
 lib64/libhazebuster.so
@@ -187,8 +187,6 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -830,7 +828,6 @@ vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 vendor/lib/libloc_ds_api.so
 
 # Graphics
-bin/ppd
 -vendor/lib/libsdm-disp-vndapis.so
 -vendor/lib64/libsdm-disp-vndapis.so
 lib/libsd_sdk_display.so:vendor/lib/libsd_sdk_display.so
@@ -1023,7 +1020,6 @@ vendor/lib64/libperipheral_client.so
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -vendor/app/colorservice/colorservice.apk
-vendor/bin/mm-pp-dpps
 vendor/lib/libdisp-aba.so
 vendor/lib64/libdisp-aba.so
 
@@ -1212,7 +1208,6 @@ etc/firmware/ice40.bin
 vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
-bin/sigma_dut
 vendor/bin/fstman
 vendor/bin/wcnss_service
 vendor/bin/cnss-daemon
