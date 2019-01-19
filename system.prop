@@ -44,9 +44,8 @@ vendor.audio.flac.sw.decoder.24bit=true
 
 # Bluetooth
 bluetooth.hfp.client=1
-qcom.bluetooth.soc=smd
+vendor.qcom.bluetooth.soc=smd
 ro.bluetooth.hfp.ver=1.7
-ro.qualcomm.bt.hci_transport=smd
 ro.bluetooth.dun=true
 ro.bluetooth.sap=true
 ro.qualcomm.bluetooth.ftp=true
