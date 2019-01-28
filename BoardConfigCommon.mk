@@ -47,6 +47,11 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
+# API Override
+TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
+    /vendor/bin/mm-qcamera-daemon=27 \
+    /system/vendor/bin/mm-qcamera-daemon=27 \
+
 # Audio
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
