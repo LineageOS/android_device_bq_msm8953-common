@@ -791,7 +791,6 @@ vendor/bin/DR_AP_Service
 vendor/bin/garden_app
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
-vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/lib/hw/vendor.qti.gnss@1.0-impl.so
@@ -826,6 +825,9 @@ vendor/lib64/libxtadapter.so
 vendor/lib64/libxtwifi_ulp_adaptor.so
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so
 vendor/lib/libloc_ds_api.so
+
+# GPS_slim_daemon - from daisy - PKQ1.180917.001
+vendor/bin/slim_daemon
 
 # Graphics
 -vendor/lib/libsdm-disp-vndapis.so
