@@ -77,6 +77,9 @@ function blob_fixup() {
         vendor/lib/hw/camera.msm8953.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v28.so" "${2}"
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+                sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
+                sed -i -e 's|\x61\xF0\x7F\xFE|\x00\xBF\x00\x00|g' "${2}"
+                sed -i -e 's|\x61\xF0\x79\xFE|\x00\xBF\x00\x00|g' "${2}"
         ;;
         lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
                 patchelfv08 --remove-needed "libunwind.so" "${2}"
@@ -92,7 +95,7 @@ function blob_fixup() {
                    exit;
                 fi
         ;;
-        vendor/bin/mm-qcamera-daemon|vendor/lib/hw/camera.msm8953.so|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
+        vendor/bin/mm-qcamera-daemon|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
         ;;
         vendor/etc/izat.conf)
