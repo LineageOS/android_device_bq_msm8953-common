@@ -1132,8 +1132,11 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1_vendor.so
 vendor/radio/qcril_database/qcril.db
 
+# Radio_IMS - from daisy - PKQ1.180917.001
+framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
+-priv-app/ims/ims.apk|eef47c0b6f250e7f96e7155d84274b1c83940d8f
+
 # Radio - IMS
--app/ims/ims.apk
 etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
