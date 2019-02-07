@@ -42,7 +42,7 @@ while [ "$1" != "" ]; do
                                 ;;
         -s | --section )        shift
                                 SECTION=$1
-                                clean_vendor=false
+                                CLEAN_VENDOR=false
                                 ;;
         -k | --kang)            KANG="--kang"
                                 ;;
