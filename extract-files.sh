@@ -56,6 +56,13 @@ if [ -z "$SRC" ]; then
     SRC=adb
 fi
 
+function blob_fixup() {
+        case "${1}" in
+        vendor/lib/libcam.vidhance.so)
+                patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
+        ;;
+        esac
+}
 # Initialize the helper for msm8953-common
 (
         setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
