@@ -63,25 +63,14 @@ function blob_fixup() {
         ;;
         esac
 }
-# Initialize the helper for msm8953-common
+# Reinitialize the helper for ${device}
 (
-        setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
+        source "${DEVICE}/extract-files.sh"
+        setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
         extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
                         ${KANG} --section "${SECTION}"
         if [ -s "${MY_DIR}/proprietary-files-twrp.txt" ]; then
-                extract "${MY_DIR}/proprietary-files-twrp.txt" "${SRC}" \
-                        ${KANG} --section "${SECTION}"
-        fi
-)
-
-# Reinitialize the helper for msm8953-common/${device}
-(
-        source "${DEVICE}/extract-files.sh"
-        setup_vendor "${DEVICE}" "${VENDOR}/${DEVICE_COMMON}" "${LINEAGE_ROOT}" false "${CLEAN_VENDOR}"
-        extract "${MY_DIR}/${DEVICE}/proprietary-files.txt" "${SRC}" \
-                        ${KANG} --section "${SECTION}"
-        if [ -s "${MY_DIR}/${DEVICE}/proprietary-files-twrp.txt" ]; then
-                extract "${MY_DIR}/${DEVICE}/proprietary-files-twrp.txt" "$SRC" \
+                extract "${MY_DIR}/proprietary-files-twrp.txt" "$SRC" \
                         ${KANG} --section "${SECTION}"
         fi
 )
