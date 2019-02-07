@@ -31,29 +31,9 @@ if [ ! -f "${HELPER}" ]; then
 fi
 . "${HELPER}"
 
-# Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" "true" "${CLEANUP}"
-
-# Copyright headers and guards
-write_headers "bardock bardockpro"
-
-# The standard bardock-common blobs
-write_makefiles "${MY_DIR}/proprietary-files.txt" true
-
-if [ -f "${MY_DIR}/proprietary-files-twrp.txt" ]; then
-	cat >> "${BOARDMK}" <<-EOF
-		ifeq (\$(WITH_TWRP),true)
-		TARGET_RECOVERY_DEVICE_DIRS += vendor/${VENDOR}/${DEVICE_COMMON}/proprietary
-		endif
-	EOF
-fi
-
-# We are done!
-write_footers
-
-# Reinitialize the helper for msm8953-common/${device}
+# Reinitialize the helper for ${device}
 (
-	setup_vendor "${DEVICE}" "${VENDOR}/${DEVICE_COMMON}" "${LINEAGE_ROOT}" "false" "${CLEANUP}"
+	setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" "false" "${CLEANUP}"
 
 	# Copyright headers and guards
 	write_headers
@@ -61,12 +41,12 @@ write_footers
 	# $1: The device-specific blobs
 	# $2: Make treble compatible paths and put "$(TARGET_COPY_OUT_VENDOR)"
 	#     in generated makefiles
-	write_makefiles "${MY_DIR}/${DEVICE}/proprietary-files.txt" true
+	write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
-	if [ -f "${MY_DIR}/${DEVICE}/proprietary-files-twrp.txt" ]; then
+	if [ -f "${MY_DIR}/proprietary-files-twrp.txt" ]; then
 		cat >> "${BOARDMK}" <<-EOF
 			ifeq (\$(WITH_TWRP),true)
-			TARGET_RECOVERY_DEVICE_DIRS += vendor/${VENDOR}/${DEVICE_COMMON}/${DEVICE}/proprietary
+			TARGET_RECOVERY_DEVICE_DIRS += vendor/${VENDOR}/${DEVICE}/proprietary
 			endif
 		EOF
 	fi

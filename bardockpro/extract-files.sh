@@ -25,7 +25,6 @@ set -e -u -o pipefail
 
 # Required!
 export DEVICE=bardockpro
-export DEVICE_COMMON=msm8953-common
 export VENDOR=bq
 
 MY_DIR=$(dirname $(readlink -f "${BASH_SOURCE[0]}"))
