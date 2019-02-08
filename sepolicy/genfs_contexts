@@ -7,3 +7,6 @@ genfscon sysfs   /devices/soc/78b8000.i2c/i2c-4/4-001d/power_supply   u:object_r
 genfscon sysfs   /devices/soc/msm-bcl-21/power_supply                 u:object_r:sysfs_battery_supply:s0
 genfscon sysfs   /devices/soc/qpnp-typec-9/power_supply               u:object_r:sysfs_battery_supply:s0
 genfscon sysfs   /devices/soc/soc:qcom,bcl/power_supply               u:object_r:sysfs_battery_supply:s0
+
+# Network
+genfscon sysfs   /devices/soc/a000000.qcom,wcnss-wlan/net             u:object_r:sysfs_net:s0
