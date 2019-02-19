@@ -861,7 +861,6 @@ vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
 vendor/lib/libsmwrapper.so|3926c3928c7276f34dd851798552f7433e86bbf5
 
 # Media - from repo5
--vendor/lib/libgpustats.so|138dce3b7ac0c5c080acb122f2dfd1a70037d9aa
 vendor/lib/libOmxAacDec.so|312509a2a1e90502af0d5ecd989653f12a8d343e
 vendor/lib/libOmxAlacDec.so|2c6307bd567c6c8955c9abca16814444697ffa2b
 vendor/lib/libOmxAlacDecSw.so|c48d83a933bf84a658877d062c3d0dfa7bed7ee6
@@ -875,7 +874,6 @@ vendor/lib/libOmxVpp.so|db3aad60e6b15e8c38c07d0034a217f6ccbb5e8f
 vendor/lib/libOmxWmaDec.so|6bb38a3f30bf04b79bedea65601620908ca5ea1b
 vendor/lib/libvpplibrary.so|c3019c7956db3f4fc5a917c85573e24a3c9fc80a
 vendor/lib/libvqzip.so|c1c4f35456ff34b4baba373f18ed034a7d1e2721
--vendor/lib64/libgpustats.so|429e9048389f9062702649e083ec53386966f93f
 
 # NFC - from nfc_repo
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2f71a69f37ec8261fb05b8
