@@ -171,7 +171,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     memtrack.msm8953 \
     liboverlay \
-    libtinyxml
+    libtinyxml \
+    libqdMetaData \
+    libqdMetaData.system
 
 # DRM
 PRODUCT_PACKAGES += \
