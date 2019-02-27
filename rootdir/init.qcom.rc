@@ -502,7 +502,7 @@ service qti /system/vendor/bin/qti
     user radio
     group radio oem_2901 diag usb net_admin
 
-service sensors /vendor/bin/sensors.qcom
+service sensors /vendor/bin/sensors.qti
     class core
     user root
     group root
