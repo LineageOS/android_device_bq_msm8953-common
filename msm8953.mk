@@ -350,6 +350,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     telephony-ext
 
+PRODUCT_PACKAGES += \
+    android.hardware.radio.config@1.0 \
+    android.hardware.secure_element@1.0
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
@@ -366,7 +370,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@1.0-service \
+    libsensorndkbridge
 
 # Thermal
 PRODUCT_COPY_FILES += \
