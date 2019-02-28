@@ -188,6 +188,8 @@
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smpa" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="spkhph-smpa" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" backend="spkhph-smpa" interface="PRI_MI2S_RX"/>
+        <device name="SND_DEVICE_IN_VOICE_REC_MIC" interface="TERT_MI2S_TX"/>
+        <device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" interface="TERT_MI2S_TX"/>
     </backend_names>
     <!-- below values are for ref purpose to OEM, doesn't contain actual hardware info on MTP -->
     <microphone_characteristics>
