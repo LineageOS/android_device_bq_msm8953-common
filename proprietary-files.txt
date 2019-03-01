@@ -987,7 +987,7 @@ vendor/media/LMspeed_508.emd
 vendor/media/PFFprec_600.emd
 
 # NFC
-vendor/firmware/libpn548ad_fw.so
+vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
 
 # Perf
 lib/vendor.qti.hardware.perf@1.0.so
