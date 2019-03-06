@@ -920,8 +920,8 @@ vendor/lib64/libqmi_encdec.so|68fb631317150d66fd1a39c48f8ef9e0405bbdf2
 vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
 
 # RIL - from repo3
--app/embms/embms.apk
-etc/permissions/embms.xml
+-app/embms/embms.apk:vendor/app/embms/embms.apk
+etc/permissions/embms.xml:vendor/etc/permissions/embms.xml
 framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
 
 # RIL - from repo2
