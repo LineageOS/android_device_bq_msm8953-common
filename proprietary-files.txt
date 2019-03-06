@@ -921,8 +921,8 @@ vendor/lib64/libqmi_encdec.so|68fb631317150d66fd1a39c48f8ef9e0405bbdf2
 vendor/lib64/libqmiservices.so|7b2051dea42b5515b3ae4036c61d6ce118f69411
 
 # RIL - from cepheus - PKQ1.181121.001/9.3.1
--app/embms/embms.apk
-etc/permissions/embms.xml
+-app/embms/embms.apk:vendor/app/embms/embms.apk
+etc/permissions/embms.xml:vendor/etc/permissions/embms.xml
 framework/embmslibrary.jar:vendor/framework/embmslibrary.jar
 
 # RIL - from daisy - PKQ1.180917.001/V10.0.4.0.PDLMIXM
