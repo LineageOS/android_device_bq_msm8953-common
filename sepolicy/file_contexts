@@ -6,8 +6,5 @@
 # Leds
 /sys/devices/soc/78b7000.i2c/i2c-3/3-0030/leds(/.*)?					u:object_r:sysfs_leds:s0
 
-# Block devices
-/dev/block/mmcblk0p26									u:object_r:persist_block_device:s0
-
 # Camera
 /data/vendor/qcam(/.*)?									u:object_r:vendor_camera_data_file:s0
