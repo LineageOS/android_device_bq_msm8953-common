@@ -1,3 +1,6 @@
 # Allow nfc to create, read and write in nfc_vendor_data_file
 allow nfc nfc_vendor_data_file:dir create_dir_perms;
 allow nfc nfc_vendor_data_file:file create_file_perms;
+
+# Allow nfc to find hal_nxpnfc_hwservice
+allow nfc nxpnfc_hwservice:hwservice_manager find;
