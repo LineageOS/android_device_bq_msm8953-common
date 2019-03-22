@@ -1425,12 +1425,21 @@
         <path name="usb-headphones" />
     </path>
 
+    <path name="handset-stereo-dmic-ef">
+        <ctl name="ADC1 Volume" value="2" />
+        <ctl name="DEC1 MUX" value="ADC1" />
+        <ctl name="ADC3 Volume" value="2" />
+        <ctl name="DEC2 MUX" value="ADC2" />
+        <ctl name="MI2S_TX Channels" value="Two" />
+        <ctl name="ADC2 MUX" value="INP3" />
+    </path>
+
     <path name="voice-rec-mic">
-        <path name="handset-mic" />
+        <path name="handset-stereo-dmic-ef" />
     </path>
 
     <path name="camcorder-mic">
-        <path name="handset-mic" />
+        <path name="handset-stereo-dmic-ef" />
     </path>
 
     <path name="bt-sco-headset">
@@ -1482,15 +1491,6 @@
 
     <path name="voice-rec-dmic-ef-fluence">
         <path name="dmic-endfire" />
-    </path>
-
-    <path name="handset-stereo-dmic-ef">
-        <ctl name="ADC1 Volume" value="2" />
-        <ctl name="DEC1 MUX" value="ADC1" />
-        <ctl name="ADC3 Volume" value="2" />
-        <ctl name="DEC2 MUX" value="ADC2" />
-        <ctl name="MI2S_TX Channels" value="Two" />
-        <ctl name="ADC2 MUX" value="INP3" />
     </path>
 
     <path name="speaker-stereo-dmic-ef">
