@@ -83,7 +83,7 @@
         <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES_EXTERNAL_2" acdb_id="10"/>
         <device name="SND_DEVICE_OUT_VOICE_HANDSET" acdb_id="7"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" acdb_id="14"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WSA" acdb_id="0"/>
+        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WSA" acdb_id="135"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_VBAT" acdb_id="135"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" acdb_id="135"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_WSA" acdb_id="14"/>
@@ -99,19 +99,19 @@
         <device name="SND_DEVICE_OUT_BT_A2DP" acdb_id="39"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_A2DP" acdb_id="20"/>
         <device name="SND_DEVICE_OUT_VOICE_TTY_FULL_HEADPHONES" acdb_id="14"/>
-        <device name="SND_DEVICE_OUT_VOICE_TTY_VCO_HEADPHONES" acdb_id="0"/>
-        <device name="SND_DEVICE_OUT_VOICE_TTY_HCO_HANDSET" acdb_id="0"/>
+        <device name="SND_DEVICE_OUT_VOICE_TTY_VCO_HEADPHONES" acdb_id="17"/>
+        <device name="SND_DEVICE_OUT_VOICE_TTY_HCO_HANDSET" acdb_id="37"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO" acdb_id="17"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_BT_SCO_WB" acdb_id="17"/>
         <device name="SND_DEVICE_OUT_VOICE_TX" acdb_id="37"/>
         <device name="SND_DEVICE_OUT_AFE_PROXY" acdb_id="45"/>
-        <device name="SND_DEVICE_OUT_USB_HEADSET" acdb_id="0"/>
+        <device name="SND_DEVICE_OUT_USB_HEADSET" acdb_id="45"/>
         <device name="SND_DEVICE_OUT_VOICE_USB_HEADSET" acdb_id="45"/>
         <device name="SND_DEVICE_OUT_USB_HEADPHONES" acdb_id="45"/>
         <device name="SND_DEVICE_OUT_VOICE_USB_HEADPHONES" acdb_id="45"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_USB_HEADSET" acdb_id="45"/>
         <device name="SND_DEVICE_OUT_TRANSMISSION_FM" acdb_id="45"/>
-        <device name="SND_DEVICE_OUT_ANC_HEADSET" acdb_id="0"/>
+        <device name="SND_DEVICE_OUT_ANC_HEADSET" acdb_id="26"/>
         <device name="SND_DEVICE_OUT_ANC_FB_HEADSET" acdb_id="26"/>
         <device name="SND_DEVICE_OUT_VOICE_ANC_HEADSET" acdb_id="27"/>
         <device name="SND_DEVICE_OUT_VOICE_ANC_FB_HEADSET" acdb_id="26"/>
@@ -173,7 +173,7 @@
         <device name="SND_DEVICE_IN_CAPTURE_FM" acdb_id="44"/>
         <device name="SND_DEVICE_IN_AANC_HANDSET_MIC" acdb_id="44"/>
         <device name="SND_DEVICE_IN_QUAD_MIC" acdb_id="44"/>
-        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="0"/>
+        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="34"/>
         <device name="SND_DEVICE_IN_SPEAKER_STEREO_DMIC" acdb_id="104"/>
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK" acdb_id="46"/>
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK_MONO_1" acdb_id="34"/>
