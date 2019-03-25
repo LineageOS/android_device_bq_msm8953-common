@@ -69,19 +69,39 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Bluetooth
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a93b1e2f36aad5e3c5a4460d83cdccd2a829aac6|258f6081fa2cebfaf872a51c61b36d8bc992000f
 
-# Bluetooth - from repo5 - 2.3.0_20191011-1351-zangyapro_bq-user-1044-Fastboot-FW
-lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
-lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8ef17375a2baa321619b7822ada3c76692c26441
-vendor/bin/wcnss_filter|426dece987988052c277baab3604b767e1a6ba49
+# Bluetooth - from repo1 - LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8429b451d671b1b5d55e171bf824952f4f67c381
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/libbt-hidlclient.so|7d25d6082cb6fd8da40fc69f93c6341f8c1dead8
-vendor/lib64/libbtnv.so|455307c843e662f80dc876bbd1cd6fb472dfbe0e
-vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
-vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|73be971023b148198bdaa410167cba686b208d14
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
+vendor/lib/btaudio_offload_if.so|a847cd8ea9e714732a7842df1301c5e331be2936
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so|09376084ff135a3be429dc2c80e7bf3f8a96a791
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|e3a4a5cb2e5140aaed0aa080e5c7c937394fc2eb
+vendor/lib/hw/audio.bluetooth_qti.default.so|0bd3f25837d1aa37fb8e15316308afd710af6503
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|c1179e2603c3f1274d83580eefea99d4b1c7ab90
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|84f86d20af330ee0bd44e6609c3df1149d04a1a6
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|63a54ed76fdfee5d7c1be4d756ec8ce4080072d4
+vendor/lib/libbluetooth_audio_session_qti.so|1da6e32c1313ba2e8999e57331c81c6f5162e6a7
+vendor/lib/libbt-hidlclient.so|71b1e96747ac338ebaa904d98aa1cc7a05fedf37
+vendor/lib/libbtnv.so|9f5ba9143616d7c575210f01a214e60e69b925f2
+vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|b6e5d67869138d102595dd03562314d33c2e825e
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e9cffc642dc8f15492ca316c276e02c7e146b90d
+vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|fe0c94096ad70472271c0093ce6be226f74e40f4
+vendor/lib/vendor.qti.hardware.fm@1.0.so|8811e71630bc81e9e504283b4aeab8d905efacae
+vendor/lib64/btaudio_offload_if.so|f9d7229e818a3044d56739d9d47462c4af726c02
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|e61e92e84bfbbf8787c092665fa46d82d059a30d
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|a93b1e2f36aad5e3c5a4460d83cdccd2a829aac6|258f6081fa2cebfaf872a51c61b36d8bc992000f
+vendor/lib64/hw/audio.bluetooth_qti.default.so|102539a0013edf06790215b21bed68c704437a96
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7c525421896d79464717a03fdc61e87336f740c9
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|ebdfcc7064fc144acf6cba300486c6394af3d73b
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|5e06b7b33d084975d6326875268cb237ad6d8559
+vendor/lib64/libbluetooth_audio_session_qti.so|4194916f378532f66fdb62dffab45822113b7ce6
+vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
+vendor/lib64/libbtnv.so|7f1753424a5d7c51d52bd9f7ad87542abd04a1f6
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|288a9824ae282cad32f02fbf0ee723a50702e923
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7d6e730a1d7ce25
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|9c1b952043c7722fd27bfd971ecebb2584671862
 
 # Bluetooth (ANT+) - from repo5
 lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9

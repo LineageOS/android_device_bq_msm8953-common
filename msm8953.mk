@@ -96,19 +96,19 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@2.0-service \
     android.hardware.audio.effect@5.0 \
     android.hardware.audio.effect@5.0-impl \
-    android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.soundtrigger@2.0-service \
     audio.a2dp.default \
-    audio.bluetooth.default \
     audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
+    liba2dpoffload \
     libaacwrapper \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libtinycompress \
     tinymix
 
 # Audio configuration files
@@ -144,6 +144,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default \
     libbt-vendor \
     libbase_shim
 
