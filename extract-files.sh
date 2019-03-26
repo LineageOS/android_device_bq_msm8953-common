@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=bardockpro
+DEVICE=$1
 VENDOR=bq
 
 # Load extractutils and do some sanity checks
