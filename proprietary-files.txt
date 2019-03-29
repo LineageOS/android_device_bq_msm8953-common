@@ -55,16 +55,16 @@ vendor/etc/drc/drc_cfg_AZ.txt
 vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
-# Bluetooth - from repo2
+# Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|8c68d863da2456efbc95046519b99f23e517c9ab
 vendor/lib64/libbtnv.so|35444e0ca93a50751db92aa4871cf277dc66b1fa
 vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
 
-# Bluetooth (shared dependencies) - from repo2
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|3a19c81d66ef1190d0b2f361420d5cbf707cc600
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
+# Bluetooth (shared dependencies)
+vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so
+vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 # Bluetooth
 bin/dun-server:/vendor/bin/dun-server
