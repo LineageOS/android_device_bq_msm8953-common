@@ -169,8 +169,12 @@ private:
   void reportGnssMeasurementData(
     const qmiLocEventGnssSvMeasInfoIndMsgT_v02& gnss_measurement_report_ptr);
 
-  bool registerEventMask(locClientEventMaskType qmiMask);
-  locClientEventMaskType adjustMaskForNoSession(locClientEventMaskType qmiMask);
+  /* convert and report ODCPI request */
+  void reportOdcpiRequest(
+    const qmiLocEventWifiReqIndMsgT_v02& odcpiReq);
+
+  void registerEventMask(LOC_API_ADAPTER_EVENT_MASK_T adapterMask);
+  locClientEventMaskType adjustMaskIfNoSession(locClientEventMaskType qmiMask);
   void cacheGnssMeasurementSupport();
 
 protected:
@@ -212,6 +216,9 @@ public:
 
   virtual enum loc_api_adapter_err
     injectPosition(double latitude, double longitude, float accuracy);
+
+  virtual enum loc_api_adapter_err
+    injectPosition(const Location& location);
 
   virtual LocationError
     deleteAidingData(const GnssAidingData& data);
@@ -283,6 +290,10 @@ public:
   virtual void installAGpsCert(const LocDerEncodedCertificate* pData,
                                size_t length,
                                uint32_t slotBitMask);
+  inline virtual void setInSession(bool inSession) override {
+      mInSession = inSession;
+      registerEventMask(mMask);
+  }
   /*
     Set Gnss Constellation Config
   */
