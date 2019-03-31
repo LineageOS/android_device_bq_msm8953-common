@@ -295,10 +295,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.1-service \
     vendor.nxp.hardware.nfc@1.1-service \
     com.android.nfc_extras \
-    NfcNci \
+    com.nxp.nfc.nq \
+    nqnfcee_access.xml \
+    nqnfcse_access.xml \
+    NQNfcNci \
     SecureElement \
     Tag
 
