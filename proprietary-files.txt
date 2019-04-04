@@ -855,7 +855,7 @@ vendor/lib/libvpplibrary.so|77d1d8d7fa879d1c5df1fb4e210de1e715bf139e
 vendor/lib/libvqzip.so|0b906db131e99cd5460b8a72d05e86721243de95
 -vendor/lib64/libgpustats.so|35eaab728b21fe7cd33b821bf5cf13ea1117cd90
 
-# NFC
+# NFC - from nfc_repo
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
 
 # Perf - from repo2
