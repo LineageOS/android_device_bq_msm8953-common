@@ -64,9 +64,6 @@ function blob_fixup() {
         vendor/bin/mm-qcamera-app|vendor/lib/hw/camera.msm8953.so|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
         ;;
-        vendor/etc/permissions/embms.xml)
-                sed -i -e 's|/system/framework|/vendor/framework|g' "${2}"
-        ;;
         vendor/etc/izat.conf)
                 sed -i -e 's|^GTP_CELL *=.*|GTP_CELL=BASIC|g' "${2}"
                 sed -i -e 's|^GTP_WIFI *=.*|GTP_WIFI=BASIC|g' "${2}"
