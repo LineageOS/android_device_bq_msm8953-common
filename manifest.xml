@@ -326,6 +326,24 @@
         </interface>
     </hal>
     <hal format="hidl">
+        <name>com.qualcomm.qti.ant</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAntHci</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>com.qualcomm.qti.bluetooth_audio</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IBluetoothAudio</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
         <name>vendor.display.color</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -353,12 +371,58 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.gnss</name>
+        <name>vendor.qti.esepowermanager</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
+            <name>IEsePowerManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
             <name>ILocHidlGnss</name>
             <instance>gnss_vendor</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.gnss</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ILocHidlGnss</name>
+            <instance>gnss_vendor</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.data.connection</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IDataConnection</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.data.latency</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ILinkLatency</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.fm</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFmHci</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
