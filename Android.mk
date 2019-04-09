@@ -95,4 +95,12 @@ $(WCNSS_CFG_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(WCNSS_CFG_SYMLINK)
 
+# Create a link for the audio file from another soc
+AUDIO_PRIMARY_SYMLINK := $(TARGET_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so
+$(AUDIO_PRIMARY_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+	@mkdir -p $(dir $@)
+	$(hide) ln -sf /system/vendor/lib/hw/audio.primary.msm8953.so $(TARGET_OUT_VENDOR)/lib/hw/$(notdir $@)
+
+ALL_DEFAULT_INSTALLED_MODULES += $(AUDIO_PRIMARY_SYMLINK)
+
 endif
