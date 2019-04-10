@@ -1117,7 +1117,7 @@ bool locClientRegisterEventMask(
   @return false on failure, true on Success
 */
 
-bool validateRequest(
+static bool validateRequest(
   uint32_t                    reqId,
   const locClientReqUnionType reqPayload,
   void                        **ppOutData,
