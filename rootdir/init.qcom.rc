@@ -463,7 +463,7 @@ on property:vendor.bluetooth.dun.status=stopped
 
 on property:vold.decrypt=trigger_restart_framework
     restart vendor.camera-provider-2-4
-    start vendor.cnss_diag
+    #start vendor.cnss_diag
     start vendor.wcnss-service
 
 on property:persist.env.fastdorm.enabled=true
@@ -593,6 +593,7 @@ service vendor.cnss_diag /system/vendor/bin/cnss_diag -q
     class main
     user system
     group system wifi inet net_admin sdcard_rw media_rw diag
+    disabled
     oneshot
 
 service vendor.cnss-daemon /system/vendor/bin/cnss-daemon -n -l
