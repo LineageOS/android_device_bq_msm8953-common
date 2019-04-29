@@ -66,8 +66,8 @@ ro.qualcomm.bluetooth.pbap=true
 vidc.enc.dcvs.extra-buff-count=2
 #force HAL1 for below packages
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk
-camera.display.umax=1920x1080
-camera.display.lmax=1280x720
+persist.sys.camera.display.umax=1920x1080
+persist.sys.camera.display.lmax=1280x720
 camera.lowpower.record.enable=1
 camera.vidhance.reduction=0.6
 persist.camera.isp.clock.optmz=0
