@@ -107,11 +107,6 @@ vendor.opengles.version=196610
 # DRM
 drm.service.enabled=true
 
-#Enable B service adj transition by default
-ro.sys.fw.bservice_enable=true
-ro.sys.fw.bservice_limit=5
-ro.sys.fw.bservice_age=5000
-
 # Fingerprint
 persist.qfp=false
 
