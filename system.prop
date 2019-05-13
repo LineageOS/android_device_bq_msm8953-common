@@ -194,7 +194,7 @@ ro.vendor.qti.sys.fw.trim_cache_percent=100
 ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
 # USB
-persist.sys.usb.config.extra=none
+persist.vendor.usb.config.extra=none
 
 # Wi-Fi
 wifi.interface=wlan0
