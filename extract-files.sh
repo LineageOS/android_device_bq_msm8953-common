@@ -61,7 +61,7 @@ function blob_fixup() {
         vendor/lib/libcam.vidhance.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
         ;;
-        vendor/bin/mm-qcamera-app|vendor/lib/hw/camera.msm8953.so|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
+        vendor/bin/mm-qcamera-daemon|vendor/lib/hw/camera.msm8953.so|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
         ;;
         vendor/etc/izat.conf)
