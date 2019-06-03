@@ -160,7 +160,7 @@
         <device name="SND_DEVICE_IN_VOICE_TTY_FULL_HEADSET_MIC" acdb_id="42"/>
         <device name="SND_DEVICE_IN_VOICE_TTY_VCO_HANDSET_MIC" acdb_id="43"/>
         <device name="SND_DEVICE_IN_VOICE_TTY_HCO_HEADSET_MIC" acdb_id="19"/>
-        <device name="SND_DEVICE_IN_VOICE_REC_MIC" acdb_id="16"/>
+        <device name="SND_DEVICE_IN_VOICE_REC_MIC" acdb_id="4"/>
         <device name="SND_DEVICE_IN_VOICE_REC_MIC_NS" acdb_id="36"/>
         <device name="SND_DEVICE_IN_VOICE_REC_DMIC_STEREO" acdb_id="16"/>
         <device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="4"/>
