@@ -1054,7 +1054,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|55e01873581287a0a368e2
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|7ba73cb608b8279094912ee7f6c47b90ec4b4650
 
 # Sensors - from repo5
-vendor/bin/sensors.qti|f002511db227cfd5f4f4e1d84b4a642c9af7c890
+vendor/bin/sensors.qti|edb53902002d69b4e985d11056656a126a24b0bc
 vendor/lib/hw/activity_recognition.sdm660.so:vendor/lib/hw/activity_recognition.msm8953.so|2617b625dd17327ef0757bf2a4ff6f784f86bb52
 vendor/lib/libsensor1.so|0f528a203f3f86241d28edbb041011aa3f815e5b
 vendor/lib/libsensor_reg.so|164cb8511be6538d1d501f45515637f4730cf2d3
