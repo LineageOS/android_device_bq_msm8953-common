@@ -150,6 +150,7 @@ vendor.vidc.disable.split.mode=1
 vendor.vidc.enc.disable.pq=true
 
 # Network manager
+persist.data.iwlan.enable=true
 persist.vendor.data.iwlan.enable=true
 
 # Perf
@@ -186,6 +187,7 @@ ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 persist.radio.DROPSETENABLE=1
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
