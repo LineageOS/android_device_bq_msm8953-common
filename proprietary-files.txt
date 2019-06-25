@@ -734,6 +734,15 @@ lib64/hw/swfingerprint.default.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 
+# FM - from repo5
+vendor/bin/init.qti.fm.sh|082855808539b2adf2e928e04cfda403ef84e1e3
+vendor/bin/fm_qsoc_patches|81bc19a078a5090b9227fd4e2e2c83e9351f554a
+vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
+lib/libfm-hci.so|0d2c609766e681611963735c32f0c42f2bdc9e82
+lib/fm_helium.so|273b48a0a60436f73343bd4fa2251593d799d61f
+lib64/libfm-hci.so|18db2701967efa700af42e1ed53be1b789ac259e
+lib64/fm_helium.so|b1e30c00111181cce4d57363f1fc161de2929bcf
+
 # Gatekeeper - from repo5
 vendor/lib64/hw/gatekeeper.sdm660.so:vendor/lib64/hw/gatekeeper.msm8953.so|e8f32651e4bfff88fcc02c34eca6cd5f04a444aa
 

@@ -1,0 +1,2 @@
+# Required for FM
+allow qti_init_shell self:socket create;
