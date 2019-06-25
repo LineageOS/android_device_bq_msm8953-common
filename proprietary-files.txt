@@ -59,7 +59,7 @@ etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.ac
 etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Audio ACDB - from repo5
-vendor/etc/acdbdata/adsp_avs_config.acdb|bf5c92dd130c736589e3466ed606009da50de636
+vendor/etc/acdbdata/adsp_avs_config.acdb|df26d45014538751c377f35728a6d3f284130996
 
 # Audio Debugging
 bin/climax_hostSW:vendor/bin/climax_hostSW
@@ -1056,7 +1056,7 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|55e01873581287a0a368e2
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|7ba73cb608b8279094912ee7f6c47b90ec4b4650
 
 # Sensors - from repo5
-vendor/bin/sensors.qti|edb53902002d69b4e985d11056656a126a24b0bc
+vendor/bin/sensors.qti|421828f2bb9e62c4b5ebf69bf0026094821559f6
 vendor/lib/hw/activity_recognition.sdm660.so:vendor/lib/hw/activity_recognition.msm8953.so|2617b625dd17327ef0757bf2a4ff6f784f86bb52
 vendor/lib/libsensor1.so|0f528a203f3f86241d28edbb041011aa3f815e5b
 vendor/lib/libsensor_reg.so|164cb8511be6538d1d501f45515637f4730cf2d3
@@ -1091,7 +1091,7 @@ etc/firmware/ice40.bin
 # Widevine - from repo5
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
-vendor/lib64/libwvhidl.so|5232403c786c4a89e53015eb44dbc31f77d8274e
+vendor/lib64/libwvhidl.so|00c5957a0a7e449b5d6193d3d38ccb4ed04b358e
 
 # Wi-Fi
 vendor/bin/wcnss_service
