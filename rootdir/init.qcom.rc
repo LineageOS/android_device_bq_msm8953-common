@@ -693,10 +693,3 @@ service vendor.time_daemon /system/vendor/bin/time_daemon
 #Set GPU Opengles version
 on property:vendor.opengles.version=*
     setprop ro.opengles.version ${vendor.opengles.version}
-
-# FM enable/disable triggers
-on property:vendor.hw.fm.init=1
-    write /sys/module/radio_iris_transport/parameters/fmsmd_set 1
-
-on property:vendor.hw.fm.init=0
-    write /sys/module/radio_iris_transport/parameters/fmsmd_set 0
