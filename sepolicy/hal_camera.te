@@ -1,0 +1,2 @@
+typeattribute hal_camera_default data_between_core_and_vendor_violators;
+allow hal_camera self:capability sys_nice;
