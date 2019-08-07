@@ -860,14 +860,6 @@ vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 # Keymaster - from repo5
 vendor/lib64/hw/keystore.sdm660.so:vendor/lib64/hw/keystore.msm8953.so|645881b7a2709dfce5d6b9be9df4659ec2ab0eac
 
-# Keymaster
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so
-lib64/libsoftkeymasterdevice.so:vendor/lib64/libsoftkeymasterdevice-v27.so
-lib64/libkeymaster_messages.so:vendor/lib64/libkeymaster_messages-v27.so
-lib64/libkeymaster_portable.so:vendor/lib64/libkeymaster_portable-v27.so
-lib64/libkeymaster_staging.so:vendor/lib64/libkeymaster_staging-v27.so
-lib64/libsoftkeymaster.so:vendor/lib64/libsoftkeymaster-v27.so
-
 # Listen - from repo5
 vendor/lib/hw/sound_trigger.primary.sdm660.so:vendor/lib/hw/sound_trigger.primary.msm8953.so|adcbe96b52f5917b752909ce86c98c3898fde1ac
 vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
