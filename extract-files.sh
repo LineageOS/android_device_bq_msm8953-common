@@ -58,6 +58,15 @@ fi
 
 function blob_fixup() {
         case "${1}" in
+        lib64/libwfdnative.so)
+                patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
+        lib64/liblocationservice_jni.so)
+                patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
+        lib64/libxt_native.so)
+                patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+        ;;
         vendor/lib/libcam.vidhance.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
         ;;
