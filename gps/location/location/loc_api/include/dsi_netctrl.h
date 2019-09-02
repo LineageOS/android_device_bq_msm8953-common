@@ -83,17 +83,18 @@ typedef struct wds_get_profile_list_resp_msg_v01
 {
     uint32_t profile_list_len;
     struct {
-      uint32_t profile_index;
       uint32_t profile_type;
+      uint8_t profile_index;
+      char profile_name[51];
     }profile_list[255];
     qmi_response_type_v01 resp;
     uint8_t unk1;
-    uint16_t unk2;
+    uint32_t unk2;
 } wds_get_profile_list_resp_msg_v01;
 
 // Only the fields filled in below are accessed by the open source code.
 // The remainder is potentially filled out by library code which we can't access
-// The total size found by reversing is 2016 bytes.
+// The total size found by reversing is 2736 bytes.
 typedef struct wds_get_profile_settings_resp_msg_v01
 {
     qmi_response_type_v01 resp;
@@ -101,11 +102,11 @@ typedef struct wds_get_profile_settings_resp_msg_v01
     char profile_name[51];
     uint8_t pdp_type_valid;
     uint32_t pdp_type;
-    uint8_t padding1[948]; // Needed for offsets to be correct
-    uint32_t support_emergency_calls_valid;
-    uint32_t support_emergency_calls;
+    uint8_t padding1[940]; // Needed for offsets to be correct
+    uint8_t support_emergency_calls_valid;
+    uint8_t support_emergency_calls;
     // Needed to ensure a sufficiently large struct is allocated.
-    uint8_t padding2[992];
+    uint8_t padding2[1723];
 } wds_get_profile_settings_resp_msg_v01;
 
 typedef struct wds_profile_identifier_type_v01
