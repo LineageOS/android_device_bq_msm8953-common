@@ -3,8 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_PATH_32 := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR)/lib64
+LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_TAGS := optional
 
 ifeq ($(TARGET_DEVICE),apq8026_lw)
@@ -21,6 +20,7 @@ LOCAL_SHARED_LIBRARIES := \
     libloc_core \
     libgps.utils \
     libdl \
+    libloc_ds_api \
     liblog
 
 LOCAL_SRC_FILES = \
@@ -36,8 +36,7 @@ LOCAL_CFLAGS += \
 
 ## Includes
 LOCAL_C_INCLUDES := \
-    $(TARGET_OUT_HEADERS)/qmi-framework/inc \
-    $(TARGET_OUT_HEADERS)/qmi/inc
+
 LOCAL_HEADER_LIBRARIES := \
     libloc_core_headers \
     libgps.utils_headers \

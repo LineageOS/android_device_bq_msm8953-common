@@ -228,6 +228,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-service-qti \
     libgnss \
     libgnsspps \
+    libloc_ds_api\
+    libloc_api_v02 \
     libcurl \
     gps.conf
 

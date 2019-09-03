@@ -3,8 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_PATH_32 := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR)/lib64
+LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SHARED_LIBRARIES := \
@@ -24,15 +23,21 @@ LOCAL_CFLAGS += \
     -fno-short-enums \
     -D_ANDROID_
 
+LOCAL_COPY_HEADERS_TO:= libloc_ds_api/
+
+LOCAL_COPY_HEADERS:= \
+    ds_client.h
+
 LOCAL_LDFLAGS += -Wl,--export-dynamic
 
 ## Includes
 LOCAL_C_INCLUDES := \
-    $(TARGET_OUT_HEADERS)/qmi-framework/inc \
-    $(TARGET_OUT_HEADERS)/qmi/inc \
-    $(TARGET_OUT_HEADERS)/data/inc \
-    $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
+    $(TARGET_OUT_HEADERS)/data/inc
+
+ifeq ($(TARGET_COMPILE_WITH_MSM_KERNEL),true)
+LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+endif
 LOCAL_HEADER_LIBRARIES := \
     libgps.utils_headers \
     libloc_pla_headers
