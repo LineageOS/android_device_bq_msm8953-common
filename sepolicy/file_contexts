@@ -11,3 +11,8 @@
 
 # Camera
 /data/vendor/qcam(/.*)?									u:object_r:vendor_camera_data_file:s0
+
+# Rootfs files
+/bt_firmware(/.*)?									u:object_r:bt_firmware_file:s0
+/firmware(/.*)?										u:object_r:firmware_file:s0
+
