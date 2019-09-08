@@ -139,7 +139,8 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     Snap \
-    libshims_camera
+    libshims_camera \
+    libshims_libui
 
 # mct_pipeline
 PRODUCT_COPY_FILES += \
