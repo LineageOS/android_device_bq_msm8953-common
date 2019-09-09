@@ -200,9 +200,6 @@ USE_SENSOR_MULTI_HAL := true
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
-
 # Shims
 TARGET_LD_SHIM_LIBS := \
     /vendor/lib/hw/camera.msm8953.so|libshims_camera.so \
