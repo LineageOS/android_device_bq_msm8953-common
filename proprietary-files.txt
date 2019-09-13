@@ -21,8 +21,9 @@ vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|d2174a2a4a680e93ee4262b5e
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 
-# AptX - from repo5
--vendor/app/aptxui/aptxui.apk|09f0a5c9551980f5d18665c3655339362737046d
+# AptX - from repo6
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
 
 # Audio - from repo5
 vendor/lib/libacdb-fts.so|7cd13af661145b99540e9ab1acbd0fb009bceca4
