@@ -16,9 +16,9 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
-# AptX - from repo6 - PH1-Images-QP1A.190711.107
-lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
-lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+# AptX - from repo6 - crosshatch-user-10-QP1A.190711.020.C3-5869620-release-keys
+product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Audio - from repo1 - motorola-river-10-QPU30.52-2-5ecf2
 vendor/lib/libacdb-fts.so|d5fdf813de0b3a501ddf1d22f6776b9f86b6ae19
