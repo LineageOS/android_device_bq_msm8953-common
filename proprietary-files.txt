@@ -654,19 +654,6 @@ vendor/lib64/vendor.qti.latency@2.0.so|4aaa4203b9122e280615adddff8f89f65962022e
 vendor/bin/hvdcp_opti|b07637e411710d3f973f62d4e4a1df75e4066236
 
 # DPM - from repo5
-bin/dpmd|800f2319955ded8213da63085bca7c9a6947538e
-etc/dpm/dpm.conf|fec89edb6cff81424a6c3a730fed92efa3613f72
-etc/init/dpmd.rc|52ca6ad920a1804e4ff608113cece063730f5e0c
-etc/permissions/com.qti.dpmframework.xml|36b94c9338069e434b83359a92cdc7ff62b822df
-etc/permissions/dpmapi.xml|ded29f9befaef20a7ccee0c75427fda1d1d04890
-framework/com.qti.dpmframework.jar|2a6ff555ebff148a508fc7ea2fbeaee4b9a2dff6
-framework/dpmapi.jar|89ddc5bf0c4c88a3f341169edc4d89f9e834337b
-lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
-lib64/libdpmctmgr.so|611642251e77a1ce8a4bc59beaf4213bfc0cef8a
-lib64/libdpmfdmgr.so|84a6916dff3b3608e9ac83106df651ba995ca704
-lib64/libdpmframework.so|07af858ba71ec9a2104b1183acf98ad3fdff8c6d
-lib64/libdpmtcm.so|db125f21d6f9da6afcb8956ba2eabae58cbeb30e
--priv-app/dpmserviceapp/dpmserviceapp.apk|d4ba830916e50e968bac4c6ac83f0743dff28aad
 vendor/bin/dpmQmiMgr|8fba550579de167a7fa5ce1bf7d6ed1abcf6bca0
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|05af4880ad4c633fe60750ff49525e62822585f7
 vendor/lib64/libdpmqmihal.so|d5d41ff3a4e7dbb6f12fa3152df1fcce96c54b55
