@@ -58,6 +58,9 @@ fi
 
 function blob_fixup() {
         case "${1}" in
+        product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
+                sed -i -e 's|xml version=\"2.0\"|xml version=\"1.0\"|g' "${2}"
+        ;;
         lib64/libwfdnative.so)
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
@@ -92,8 +95,11 @@ function blob_fixup() {
                 sed -i -e 's|^GTP_WIFI *=.*|GTP_WIFI=BASIC|g' "${2}"
                 sed -i -e 's|^NLP_MODE *=.*|NLP_MODE=4|g' "${2}"
         ;;
+        vendor/bin/netmgrd)
+                sed -i -e 's|qti_filter_ssdp_dropper|oem_filter_ssdp_dropper|g' "${2}"
+        ;;
         vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
-                patchelf --add-needed "libbase_shim.so"
+                patchelf --add-needed "libbase_shim.so" "${2}"
         esac
 }
 # Reinitialize the helper for ${device}
