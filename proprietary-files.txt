@@ -947,13 +947,15 @@ vendor/lib64/libqmiservices.so|842a1b61fad7dd34753e945ee2ada0fdc9589c09
 etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
 framework/embmslibrary.jar|980832af89ed59120b7362ddb56d3120bb6b2239
 
+# RIL - from repo6
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
+
 # RIL - from repo2
 -app/datastatusnotification/datastatusnotification.apk|ceafcce87298531a3adb13a87709a1fd65291625
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
 framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d1d3adfe6eff32a3013e146317324029181e3c4a
 vendor/etc/data/dsi_config.xml|c919c4a51978bdd54a5560d1f6c595e9d2f0c80f|f4861831fcb21d43e2a9ca12519155ebb8ac1407
 vendor/etc/data/netmgr_config.xml|bd3a9b684ccfdf42374c633959df1960f7bb24fc|97066d76dbfd358895c9d2c02723230cae6cfb1e
 vendor/bin/ATFWD-daemon|d8e8b853f33411504054eb965b1fb836544daee4
