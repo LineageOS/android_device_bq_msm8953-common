@@ -145,7 +145,7 @@ on boot
     setprop ro.telephony.call_ring.multiple false
 
     #enable camera read sensors data
-    setprop persist.camera.gyro.disable 0
+    setprop persist.vendor.camera.gyro.disable 0
 
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
@@ -461,16 +461,6 @@ on property:vold.decrypt=trigger_restart_framework
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
 
-service vendor.cnd /system/vendor/bin/cnd
-    class main
-    user system
-    group system wifi inet radio wakelock net_admin
-
-service vendor.dpmQmiMgr /system/vendor/bin/dpmQmiMgr
-    class main
-    user system
-    group radio system
-
 service vendor.irsc_util /vendor/bin/irsc_util "/vendor/etc/sec_config"
     class core
     user root
@@ -515,25 +505,6 @@ service vendor.port-bridge /system/vendor/bin/port-bridge
     user radio
     group radio system inet
     oneshot
-
-service vendor.netmgrd /system/vendor/bin/netmgrd
-    class main
-
-service vendor.ipacm-diag /system/vendor/bin/ipacm-diag
-    class main
-    user radio
-    socket ipacm_log_file dgram 660 radio radio
-    group radio diag oem_2901
-
-service vendor.ipacm /system/vendor/bin/ipacm
-    class main
-    user radio
-    group radio inet
-
-service vendor.dataqti /system/vendor/bin/qti
-    class main
-    user radio
-    group radio oem_2901 diag usb net_admin
 
 service vendor.sensors /vendor/bin/sensors.qti
     class core
@@ -680,11 +651,6 @@ on charger
 
 on property:init.svc.surfaceflinger=restarting
     restart vendor.hwcomposer-2-3
-
-service vendor.time_daemon /system/vendor/bin/time_daemon
-    class main
-    user root
-    group root
 
 #Set GPU Opengles version
 on property:vendor.opengles.version=*
