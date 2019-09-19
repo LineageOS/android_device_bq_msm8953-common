@@ -614,6 +614,7 @@ on property:ro.vendor.ril.mbn_copy_completed=1
 service vendor.qcom-c_main-sh /vendor/bin/init.class_main.sh
     class main
     user root
+    group root system
     oneshot
 
 service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
