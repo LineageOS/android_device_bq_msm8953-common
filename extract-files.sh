@@ -67,7 +67,7 @@ function blob_fixup() {
         lib64/libxt_native.so)
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
-        vendor/lib/libcam.vidhance.so)
+        vendor/lib/hw/camera.msm8953.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
         ;;
         lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
