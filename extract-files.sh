@@ -71,9 +71,9 @@ function blob_fixup() {
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
         ;;
         lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
-                patchelf --remove-needed libunwind.so "${2}"
-                patchelf --remove-needed libkeymaster1.so "${2}"
-                patchelf --remove-needed libsoftkeymaster.so "${2}"
+                patchelfv08 --remove-needed "libunwind.so" "${2}"
+                patchelfv08 --remove-needed "libkeymaster1.so" "${2}"
+                patchelfv08 --remove-needed "libsoftkeymaster.so" "${2}"
         ;;
         vendor/lib/libmmcamera2_iface_modules.so)
                 # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
