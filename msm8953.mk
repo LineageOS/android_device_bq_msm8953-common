@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# Add gapps
+ifeq ($(BUILD_WITH_GAPPS),true)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
+endif
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
