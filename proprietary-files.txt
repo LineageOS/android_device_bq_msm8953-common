@@ -1104,10 +1104,10 @@ lib64/vendor.qti.hardware.tui_comm@1.0.so|6481fad7709b890ca8b854bbc7f876ce63b9ea
 # USB
 etc/firmware/ice40.bin
 
-# Widevine - from repo5
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine|0c29d9ac41ec57bb44b969d3b8d9bf2c6be7dc0b
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
-vendor/lib64/libwvhidl.so|aedda339cf2d1a8961f0bd2ac9ec177a32a79b10
+# Widevine - from repo1
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
+vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # Wi-Fi
 vendor/bin/wcnss_service
