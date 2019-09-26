@@ -919,11 +919,22 @@ vendor/bin/pm-proxy|e5f8c69e8d231dd2665dc411b4e9d9e696c90187
 vendor/bin/pm-service|d9fefe2b7fec574ac4eb70a29303eeec819e449d
 vendor/lib64/libperipheral_client.so|c4b0cb11e908b234a54a9f212c42ff4c37e37391
 
-# Postprocessing - from repo2
+# Postprocessing - from repo1
 etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322|0bff16d681e75f203c1e11ff33afba82490e49b3
-framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
-vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
-vendor/lib64/libdisp-aba.so|2b9a85de013e956f1adfaf00146a865efb7077c4
+framework/com.qti.snapdragon.sdk.display.jar|495d45dd84a61e873a3d1176ab7741826e60d7f1
+vendor/bin/hw/vendor.display.color@1.0-service|6e022be0fe377ee51e144b34534a080b5cef3bcc
+vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|385f69158ffd75148210fcf08463383d5bbd9bd5
+vendor/bin/mm-pp-dpps|db24cda76f7b9405d723d0335fa510a2ff82eecf
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
+vendor/lib/libdisp-aba.so|1fd84e130410766d5b69e544c87a975e3a9be2dc
+vendor/lib/vendor.display.color@1.0.so|44286a776501df58222af2e0017f2593e8347639
+vendor/lib/vendor.display.postproc@1.0.so|76d4eea341375a3a31c84f10b5b120c4342bce93
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|7f801bcda42cff621cf786b63d1c3352cd189174
+vendor/lib64/libdisp-aba.so|31f3956d479405413c55be7973c0aea0fc62b93b
+vendor/lib64/vendor.display.color@1.0.so|a765db74a602a0789b7458ccfaed324c3736cd5c
+vendor/lib64/vendor.display.postproc@1.0.so|0f40f80c20906ff2076c548abc984c01209f24bb
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|123e00986f21e4af7bc107da4f3573f58460ca84
 
 # QMI - from repo2
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
