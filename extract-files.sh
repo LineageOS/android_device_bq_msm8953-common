@@ -58,6 +58,9 @@ fi
 
 function blob_fixup() {
         case "${1}" in
+        product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
+                sed -i -e 's|xml version=\"2.0\"|xml version=\"1.0\"|g' "${2}"
+        ;;
         lib64/libwfdnative.so)
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
