@@ -668,29 +668,21 @@ vendor/lib64/libdpmqmihal.so|903e732361dddd2dffdd3e9facf76180096710c8
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|09906c68dc0b5bf896766336079cd1e1a87559a6
 vendor/lib/libdpmqmihal.so|e68d0fa8c0de8b031b475c31080c607460d60719
 
-# DRM - Qualcomm Trusted Execution Enviornment - from repo5
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|40d42ec6fdb7b5a8e19de19a815d3055f65c6400
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|0f45238e7cc3052c33854f634627e146bf7ca521
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|13ae347ddb8d96f21750a7ecef565441c90b6416
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|492f0c24ebb64f9bbdb0f85fc08c239222a2f5fd
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|804029802ccef797eb342af3e09433609fa8b578
-
-# DRM and SEE - from repo5
-vendor/bin/qseecomd|a5f780b39c939af9ba7d2475ec56d46f30efcbc1
-vendor/lib/libQSEEComAPI.so|f3df1338303bf3200c072e295c8dda204811ac5f
-vendor/lib64/libGPreqcancel.so|19679b918e5dcce54f853b8019806cdb6d2da165
-vendor/lib64/libGPreqcancel_svc.so|a75a32d4cff28841783c0db222c08c618e52625b
-vendor/lib64/libQSEEComAPI.so|09b3b8a2d3582d1f7d9c62e5622d91c9277d0808
-vendor/lib64/libSecureUILib.so|deeaea4c64e55ad78e596b614c6edd4eb8e378e1
-vendor/lib64/libStDrvInt.so|2ef8b7752acba7f9e5658de541551ae294528c87
-vendor/lib64/libdrmfs.so|c44698989077b80009897cea1aa3b793e53f6994
-vendor/lib64/libdrmtime.so|e88599562d9c39f3ebad87f8c3a1ff0ae69f2eba
-vendor/lib64/libqisl.so|18c594b80a3eb7e1435985411457ef9fdeae862b
-vendor/lib64/librpmb.so|79b50a6afca71691b9521f5076d285a6b648a395
-vendor/lib64/libsecureui.so|27479da26b38ac23054a31f92a6f104fbd5f76d0
-vendor/lib64/libsecureui_svcsock.so|e52b8b7dd496148c81e7acf95b20aa3edcc34ae0
-vendor/lib64/libssd.so|e8a688dac8c3f5d74e18cf81b646de7469201055
+# DRM - Qualcomm Trusted Execution Enviornment - from repo1
+vendor/bin/qseecomd|d79a4cb59568c96051538d34bce08030ff74460e
+vendor/lib/libQSEEComAPI.so|bd7c6f1e8d3c17ccafc9fb3277c10d37eb2b5cb1
+vendor/lib64/libGPreqcancel.so|2955d61f145c3320819f334435c9baf6a2743fed
+vendor/lib64/libGPreqcancel_svc.so|a6ab5133ff3eb6d6deac7089ae48d7a178d932c4
+vendor/lib64/libQSEEComAPI.so|fb7be96182999587d97a036495053a3ebb4c3198
+vendor/lib64/libSecureUILib.so|229b12b644e0a6e473a2b19288d9681f8f85e3a9
+vendor/lib64/libStDrvInt.so|7cd68b54dfc076a475d2cad25d9cbcee9254c78a
+vendor/lib64/libdrmfs.so|e11b8e8bf02bdc2ea817e59800d8945ee2a24460
+vendor/lib64/libdrmtime.so|a15a6f30d4e1f11025a3d947991fe54e4c4a9178
+vendor/lib64/libqisl.so|cbf1d38899e7240b943cee8dec127fd8f55b02c1
+vendor/lib64/librpmb.so|001098ad903adc4d17d609b7afa044a2aa86aa16
+vendor/lib64/libsecureui.so|d6ed46e35f5b504e6261478782d6900c4358c9d1
+vendor/lib64/libsecureui_svcsock.so|289c97fa09c4c626bbbc4918108efd3a01932ae0
+vendor/lib64/libssd.so|c7f2ddb2e47d1a3d03ed04e15a883b3ecb8e0b70
 
 # Firmware
 etc/firmware/ilitek_i2c.bin
@@ -855,8 +847,9 @@ vendor/firmware/a506_zap.mdt|1f022eab3a86b1508b50eb5e62b635b980f0a256
 vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Keymaster - from repo5
-vendor/lib64/hw/keystore.sdm660.so:vendor/lib64/hw/keystore.msm8953.so|645881b7a2709dfce5d6b9be9df4659ec2ab0eac
+# Keymaster - from repo1
+vendor/lib/hw/keystore.msm8953.so|a10a63a4211a780ce499e27a635b8800e8e8c701
+vendor/lib64/hw/keystore.msm8953.so|e8dded3c500eb785d667ddc0d3010f5aac9cfcd6
 
 # Listen - from repo5
 vendor/lib/hw/sound_trigger.primary.sdm660.so:vendor/lib/hw/sound_trigger.primary.msm8953.so|adcbe96b52f5917b752909ce86c98c3898fde1ac
@@ -1226,8 +1219,8 @@ vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 # TUI - from repo5
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|46af5f8251016970c23aa1262bfd36b12d7c7ef3
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-lib/vendor.qti.hardware.tui_comm@1.0.so|56168090fa90b9f8888a2423fafb00b7414f72d8
-lib64/vendor.qti.hardware.tui_comm@1.0.so|6481fad7709b890ca8b854bbc7f876ce63b9ea72
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|56168090fa90b9f8888a2423fafb00b7414f72d8
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|6481fad7709b890ca8b854bbc7f876ce63b9ea72
 
 # USB
 etc/firmware/ice40.bin
