@@ -1,0 +1,2 @@
+# FM radio needs to set fm properties
+set_prop(system_app, fm_prop)
