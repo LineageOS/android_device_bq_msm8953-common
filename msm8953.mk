@@ -342,6 +342,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/pn5xx
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
