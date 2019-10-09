@@ -320,6 +320,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:system/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/configs/nfc/libnfc-qrd_default.conf:system/etc/libnfc-qrd_default.conf \
@@ -327,11 +328,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so
 
 PRODUCT_PACKAGES += \
+    vendor.nxp.hardware.nfc@1.2-service \
     com.android.nfc_extras \
-    NfcNci \
+    com.nxp.nfc.nq \
+    com.nxp.nfc.nq.xml \
+    libnqnfc-nci \
+    libnqp61-jcop-kit \
+    nfc_nci.nqx.default \
+    nqnfcee_access.xml \
+    nqnfcse_access.xml \
+    NQNfcNci \
     SecureElement \
-    Tag \
-    android.hardware.nfc@1.2-service
+    Tag
 
 # OMX
 PRODUCT_PACKAGES += \
