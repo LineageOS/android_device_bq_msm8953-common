@@ -70,9 +70,9 @@ persist.sys.camera.display.umax=1920x1080
 persist.sys.camera.display.lmax=1280x720
 camera.lowpower.record.enable=1
 camera.vidhance.reduction=0.6
-persist.camera.isp.clock.optmz=0
-persist.camera.CDS=off
-persist.camera.video.CDS=off
+persist.vendor.camera.isp.clock.optmz=0
+persist.vendor.camera.CDS=off
+persist.vendor.camera.video.CDS=off
 
 # CNE
 persist.vendor.cne.feature=1

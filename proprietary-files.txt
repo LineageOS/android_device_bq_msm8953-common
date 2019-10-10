@@ -94,23 +94,21 @@ vendor/bin/mm-qcamera-app
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libcam.beautyshot.so
 vendor/lib/libcam.vidhance.so
-lib/libdualcameraddm.so
+vendor/lib/libdualcameraddm.so
 lib/libhazebuster.so
 vendor/lib/libmpbase.so
 lib/libseemore.so
 lib/libseestraight.so
 lib/libtruescanner.so
-lib/libtrueportrait.so
 lib/libts_detected_face_jni.so
 lib/libts_face_beautify_hal.so
 lib/libts_face_beautify_jni.so
 vendor/lib/libvidhance.so
 lib64/libclearsight.so
-lib64/libdualcameraddm.so
+vendor/lib64/libdualcameraddm.so
 lib64/libhazebuster.so
 lib64/libseemore.so
 lib64/libseestraight.so
-lib64/libtrueportrait.so
 lib64/libtruescanner.so
 lib64/libts_detected_face_jni.so
 lib64/libts_face_beautify_hal.so
@@ -275,27 +273,21 @@ vendor/lib64/libscvePanorama.so
 vendor/lib64/libscvePanorama_lite.so
 
 # libjni
-lib/libjni_dualcamera.so
 lib/libjni_filtergenerator.so
 lib/libjni_hazebuster.so
 lib/libjni_makeupV2.so
-lib/libjni_optizoom.so
 lib/libjni_seestraight.so
 lib/libjni_sharpshooter.so
 lib/libjni_trueportrait.so
 lib/libjni_truescanner_v2.so
-lib/libjni_ubifocus.so
 lib64/libjni_clearsight.so
-lib64/libjni_dualcamera.so
 lib64/libjni_filtergenerator.so
 lib64/libjni_hazebuster.so
 lib64/libjni_makeupV2.so
-lib64/libjni_optizoom.so
 lib64/libjni_seestraight.so
 lib64/libjni_sharpshooter.so
 lib64/libjni_trueportrait.so
 lib64/libjni_truescanner_v2.so
-lib64/libjni_ubifocus.so
 
 # Camera actuators
 vendor/lib/libactuator_bu64297.so
