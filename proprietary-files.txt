@@ -71,6 +71,9 @@ vendor/etc/drc/drc_cfg_AZ.txt
 vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
+# Bluetooth
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|90d2fc19101efd821642f1fcfb6018a2f89dcfef
+
 # Bluetooth - from repo5
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
 lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
@@ -80,7 +83,6 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6c
 vendor/lib64/libbt-hidlclient.so|7d25d6082cb6fd8da40fc69f93c6341f8c1dead8
 vendor/lib64/libbtnv.so|455307c843e662f80dc876bbd1cd6fb472dfbe0e
 vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|89e79d8a0bdb72f4f12f63dff43637ed7c51fe21
 vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|73be971023b148198bdaa410167cba686b208d14
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
 

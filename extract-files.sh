@@ -92,6 +92,8 @@ function blob_fixup() {
                 sed -i -e 's|^GTP_WIFI *=.*|GTP_WIFI=BASIC|g' "${2}"
                 sed -i -e 's|^NLP_MODE *=.*|NLP_MODE=4|g' "${2}"
         ;;
+        vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
+                patchelf --add-needed "libbase_shim.so"
         esac
 }
 # Reinitialize the helper for ${device}
