@@ -132,7 +132,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    libbt-vendor
+    libbt-vendor \
+    libbase_shim
 
 # Boot control
 PRODUCT_PACKAGES += \
