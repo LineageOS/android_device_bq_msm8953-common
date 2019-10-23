@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "74f8ee0e_af1f1e39",
+        "filename": "rootdir/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 694,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-10-23T21:32:45Z",
+      "side": 1,
+      "message": "I don\u0027t think that this belongs to this change.",
+      "range": {
+        "startLine": 694,
+        "startChar": 4,
+        "endLine": 694,
+        "endChar": 48
+      },
+      "revId": "5f4b3f21f30e7c5dc5b4db01e32aed8b5eb18c05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
