@@ -1,10 +1,10 @@
 # ADSP - from repo5
 vendor/bin/adsprpcd|8b439846f016decb7519e5fd5cb2c86e192af036
-vendor/lib/libadsprpc.so|c43ced7450beed046477f9a218a26f101eac807f
-vendor/lib/libfastcvadsp_stub.so|a7507d95ebaee7f160bb5104b17bc96112726025
-vendor/lib/libfastcvopt.so|b5d2500307a72e7cd235891c316df71715256324
-vendor/lib64/libadsp_default_listener.so|d28ea3a0509c13ff75c700efe1107bb2d2481eb6
-vendor/lib64/libadsprpc.so|0718883ae28d988265e371cfcb62d5d831a6c342
+vendor/lib/libadsprpc.so|9f72804a8328f503c60ecf5673a833077fd658e1
+vendor/lib/libfastcvadsp_stub.so|611a898783fec54bf890b689f9f197ff9e6f3118
+vendor/lib/libfastcvopt.so|42709602b6247c40fc0757045260dcbb47ff95aa
+vendor/lib64/libadsp_default_listener.so|35d53fde1b2983ced8f0c03a8aa670d1199e5356
+vendor/lib64/libadsprpc.so|f01d470fe606407f0a0d71afcf0d61395f23754d
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|8305c614ebf13f84f15989631b8fdfdb9828d9be
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so|c240d45c3a5fc37b964c4adab06f4cb0bfda62f5
@@ -26,21 +26,21 @@ vendor/lib/rfsa/adsp/libvpp_svc_skel.so|2da97f61c1d14f1f9a38aecd8ab89a1f6fa8d991
 
 # Audio - from repo5
 vendor/lib/libacdb-fts.so|7cd13af661145b99540e9ab1acbd0fb009bceca4
-vendor/lib/libacdbloader.so|2105ba34a46cf6d1e7e48d16d7e73c866fc9b84b
+vendor/lib/libacdbloader.so|beb509fe5f015c3057502d65ff001b15e533d97e
 vendor/lib/libacdbrtac.so|6cfef1b6375d829f92e289c8d6ace2c0bebf6c0c
-vendor/lib/libadiertac.so|309ce38eb662f6b17edd0175c676e917a0baad40
+vendor/lib/libadiertac.so|85dfde39d1b756a065fa69d9edf4f067bd599310
 vendor/lib/libadm.so|d46260844e083581ba1f18e85a9cfb4bbb258159
-vendor/lib/libaudcal.so|eb323dd03b5312c5e56c2cfff700a204ef0819c3
+vendor/lib/libaudcal.so|24a001c781a94117a5039ae49685e2b7c9298544
 vendor/lib/libsurround_3mic_proc.so|f46a16389fae9a67d232552cdc5dba567d72d795
 vendor/lib/soundfx/libasphere.so|504dd71419302f4c49de59429c79f13710b713cf
-vendor/lib/soundfx/libqcbassboost.so|e1de5a483219ce852fa90b354d68b3d2cd157b23
-vendor/lib/soundfx/libqcreverb.so|0d90df1c1346159816110913f9d02be22a23fad5
-vendor/lib/soundfx/libqcvirt.so|b8277e79fa2617a215b20fd36c73ce9714309e9d
+vendor/lib/soundfx/libqcbassboost.so|ed2593ca63983bbff1317aba8828cdc789437c10
+vendor/lib/soundfx/libqcreverb.so|f0bd17753eb26fbf292746ca0ec80b94c5723251
+vendor/lib/soundfx/libqcvirt.so|991b835478eaf93353cf4dd8610cc6d8d8492e94
 vendor/lib64/libacdb-fts.so|4e4ae81c0cb8b24cf31e1c9a41cc01743cb96893
-vendor/lib64/libacdbloader.so|52d59775ecc1af8976434729e7eb0c0b6ed2a291
+vendor/lib64/libacdbloader.so|6fe525e1be725140a94a4374209f1e8be6cd0404
 vendor/lib64/libacdbrtac.so|6b24bb43a68f022ae3c9f96bf65e18301267b945
-vendor/lib64/libadiertac.so|0363a94acc930d9fc8a99cabe49636d84fb11655
-vendor/lib64/libaudcal.so|eb58a4c65efc67bd4ccb0ee12436ece0041ac999
+vendor/lib64/libadiertac.so|114f62bce78109ac0d3e3d5db6f5b02628ad86e8
+vendor/lib64/libaudcal.so|cad362802fe9ed7817bcfe5a9fd1513192f6aa2b
 
 # Audio ACDB
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -74,13 +74,13 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 # Bluetooth - from repo5
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
 lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|ddcced51721619952486cadc58c55bf5fc32edf6
-vendor/bin/wcnss_filter|46abb9cfea7bdc44e1ea46e0ac68e34a88c57a08
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8ef17375a2baa321619b7822ada3c76692c26441
+vendor/bin/wcnss_filter|426dece987988052c277baab3604b767e1a6ba49
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/libbt-hidlclient.so|7d25d6082cb6fd8da40fc69f93c6341f8c1dead8
 vendor/lib64/libbtnv.so|455307c843e662f80dc876bbd1cd6fb472dfbe0e
 vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|89e79d8a0bdb72f4f12f63dff43637ed7c51fe21
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|90d2fc19101efd821642f1fcfb6018a2f89dcfef
 vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|73be971023b148198bdaa410167cba686b208d14
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|e72205810d49a96b01edefc5e18e5c181a4555d2
 
@@ -650,7 +650,7 @@ vendor/lib64/vendor.qti.hardware.factory@1.1.so|1bf6d03e47d20df05725dff70c3723d0
 vendor/lib64/vendor.qti.latency@2.0.so|1b9583d7536064e4f37a4bfeb68f918eaddfee81
 
 # Charger - from repo5
-vendor/bin/hvdcp_opti|b07637e411710d3f973f62d4e4a1df75e4066236
+vendor/bin/hvdcp_opti|80dcf0b2ef18ba700332ccf8dde566598c17f3c4
 
 # DPM - from repo1
 vendor/bin/dpmQmiMgr|fd59518b55d5cc9ec677a7da9f0d4aad3f03d98a
@@ -717,7 +717,7 @@ vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 
 # FM - from repo5
 vendor/bin/init.qti.fm.sh|082855808539b2adf2e928e04cfda403ef84e1e3
-vendor/bin/fm_qsoc_patches|81bc19a078a5090b9227fd4e2e2c83e9351f554a
+vendor/bin/fm_qsoc_patches|a2345d6e106f69789c8691d4c93d96ce0e28cfa4
 vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
 
 # Gatekeeper - from repo1
@@ -860,7 +860,7 @@ vendor/lib/hw/keystore.msm8953.so|a10a63a4211a780ce499e27a635b8800e8e8c701
 vendor/lib64/hw/keystore.msm8953.so|e8dded3c500eb785d667ddc0d3010f5aac9cfcd6
 
 # Listen - from repo5
-vendor/lib/hw/sound_trigger.primary.sdm660.so:vendor/lib/hw/sound_trigger.primary.msm8953.so|adcbe96b52f5917b752909ce86c98c3898fde1ac
+vendor/lib/hw/sound_trigger.primary.sdm660.so:vendor/lib/hw/sound_trigger.primary.msm8953.so|6fe1bec5a36529ba6283168756ad141e603a0804
 vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
 vendor/lib/libsmwrapper.so|3926c3928c7276f34dd851798552f7433e86bbf5
 
@@ -906,18 +906,18 @@ vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2
 vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
 vendor/etc/perf/perfboostsconfig.xml|d9bed36c40f0333d7017fb0fbafe528680a392c7
 vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
-vendor/etc/perf/targetconfig.xml|b8a74f1ab750d01c5bcbc58cb91fcb8a
+vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
 vendor/etc/perf/targetresourceconfigs.xml|d9f9815764725df55e748bf4af4829e609dac853
 
 # Perf Energy Awareness - from repo1
-vendor/bin/energy-awareness|10846270f7ecff3df3aece2a256a851f
+vendor/bin/energy-awareness|538e9116b19a9baafa4cd1166d17ceba3d9c7323
 
 # Perf - from repo1
 product/lib/vendor.qti.hardware.perf@1.0.so|814d83b44640201cb1801d4f174449cb7176d234
 product/lib/vendor.qti.hardware.perf@2.0.so|04ce63e9085f9ccd9b4a67a902262bdf47469f84
 product/lib64/vendor.qti.hardware.perf@1.0.so|459bcba4e922ce22d4c907add2ca3bdabb3108c9
 product/lib64/vendor.qti.hardware.perf@2.0.so|9d82743db707784d33453322fa89a3ae63cf8f80
-vendor/bin/energy-awareness|d9b3f1cc791e0e9612a5ff5df6836af4c921a52b
+vendor/bin/energy-awareness|538e9116b19a9baafa4cd1166d17ceba3d9c7323
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|fc0c2162ae4042c47a6fbdc7f9f2a6ad4f4ddf3b
 vendor/bin/msm_irqbalance|13ed8694ff5afe07b6e984e5d4424cdcfaafa126
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|0101a3294311c2988060a00f7b25d8abf2f428f9
@@ -1199,22 +1199,22 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|e4d3a2ff11896050f4cf6493
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|44f0bd9af5018f33b0dda1f11e8bfa2444b7d895
 
 # Sensors - from repo5
-vendor/bin/sensors.qti|74f0ca497592ca0264a6fc3409e5652ca3d4e101
+vendor/bin/sensors.qti|469b11f9abdc346276facfd7bab473faa69cbfd8
 vendor/lib/hw/activity_recognition.sdm660.so:vendor/lib/hw/activity_recognition.msm8953.so|2617b625dd17327ef0757bf2a4ff6f784f86bb52
-vendor/lib/libsensor1.so|0f528a203f3f86241d28edbb041011aa3f815e5b
+vendor/lib/libsensor1.so|16e6d2dde56bed1de287f17c95e9e4a16e495524
 vendor/lib/libsensor_reg.so|164cb8511be6538d1d501f45515637f4730cf2d3
 vendor/lib/libsensor_user_cal.so|0b9ca5d535306161524e25462985af7366f53807
 vendor/lib/sensors.ssc.so|e572537869fd105792675ef1c076008911f11d83
 vendor/lib64/hw/activity_recognition.sdm660.so:vendor/lib64/hw/activity_recognition.msm8953.so|28144e3345f325da8c14650c3957b5013afdf02c
-vendor/lib64/libsensor1.so|7e8f8d1bd2bc589580fd8d9ad0aba04f0be10de8
+vendor/lib64/libsensor1.so|a88b80df8457cd00794855833f5a460930b2de05
 vendor/lib64/libsensor_reg.so|fecb7f07f8fa1b2d93d06fdeede60291f90505b1
 vendor/lib64/libsensor_user_cal.so|3bced9a81f97ef893c334c1264d144ff4c2ae788
 vendor/lib64/sensors.ssc.so|a88137c59fe8748e102fe3c78b0dbd82f5c16c60
 
 # Thermal - from repo5
-vendor/bin/thermal-engine|379fd42a1f90c5d273eeeb3c55520ad0564a16ac
-vendor/lib/libthermalclient.so|270ea373c617584af092dc4ea2aa1c7bf27be7f4
-vendor/lib64/libthermalclient.so|b55d542e7f137e3d715d90e222cfa0492648391b
+vendor/bin/thermal-engine|82c86b202829a46e55d0df69704fd98262e9b3c2
+vendor/lib/libthermalclient.so|dc66c8ba3a49842f090eb4d15d2143d68987367d
+vendor/lib64/libthermalclient.so|d54629444729a2c0ae2ee7105487013422252ecc
 vendor/lib64/libthermalioctl.so|d898099eb17b635701b95bff8f451e3f4c8daa53
 
 # Time services - from repo1
@@ -1225,7 +1225,7 @@ vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 -vendor/lib64/libtime_genoff.so|253aca0fe9ca844886b0ae80d9816f80017a1880
 
 # TUI - from repo5
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|46af5f8251016970c23aa1262bfd36b12d7c7ef3
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|ae9bb481948412cb63c9b37da1f2e56b9d910214
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|56168090fa90b9f8888a2423fafb00b7414f72d8
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|6481fad7709b890ca8b854bbc7f876ce63b9ea72
@@ -1244,8 +1244,8 @@ vendor/bin/wcnss_service
 # Wi-Fi - from repo5
 vendor/bin/fstman|ab572620e830241023374ea01b302ecd168d7bfe
 vendor/etc/wifi/fstman.ini|0583604009194da2c311adb80ef6c2fa9e3f4998
-vendor/bin/cnss-daemon|d825c9a5089586d40055769b5460ee1af94367ab
-vendor/bin/cnss_diag|cfe4b361a0d3ae880e702f0004ecc8cfb16c496c
+vendor/bin/cnss-daemon|e7be6d442920d55396dd963d9d06f96d818db664
+vendor/bin/cnss_diag|38740ea14aa40d2b431902f84070b776d42ecac9
 
 # Wi-Fi Display - from repo1
 bin/wfdservice|8c080c28f6d30260b4739afce397158416863ba4
