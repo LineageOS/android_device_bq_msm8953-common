@@ -16,6 +16,9 @@
 #define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.bq"
 #define LOG_VERBOSE "android.hardware.biometrics.fingerprint@2.1-service.bq"
 
+#define FINGERPRINT_SUNWAVE_HARDWARE_MODULE_ID     "swfingerprint"
+#define FINGERPRINT_CHIPSAILING_HARDWARE_MODULE_ID "csfingerprint"
+
 #include <hardware/hw_auth_token.h>
 
 #include <hardware/hardware.h>
@@ -214,28 +217,53 @@ IBiometricsFingerprint* BiometricsFingerprint::getInstance() {
 fingerprint_device_t* BiometricsFingerprint::openHal() {
     int err;
     const hw_module_t *hw_mdl = nullptr;
-    ALOGD("Opening fingerprint hal library...");
-    if (0 != (err = hw_get_module(FINGERPRINT_HARDWARE_MODULE_ID, &hw_mdl))) {
-        ALOGE("Can't open fingerprint HW Module, error: %d", err);
-        return nullptr;
+    const char *id = FINGERPRINT_HARDWARE_MODULE_ID;
+    int i=0;
+    hw_device_t *device = nullptr;
+    for (i=0; i<3; ++i) {
+            switch (i) {
+                case 0: id = FINGERPRINT_HARDWARE_MODULE_ID;
+                        break;
+                case 1: id = FINGERPRINT_SUNWAVE_HARDWARE_MODULE_ID;
+                        break;
+                case 2: id = FINGERPRINT_CHIPSAILING_HARDWARE_MODULE_ID;
+                        break;
+                default: id = FINGERPRINT_HARDWARE_MODULE_ID;
+            }
+
+            ALOGD("Opening fingerprint hal library %s...", id);
+            if (0 != (err = hw_get_module(id, &hw_mdl))) {
+                ALOGE("Can't open fingerprint HW Module, error: %d", err);
+                hw_mdl = nullptr;
+                continue;
+            }
+
+            if (hw_mdl == nullptr) {
+                ALOGE("No valid fingerprint module");
+                hw_mdl = nullptr;
+                continue;
+            }
+
+            fingerprint_module_t const *module =
+                reinterpret_cast<const fingerprint_module_t*>(hw_mdl);
+            if (module->common.methods->open == nullptr) {
+                ALOGE("No valid open method in module");
+                hw_mdl = nullptr;
+                continue;
+            }
+
+            if (0 != (err = module->common.methods->open(hw_mdl, nullptr, &device))) {
+                ALOGE("Can't open fingerprint methods, error: %d", err);
+                hw_mdl = nullptr;
+                continue;
+            }else{
+                ALOGD("Opening fingerprint hal library %s was successful", id);
+                break;
+            }
     }
 
     if (hw_mdl == nullptr) {
-        ALOGE("No valid fingerprint module");
-        return nullptr;
-    }
-
-    fingerprint_module_t const *module =
-        reinterpret_cast<const fingerprint_module_t*>(hw_mdl);
-    if (module->common.methods->open == nullptr) {
-        ALOGE("No valid open method");
-        return nullptr;
-    }
-
-    hw_device_t *device = nullptr;
-
-    if (0 != (err = module->common.methods->open(hw_mdl, nullptr, &device))) {
-        ALOGE("Can't open fingerprint methods, error: %d", err);
+        ALOGE("No valid fingerprint module found!");
         return nullptr;
     }
 
