@@ -718,8 +718,6 @@ lib64/libgoodixfingerprintd_binder.so
 lib64/hw/csfingerprint.default.so
 lib64/hw/fingerprint.default.so
 lib64/hw/swfingerprint.default.so
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 
 # FM - from repo5
 vendor/bin/init.qti.fm.sh|082855808539b2adf2e928e04cfda403ef84e1e3
