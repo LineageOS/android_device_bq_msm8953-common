@@ -1,3 +1,5 @@
+allow wcnss_service wifi_data_file:dir { search };
 allow wcnss_service sysfs_net:file rw_file_perms;
 allow wcnss_service sysfs_net:dir r_dir_perms;
 set_prop(wcnss_service, wifi_prop);
+get_prop(wcnss_service, cnss_prop);
