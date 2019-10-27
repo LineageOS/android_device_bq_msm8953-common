@@ -1,0 +1,2 @@
+dontaudit hal_audio_default default_prop:file r_file_perms;
+dontaudit hal_audio_default sysfs:dir r_dir_perms;
