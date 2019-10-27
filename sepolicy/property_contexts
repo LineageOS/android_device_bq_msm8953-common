@@ -1,2 +1,2 @@
 persist.cnss-daemon.debug_level u:object_r:cnss_prop:s0
-
+persist.vendor.wigig.npt.enable u:object_r:cnss_prop:s0
