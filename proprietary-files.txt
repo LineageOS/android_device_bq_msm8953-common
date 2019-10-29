@@ -1,10 +1,12 @@
+# ADSP - from repo1
+vendor/bin/adsprpcd|cae0d0a86d4c49210ca0d7f5f075543f925da29e
+vendor/lib/libadsprpc.so|369da8949bf40b544cc6352f5f7c989478a2a085
+vendor/lib/libfastcvadsp_stub.so|e1a47f372e8652f5cb96f3f9183c80076d74d543
+vendor/lib/libfastcvopt.so|135c4906db6df70bf643d963dc88ae8fe5a91458
+vendor/lib64/libadsp_default_listener.so|bb139681ee345ab837caf2dddc4c84641d95b55a
+vendor/lib64/libadsprpc.so|90fdd4cf7232349863cc4d29a834aa8825a30601
+
 # ADSP - from repo5
-vendor/bin/adsprpcd|8b439846f016decb7519e5fd5cb2c86e192af036
-vendor/lib/libadsprpc.so|9f72804a8328f503c60ecf5673a833077fd658e1
-vendor/lib/libfastcvadsp_stub.so|611a898783fec54bf890b689f9f197ff9e6f3118
-vendor/lib/libfastcvopt.so|42709602b6247c40fc0757045260dcbb47ff95aa
-vendor/lib64/libadsp_default_listener.so|35d53fde1b2983ced8f0c03a8aa670d1199e5356
-vendor/lib64/libadsprpc.so|f01d470fe606407f0a0d71afcf0d61395f23754d
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|8305c614ebf13f84f15989631b8fdfdb9828d9be
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_800h_skel.so|c240d45c3a5fc37b964c4adab06f4cb0bfda62f5
