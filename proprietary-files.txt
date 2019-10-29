@@ -1227,11 +1227,11 @@ vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 -vendor/lib/libtime_genoff.so|d140c8f7772f5218557193058eee8c34a7d0e19a
 -vendor/lib64/libtime_genoff.so|253aca0fe9ca844886b0ae80d9816f80017a1880
 
-# TUI - from repo5
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|ae9bb481948412cb63c9b37da1f2e56b9d910214
+# TUI - from repo1
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|06dc102cb8c3d86bdf45e960c40dea8cf5d716dd
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|56168090fa90b9f8888a2423fafb00b7414f72d8
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|6481fad7709b890ca8b854bbc7f876ce63b9ea72
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|685a9c0cebc15f5b8b3825fbcd7396d5b3c62385
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4b884ee86bd3796bf36ec47ceb8a7c53d26f5a42
 
 # USB
 etc/firmware/ice40.bin
