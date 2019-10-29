@@ -1201,18 +1201,18 @@ vendor/lib/vendor.qti.imsrtpservice@2.0.so|0f9ddab22abb67603d36223cc04e7d3920bad
 vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|e4d3a2ff11896050f4cf6493ab5f599a66f68e59
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|44f0bd9af5018f33b0dda1f11e8bfa2444b7d895
 
-# Sensors - from repo5
-vendor/bin/sensors.qti|469b11f9abdc346276facfd7bab473faa69cbfd8
-vendor/lib/hw/activity_recognition.sdm660.so:vendor/lib/hw/activity_recognition.msm8953.so|2617b625dd17327ef0757bf2a4ff6f784f86bb52
-vendor/lib/libsensor1.so|16e6d2dde56bed1de287f17c95e9e4a16e495524
-vendor/lib/libsensor_reg.so|164cb8511be6538d1d501f45515637f4730cf2d3
-vendor/lib/libsensor_user_cal.so|0b9ca5d535306161524e25462985af7366f53807
-vendor/lib/sensors.ssc.so|e572537869fd105792675ef1c076008911f11d83
-vendor/lib64/hw/activity_recognition.sdm660.so:vendor/lib64/hw/activity_recognition.msm8953.so|28144e3345f325da8c14650c3957b5013afdf02c
-vendor/lib64/libsensor1.so|a88b80df8457cd00794855833f5a460930b2de05
-vendor/lib64/libsensor_reg.so|fecb7f07f8fa1b2d93d06fdeede60291f90505b1
-vendor/lib64/libsensor_user_cal.so|3bced9a81f97ef893c334c1264d144ff4c2ae788
-vendor/lib64/sensors.ssc.so|a88137c59fe8748e102fe3c78b0dbd82f5c16c60
+# Sensors - from repo1
+vendor/bin/sensors.qti|e809bcc113c64a3f7e0e932c78ce126a21a53f97
+vendor/lib/hw/activity_recognition.msm8953.so|2926ee8d381093ac8b927dc1fc2d1bdeb3553feb
+vendor/lib/libsensor1.so|2cd782b835d873b47be13e877d9125adec3c3635
+vendor/lib/libsensor_reg.so|2e77af51165a286d2bfc2ba6036b99406ee86d06
+vendor/lib/libsensor_user_cal.so|c53d684ffd57204d1fdefcb998e7b08c4dd008be
+vendor/lib/sensors.ssc.so|29676c78fa8f0161199719429fb458b7388fd79b
+vendor/lib64/hw/activity_recognition.msm8953.so|8ae63edf03cb03418840ff630ba70070e1c56151
+vendor/lib64/libsensor1.so|3ed4b76636b16c3dda00ac667e5f4e1b7d7bd1c5
+vendor/lib64/libsensor_reg.so|0a2392f60de448db6f695dbff940ee5a64871652
+vendor/lib64/libsensor_user_cal.so|cc2778a18db99896330b3fda7af66eed3858507a
+vendor/lib64/sensors.ssc.so|4d3c69b464441939d4756581d096b10f47e6159a
 
 # Thermal - from repo5
 vendor/bin/thermal-engine|82c86b202829a46e55d0df69704fd98262e9b3c2
