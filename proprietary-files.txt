@@ -651,8 +651,8 @@ vendor/lib64/vendor.qti.hardware.factory@1.0.so|7a61c2d4acaf748934d154af3a6b8fe6
 vendor/lib64/vendor.qti.hardware.factory@1.1.so|1bf6d03e47d20df05725dff70c3723d0ac69f4f6
 vendor/lib64/vendor.qti.latency@2.0.so|1b9583d7536064e4f37a4bfeb68f918eaddfee81
 
-# Charger - from repo5
-vendor/bin/hvdcp_opti|80dcf0b2ef18ba700332ccf8dde566598c17f3c4
+# Charger - from repo1
+vendor/bin/hvdcp_opti|e57be6fdd1f65da46c209866778a87e1cb6a7a46
 
 # DPM - from repo1
 vendor/bin/dpmQmiMgr|fd59518b55d5cc9ec677a7da9f0d4aad3f03d98a
