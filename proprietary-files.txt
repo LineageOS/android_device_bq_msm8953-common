@@ -1243,11 +1243,11 @@ vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 # Wi-Fi
 vendor/bin/wcnss_service
 
-# Wi-Fi - from repo5
-vendor/bin/fstman|ab572620e830241023374ea01b302ecd168d7bfe
+# Wi-Fi - from repo1
+vendor/bin/fstman|7a3e5c1d01a3645357f3f07370c7c2220c0777a9
 vendor/etc/wifi/fstman.ini|0583604009194da2c311adb80ef6c2fa9e3f4998
-vendor/bin/cnss-daemon|e7be6d442920d55396dd963d9d06f96d818db664
-vendor/bin/cnss_diag|38740ea14aa40d2b431902f84070b776d42ecac9
+vendor/bin/cnss-daemon|067de86d712d51e80df6b7290941ade2a67addee
+vendor/bin/cnss_diag|aa97c493186dd0921633fece22e5a3b003932073
 
 # Wi-Fi Display - from repo1
 bin/wfdservice|8c080c28f6d30260b4739afce397158416863ba4
