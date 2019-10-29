@@ -715,9 +715,9 @@ lib64/hw/csfingerprint.default.so
 lib64/hw/fingerprint.default.so
 lib64/hw/swfingerprint.default.so
 
-# FM - from repo5
-vendor/bin/init.qti.fm.sh|082855808539b2adf2e928e04cfda403ef84e1e3
-vendor/bin/fm_qsoc_patches|a2345d6e106f69789c8691d4c93d96ce0e28cfa4
+# FM - from repo1
+vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
+vendor/bin/fm_qsoc_patches|e577afe0671ed604883282e5ce37ff8cddef2a39
 vendor/etc/init/init.qti.fm.rc|4f5459058debbea76991e69f8522126f6655fd3b
 
 # Gatekeeper - from repo1
