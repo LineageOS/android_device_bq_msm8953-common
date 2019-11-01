@@ -625,6 +625,7 @@ product/lib64/lib-imsvideocodec.so|dae8af6c82017fae5d234e60a623e4caa98a44c8
 product/lib64/lib-imsvtextutils.so|c8065a0ddf21c3ba9cffdc61c2b5b6488081b8be
 product/lib64/lib-imsvt.so|278dd3fe86d5f866f491f7f0ce7de6518407ad56
 product/lib64/lib-imsvtutils.so|8e9bba6bbad8e8e5d3cfa40831262db5c745e073
+product/lib64/libdiag_system.so|94564e5956a9df333858eac535395daa0a493d13
 product/lib64/vendor.qti.ims.callinfo@1.0.so|bf2a4a99c4ac33e3453e196e9961568b175f5b1e
 product/lib64/vendor.qti.ims.rcsconfig@1.0.so|3c009fdc33fe7ccfef9025c2911cec0ba9242516
 product/lib64/vendor.qti.ims.rcsconfig@1.1.so|e0f2ac53139a23c4d85e0bf9be7b3ce699967096
