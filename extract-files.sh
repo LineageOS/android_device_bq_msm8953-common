@@ -95,6 +95,9 @@ function blob_fixup() {
                 sed -i -e 's|^GTP_WIFI *=.*|GTP_WIFI=BASIC|g' "${2}"
                 sed -i -e 's|^NLP_MODE *=.*|NLP_MODE=4|g' "${2}"
         ;;
+        vendor/bin/netmgrd)
+                sed -i -e 's|qti_filter_ssdp_dropper|oem_filter_ssdp_dropper|g' "${2}"
+        ;;
         esac
 }
 # Reinitialize the helper for ${device}
