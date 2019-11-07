@@ -75,7 +75,7 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Bluetooth
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|90d2fc19101efd821642f1fcfb6018a2f89dcfef
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|33cf4801cf04eb665972933b24b8aa6fcd3d7265
 
 # Bluetooth - from repo5
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
