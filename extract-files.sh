@@ -99,7 +99,7 @@ function blob_fixup() {
                 sed -i -e 's|qti_filter_ssdp_dropper|oem_filter_ssdp_dropper|g' "${2}"
         ;;
         vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
-                patchelf --add-needed "libbase_shim.so"
+                patchelf --add-needed "libbase_shim.so" "${2}"
         esac
 }
 # Reinitialize the helper for ${device}
