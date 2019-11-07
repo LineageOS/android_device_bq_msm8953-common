@@ -73,6 +73,7 @@ camera.vidhance.reduction=0.6
 persist.vendor.camera.isp.clock.optmz=0
 persist.vendor.camera.CDS=off
 persist.vendor.camera.video.CDS=off
+persist.vendor.camera.fd_tuning=libchromatix_face_bardock.so
 
 # CNE
 persist.vendor.cne.feature=1
