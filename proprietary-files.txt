@@ -299,6 +299,7 @@ vendor/lib/libactuator_dw9763.so
 vendor/lib/libactuator_pseudo.so
 
 # Camera - Chromatix
+vendor/lib/libchromatix_face_bardock.so
 vendor/lib/libchromatix_imx298_4K_preview.so
 vendor/lib/libchromatix_imx298_4K_video.so
 vendor/lib/libchromatix_imx298_common.so
