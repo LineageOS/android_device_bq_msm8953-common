@@ -733,16 +733,6 @@ vendor/lib64/hw/gatekeeper.sdm660.so:vendor/lib64/hw/gatekeeper.msm8953.so|e8f32
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
 etc/permissions/com.qualcomm.location.xml|78b2c4d3f4d053f7d7b3e27a60a8d9e65ac583c3
 etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
-etc/permissions/privapp-permissions-com.qualcomm.location.xml|055fb40299c0a2340bb1b2c9be218a4d2c0f8c72
-framework/com.qti.location.sdk.jar|5af50f654d6174a726c0a57b5f32254e1a9d3016|e43fd7b151bf8055361cbd86ff9d025a30e8c1b6
-framework/izat.xt.srv.jar|586824fa7ebbf204e6f5d0a515fb572b00facc4c
-lib64/liblocationservice_jni.so|9e3e7e781ffcfa2ccfd9539db042ed4dd815a7f7|eebd0ce85be08fc8a2c927b78fcaea3cb19adc1b
-lib64/libxt_native.so|4f1063ec145b241d74b2178e2aadafa5c9b386b2|1d860b5399c2cc593188c6263f98d6b1935c00c6
-lib64/vendor.qti.gnss@1.0.so|4557a490b9aa4d441a3be56d457cbd08474ba6c6
-lib64/vendor.qti.gnss@1.1.so|bf52242012898264f90fff83691cfa2b65a72eb4
-lib64/vendor.qti.gnss@1.2.so|cd35adf4ae28884ec3f43a20a0ad7917225bcee0
-lib64/vendor.qti.gnss@2.0.so|d2c5cc47018ac4180db0354a35538395e5567fdd
--priv-app/com.qualcomm.location/com.qualcomm.location.apk|55903f25c632414b51fe3019980cb3db9738bc3a
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|145cafb57015f43c8c610a198b82370bc61e8626
 vendor/etc/izat.conf|ab435d1e93a6d1bdbcf344a29d2b2d633d35a381|59e87dded3846cccec147fd118691e37ced4db8e
