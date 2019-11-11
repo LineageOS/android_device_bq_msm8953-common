@@ -231,10 +231,6 @@ PRODUCT_PACKAGES += \
     libcurl \
     gps.conf
 
-# GNSS
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.overlay.izat.optin=rro
-
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ilitek_i2c.kl:system/usr/keylayout/ilitek_i2c.kl \
