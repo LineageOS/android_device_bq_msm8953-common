@@ -804,7 +804,7 @@ vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2
 
 # Perf Config - from repo4 - misc
 vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
-vendor/etc/perf/perfboostsconfig.xml|29dc3c5bab92524e92b1df4256c72a1abaca8ef8
+vendor/etc/perf/perfboostsconfig.xml|a11bb2da41dd1d54ecf07f8c4ec2d6bd7ffad38e
 vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
 vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
 vendor/etc/perf/targetresourceconfigs.xml|ec6d4d1df94d4f2dc2cc0acc2deddaaf76d0759f
