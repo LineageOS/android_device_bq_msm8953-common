@@ -423,7 +423,8 @@ PRODUCT_COPY_FILES += \
 
 # Qualcomm
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect
+    libqti_vndfwk_detect \
+    libvndfwk_detect_jni.qti
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
