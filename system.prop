@@ -82,8 +82,6 @@ persist.vendor.cne.feature=1
 ro.boot.usbconfigfs=true
 
 # Display
-#property to enable user to access Google WFD settings
-persist.debug.wfd.enable=1
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
 debug.sf.disable_hwc_vds=1
