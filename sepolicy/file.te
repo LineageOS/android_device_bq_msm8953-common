@@ -1,6 +1,10 @@
 # /proc
 type proc_swap, proc_type;
 
+#slub-debug
+type vendor_sysfs_slab_zshandle_storeuser, fs_type, sysfs_type;
+type vendor_sysfs_slab_zspage_storeuser, fs_type, sysfs_type;
+
 #
 type netmgr_data_file, file_type, data_file_type;
 type sysfs_gesture, fs_type, sysfs_type;
