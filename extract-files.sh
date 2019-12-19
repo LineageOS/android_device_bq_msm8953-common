@@ -100,6 +100,55 @@ function blob_fixup() {
         ;;
         vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
                 patchelf --add-needed "libbase_shim.so" "${2}"
+        ;;
+        product/framework/qti-telephony-common.jar)
+                set -e
+                APKTOOL_TMP_PATH=/tmp/apktool/qti-telephony-common.jar.out
+                rm -rf "$APKTOOL_TMP_PATH"
+                apktool d -o "$APKTOOL_TMP_PATH" "${2}"
+                patch -d "$APKTOOL_TMP_PATH" -p1 -E << EOF
+diff --git a/smali/com/qualcomm/qti/internal/telephony/QtiPhoneSwitcher.smali b/smali/com/qualcomm/qti/internal/telephony/QtiPhoneSwitcher.smali
+index a6008e9..1980edc 100644
+--- a/smali/com/qualcomm/qti/internal/telephony/QtiPhoneSwitcher.smali
++++ b/smali/com/qualcomm/qti/internal/telephony/QtiPhoneSwitcher.smali
+@@ -2267,7 +2267,7 @@
+     .line 319
+     iget v10, v0, Lcom/qualcomm/qti/internal/telephony/QtiPhoneSwitcher;->mPreferredDataPhoneId:I
+ 
+-    if-eq v8, v10, :cond_3
++    if-eq v8, v10, :cond_4
+ 
+     .line 320
+     const-string v10, " preferred phoneId "
+@@ -2289,24 +2289,6 @@
+     .line 323
+     const/4 v5, 0x1
+ 
+-    .line 326
+-    :cond_3
+-    invoke-virtual/range {p0 .. p0}, Lcom/qualcomm/qti/internal/telephony/QtiPhoneSwitcher;->isEmergency()Z
+-
+-    move-result v9
+-
+-    const/4 v10, 0x0
+-
+-    if-eqz v9, :cond_4
+-
+-    .line 327
+-    const-string v9, "onEvalaute aborted due to Emergency"
+-
+-    invoke-virtual {v0, v9}, Lcom/qualcomm/qti/internal/telephony/QtiPhoneSwitcher;->log(Ljava/lang/String;)V
+-
+-    .line 329
+-    return v10
+-
+     .line 332
+     :cond_4
+     if-eqz v5, :cond_f
+--
+EOF
+               apktool b -o "${2}" "$APKTOOL_TMP_PATH"
+        ;;
         esac
 }
 # Reinitialize the helper for ${device}
