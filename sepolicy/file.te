@@ -1,5 +1,5 @@
 # /proc
-type proc_swap, fs_type;
+type proc_swap, proc_type;
 
 #
 type netmgr_data_file, file_type, data_file_type;
