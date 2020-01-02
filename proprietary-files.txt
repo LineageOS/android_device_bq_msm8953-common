@@ -1128,7 +1128,7 @@ vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 vendor/lib64/libthermalioctl.so|24b22582f3f77769c5fbca06fcc1d3b6533cdf40
 
 # Time services - from repo1 - motorola-river-10-QPU30.52-2-5ecf2
--vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
+-vendor/app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|f3cba3917bf7b63c121032477e12978a0384bcc0
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|b6e2593eb50be2b1e6544b3f2763d138bfa291e4
