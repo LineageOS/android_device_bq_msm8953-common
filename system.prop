@@ -149,6 +149,9 @@ vendor.vidc.dec.downscalar_height=1088
 vendor.vidc.disable.split.mode=1
 vendor.vidc.enc.disable.pq=true
 
+# Network manager
+persist.vendor.data.iwlan.enable=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.qti.am.reschedule_service=true
