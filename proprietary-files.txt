@@ -1224,7 +1224,7 @@ vendor/lib/libthermalclient.so|888f948750aac721b27b44c7c53bee5e81924390
 vendor/lib64/libthermalclient.so|63f08a26d8b11d5ed33a9d01d99729b62595182b
 
 # Time services - from repo1
--vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
+-vendor/app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
 vendor/bin/time_daemon|1a65b0cb7d6953b07820bb012550f73f16898796
 vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 -vendor/lib/libtime_genoff.so|d140c8f7772f5218557193058eee8c34a7d0e19a
