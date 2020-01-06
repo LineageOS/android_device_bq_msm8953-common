@@ -19,8 +19,10 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
-    Fence.cpp
+    Fence.cpp \
+    DisplayEventReceiver.cpp
 
+LOCAL_SHARED_LIBRARIES := libgui
 LOCAL_MODULE := libshims_camera
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_TAGS := optional
