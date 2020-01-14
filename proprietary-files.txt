@@ -1,3 +1,7 @@
+# RIL - from repo1
+system/lib64/vndk-29/android.hardware.radio.config@1.1.so:vendor/lib64/android.hardware.radio.config@1.1_shim.so|75575c4161cee8390542c1cdd7e1bc78433acc26|ce7e84319c9a637a84924bbd02d785af6b071ea0
+-product/app/QtiTelephonyService/QtiTelephonyService.apk|9758fbbaa7b2a18c01a32200b3a86a4dbc798d3c
+
 # ADSP - from repo1
 vendor/bin/adsprpcd|cae0d0a86d4c49210ca0d7f5f075543f925da29e
 vendor/lib/libadsprpc.so|369da8949bf40b544cc6352f5f7c989478a2a085
@@ -75,7 +79,7 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Bluetooth
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|33cf4801cf04eb665972933b24b8aa6fcd3d7265
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
 # Bluetooth - from repo5
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|6c71dbac03cae6bbf2c6b0a9e9e6b2d77f890a3a
@@ -1008,6 +1012,7 @@ etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
 framework/embmslibrary.jar|980832af89ed59120b7362ddb56d3120bb6b2239
 
 # RIL - from repo1
+system/lib64/vndk-29/android.hardware.radio.config@1.1.so:vendor/lib64/android.hardware.radio.config@1.1_shim.so|75575c4161cee8390542c1cdd7e1bc78433acc26|ce7e84319c9a637a84924bbd02d785af6b071ea0
 -product/app/QtiTelephonyService/QtiTelephonyService.apk|9758fbbaa7b2a18c01a32200b3a86a4dbc798d3c
 product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
@@ -1023,6 +1028,7 @@ vendor/bin/port-bridge|3e13f94cb346fd119c3752e97905869f99de4740
 vendor/bin/qti|24ee326284a9bde051ad2b4c76671ba59532b2db
 vendor/bin/rmt_storage|521d01f1fc59b894fbf7067b5f1958721f60e987
 vendor/bin/tftp_server|f2c20f6e679802f334bda93e1edfaff7e45a5f45
+vendor/bin/hw/qcrild|81eb6798900284293c14019d2aae5d9d65ad6f4a
 vendor/bin/qrtr-cfg|caebe31778d4334c19b1ef7fde225e5cc37f2b19
 vendor/bin/qrtr-lookup|d05338a5cace4f10f7909401b9f60c7b2b4a0e69
 vendor/bin/qrtr-ns|f10c5cdbce796100f59c94fae77e1efb76fcbecf
@@ -1033,6 +1039,7 @@ vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/ipacm-diag.rc|cacc1fce2e7123f6fdcaa408e66c3dfb9870f1bf
 vendor/etc/init/netmgrd.rc|fd3457c69a9fab11b87d0d1b494188fe089684cd
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
+vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/lib64/libconfigdb.so|6dca0834a7d81622ed0e8f6b281a3cee4239fff8
 vendor/lib64/liblqe.so|5e9e363f8aaed97eac060c9124d2e6c2d2c8117b
 vendor/lib64/libmdmdetect.so|430d54d6528c5fe87935b62ad55d453f02c5bea3
@@ -1048,7 +1055,7 @@ vendor/lib64/libqmiservices.so|732cd96437f74cd45d04dd734a8d05927f9ac72d
 vendor/lib64/libqrtr.so|0bca70669b565a6b83e57fa029337e9559fb9b22
 vendor/lib64/libqsocket.so|7a2b9cbf3226af9702e9df51147558b2ef3f59da
 vendor/lib64/libqti_vndfwk_detect.so|066445cd1ec589f1f99413b68458f90bc6b42eb6
-vendor/lib64/libril-qc-hal-qmi.so|07558713eef625303ecce8c2cef01776fe09e991
+vendor/lib64/libril-qc-hal-qmi.so|07558713eef625303ecce8c2cef01776fe09e991|72b424ac487d483621282412002b6aca3ddeaf33
 vendor/lib64/libril-qc-ltedirectdisc.so|0066a6c5e3f94b7f4121b618abba24edebf76725
 vendor/lib64/libril-qc-qmi-1.so|ace38aac7264c38ae34ef31ac4bd63456341c736
 vendor/lib64/libril-qc-radioconfig.so|4fac7ad3b21464f557a9d03ca7abe5c3e7a8b9d5
@@ -1056,6 +1063,8 @@ vendor/lib64/libril-qcril-hook-oem.so|ea30a67747794f9010b45ce1e28f60b8cb35c084
 vendor/lib64/librilqmiservices.so|4a8489afc835d0acc37fd8a4952bd68a034d6be9
 vendor/lib64/libsettings.so|646b25f294c17f40f2933d9270f5de442b9a84e4
 vendor/lib64/libsystem_health_mon.so|98d53132d254c5f9ec2a6f55d75884e79a4528a9
+vendor/lib64/qcrild_librilutils.so|3ba7d225e19c367b9e3e51756a9cde0719b96ab0
+vendor/lib64/libqcrilFramework.so|05ac71ec2badad8e7aac2427e5cfb1e7d22e4659
 vendor/lib64/qtibus.so|e2c67c33f5b791eef23f85c115e759be7fa39d2a
 vendor/lib64/qtimutex.so|33571806aab06aaeb639c8ee0406506bfc9303c2
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|aed939536eac405934164fb38d747b695ee93e5a
@@ -1154,6 +1163,7 @@ vendor/etc/init/imsdatadaemon.rc|29face37c174aebcd1358f7d7ad0bd4baf83063b
 vendor/etc/init/imsqmidaemon.rc|dda16d842b7c65296e97bc9921b723a43b152ba3
 vendor/etc/init/imsrcsd.rc|2dc42ff6e4b6dd389bd3bc9a7af30dec2f1a45df
 vendor/etc/init/ims_rtp_daemon.rc|b3c3a380204d7b1b3a58937db8c8e76c00ac8825
+vendor/etc/permissions/android.hardware.telephony.ims.xml
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so|aab4f02a255884552489f36d9f73a66e61218f39
 vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so|ca69fcbb858beb259ca195a94fc6221423a4aab8
 vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so|34b6fc416e711dae56cff318331068a599b5619f
