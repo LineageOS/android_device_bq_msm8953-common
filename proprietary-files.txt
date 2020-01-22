@@ -1105,7 +1105,7 @@ vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|fc076cfac0c680a614e29eff
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|bce5af543e08c9e77f9ad9c0d3024ae336f9fe43
 
 # RIL TC - from repo8 - cmi-qssi-user-11-RKQ1.200710.002-V12.1.2.0.RJACNXM-release-keys
-system_ext/framework/qti-telephony-common.jar|dbed34315fa8745bd22f758d1173924bf3cdfa9c
+system_ext/framework/qti-telephony-common.jar|6fab39f3bb691c64fb56bc1b9244f517c470bb5c
 
 # Sensors - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/sensors.qti|d0afb37317ac08b21b45048759c700439a3560a4
