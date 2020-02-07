@@ -527,7 +527,7 @@ vendor/lib64/libpdnotifier.so|d83c75a6c3833cd8379e05177a4f14191e15282c
 vendor/lib64/libqcrilFramework.so|da3c0216ddad60f48b1fc90b31a6d6d1114e95be
 vendor/lib64/libqrtr.so|6f7abe88e19e44f6b933de1cac0c7a3437318f04
 vendor/lib64/libqsocket.so|391748e46f7dbbf267dbc5a5c89f0d2a8b4fca4e
-vendor/lib64/libril-qc-hal-qmi.so|76975245677f3659a771db104e03c0ab2baf7762|65f46bf3f8ccf39797737b56769ba89deff71ed1
+vendor/lib64/libril-qc-hal-qmi.so|164f533f31572d1116548352aed7cd0b37a03e48
 vendor/lib64/libril-qc-logger.so|ee79a6c722389ac5cec23348e6f484f093f38896
 vendor/lib64/libril-qc-ltedirectdisc.so|c278b3a5403b6c96019645663f21f583dfcee33d
 vendor/lib64/libril-qc-radioconfig.so|bace202544a957425eb36946bd3b2f931daf6f76
