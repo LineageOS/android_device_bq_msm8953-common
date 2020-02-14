@@ -201,67 +201,76 @@ vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 vendor/lib/hw/gatekeeper.msm8953.so|c153dbbd2c31ccee8633837961ce79909257af04
 vendor/lib64/hw/gatekeeper.msm8953.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 
-# GPS - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
-vendor/bin/slim_daemon|8e39f5a44bd68d2adfa98fa3fa1f1213915da6dc
+# GPS - from repo8 - pnx_sprout-PNX_00WW_FIH-user-11-RKQ1.200906.002-00WW_6_100-release-keys
+vendor/bin/slim_daemon|102d6b5b4f8748cb5579056d8c3ec49a72e57009
 
-# GPS - from repo7 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
-etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
-etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
-etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
-lib/libcurl.so|d55f7964ef2ed8845be7620402fdffbfd79deec2
-lib64/libcurl.so|a464bc234327aa73cc71b8c6372166cd08863f1b
+# GPS - from repo8 - pnx_sprout-PNX_00WW_FIH-user-11-RKQ1.200906.002-00WW_6_100-release-keys
+system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
+system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
+system_ext/etc/permissions/izat.xt.srv.xml|e7dddfa669a19e5f300641f695f563fdf22897c0
+lib/libcurl.so|c8c06dbf17799c49e8eb40d3c36391962bac7554
+lib64/libcurl.so|7b37af9011dff0142750ce6696ac1f8c7acf4231
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
-vendor/etc/izat.conf|5ffb094261e68246149dac5c6f564e0c3d783ad9|2c4b437c9346b78bdb7e8feb1b071abb795eff36
-vendor/etc/lowi.conf|1e47a73803542661b9a4c42cc8dfa576ae03a9a2
-vendor/etc/sap.conf|afbcbacb367b2fcc05efcad76ef096d794e768ba
+vendor/etc/izat.conf|4911ce6f9aab3b48f7923b11f2cf7f0a10738138|a93927c8ab8bc967d90a34e4358364cab8ec6aed
+vendor/etc/lowi.conf|b8774138f3b856883528608e19275d050ab7d263
+vendor/etc/sap.conf|b5ea86d9d9ee36dc13194474d343dae36f6fa032
 vendor/etc/xtwifi.conf|ac2189707c0016c31846ccec73e8857d7f566605
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
-vendor/bin/garden_app|666cbf8b4dcc31b84aa62d374fc3f662f5347a71
-vendor/bin/hw/android.hardware.gnss@2.0-service-qti|8c679afa2f2c19afab0aecbd57efad1a7c3e1e4f
-vendor/bin/loc_launcher|9623f5f96bd262abc5c883610feca43a5ab214b3
-vendor/bin/lowi-server|f6491867cd28b2091bf129bcdc7b6ee7507fd959
-vendor/bin/xtra-daemon|5356e80bcbe07d4c62e3dca93b9b4b6e3c18c264
-vendor/bin/xtwifi-client|50be56d5dfb3956ece85e9fe7abf51bf4bf1f03c
-vendor/bin/xtwifi-inet-agent|b738b9d19afff4e8c317e2dfedd3ae3668a68caa
-vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f5415c41d8a53bb12b73a
--vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|38f9da1e2592897822b056a5ba5087cf6d437249
--vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
-vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|2c39aa378bd01d3a726fc2d91a4935e071d03739
-vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|061f23e92d192749b9cb6d98badb63395ebda333
-vendor/lib64/libbatching.so|08186857e93b602823711284f89b5a0d1204588e
-vendor/lib64/libdataitems.so|50792325ec5abea18e6711c832636e0a8f52260f
-vendor/lib64/libgdtap.so|e8cf7c00034886590ddb243327221006fcce1239
-vendor/lib64/libgeofencing.so|3397971c7d90345a73e092b534768a3c17e2ce75
-vendor/lib64/libgnsspps.so|8e74447368d804c983950185fb565d22e0d7c769
-vendor/lib64/libgnss.so|526ee2adcb0510630102a439e677ac63ddd8f5f7
-vendor/lib64/libgps.utils.so|fdb26ebec7b9b2a794ff28ebd71f6906d2dfaa5a
-vendor/lib64/libizat_client_api.so|2343abbe03743adb24a79762feb89a2174b9b838
-vendor/lib64/libizat_core.so|033cb4027b627f4d790519a0e2209a29c3dc8a94
-vendor/lib64/liblbs_core.so|53e033f1c7981d17779df9607e4c4ee4a6ec3074
--vendor/lib64/libloc_api_v02.so|d8e51423d6af13f9130284d953c14e025171ba4a
-vendor/lib64/liblocation_api.so|06f41770d259396c5d50a7a0f8ae31f80aa0ad87
-vendor/lib64/liblocationservice_glue.so|6634e01574df3dfefc6584af7dbe5cd09294c45f
-vendor/lib64/liblocationservice.so|70a5df0755b59389eaa97e7d19b68944cc0b6c8a
-vendor/lib64/libloc_core.so|4ff6f01dccde6dc84bbe6aec7d5752f34c0b18fa
-vendor/lib64/liblowi_client.so|bdc72f191fb383661838b611d18d9fefdec4157c
-vendor/lib64/liblowi_wifihal.so|d628c63dbd4ce14a958989ce52cd58abe2dea84d
-vendor/lib64/libqdma_file_agent.so|80c6afee744cb147f30a2b971fff1638a7c0c4e2
-vendor/lib64/libslimclient.so|b45331688acd32a36521161d96b92a9721e3b93d
-vendor/lib64/libxtadapter.so|a5480ea172e71182ed9ce9a0b434836498643413
-vendor/lib64/vendor.qti.gnss@1.0.so|cab0039ed66d87772a5ba6617c39c5ccd0e3f1b2
-vendor/lib64/vendor.qti.gnss@1.1.so|f42d12f0787564b0b80f505d36429004714ef893
-vendor/lib64/vendor.qti.gnss@1.2.so|28d3dadb2b02fd99829062caece8e56c113027d9
-vendor/lib64/vendor.qti.gnss@2.0.so|d567ea796a3f8758365ce5fd2a7294db1a7e1544
-vendor/lib64/vendor.qti.gnss@2.1.so|96c599aeef751258262a5480e69d78a3476062a8
-vendor/lib64/vendor.qti.gnss@3.0-service.so|e799172a7113a35b1f17a8c5999713286c104d11
-vendor/lib64/vendor.qti.gnss@3.0.so|07ae1f9907a85d9adfb99be04b8c4d1497dbece0
-vendor/lib/vendor.qti.gnss@1.0.so|6adc76870e1138b06dbfd00689d896b773ed9269
-vendor/lib/vendor.qti.gnss@1.1.so|d311b1f6dee2e8e3c395c583d463a3609a0cac71
-vendor/lib/vendor.qti.gnss@1.2.so|962e8abcb1850c21db97d82e9f3d2cd1b004f0d3
-vendor/lib/vendor.qti.gnss@2.0.so|fd0a70fe2f9a1b8a210f8998688f30da08dbc8b4
-vendor/lib/vendor.qti.gnss@2.1.so|83bf3df80b873bb5a90bbe0b2a4e9dc9b7fe0d80
-vendor/lib/vendor.qti.gnss@3.0.so|0a0acec0d1390c811771293a7ad2efadb1f59bf6
+vendor/bin/garden_app|bcb8e4d63c6f5f5fd9a31018c2f02f50f2ca9a7b
+vendor/bin/hw/android.hardware.gnss@2.1-service-qti|bd3d5174f69cf65047c8d8b159554515b0f3d022
+vendor/bin/loc_launcher|bf13787d95c2fec6fadb2552fa63b12ab606575c
+vendor/bin/lowi-server|1898971a9a10d8a849a436e1bcbf1ab60b8ac0de
+vendor/bin/xtra-daemon|5cfbfc2ba4e9f18e966987662471c5bfa737dcaa
+vendor/bin/xtwifi-client|442e0c8166eea0a0d6cfd9432f945faa59c34d80
+vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
+vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
+-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so|6e4305828e4d42111aaa28167f0d260bfa13b83d
+vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so|b94476f03424846bcf2bcecbf290d992a5cdbc09
+vendor/lib64/libbatching.so|eafd89f91d275c9946a66f0f322ea4c0fa1cc5d0
+vendor/lib64/libdataitems.so|f13cb93394d8aae1eef85c4730b5c8f9ace092a9
+vendor/lib64/libcdfw.so|cfd91b5f028f9ab050f15f265f60f52cca7e42ad
+vendor/lib64/libcdfw_remote_api.so|2939e767c15fd965322d6e11045fa3fb851b29d4
+vendor/lib64/libqcc_file_agent.so|ddfc0babc52ab12b6b159b36505bc0b5ef460a0a
+vendor/lib64/libgdtap.so|510075724d368816c89a5f9e76b2529484e03d36
+vendor/lib64/libgeofencing.so|a6fffe98ddc82de53cf353c4f3fca602702a8330
+vendor/lib64/libgnsspps.so|f8b2e3f70d4e51982b061dcd6d26a6ead45b4900
+vendor/lib64/libgnss.so|cfd6a2f021e63a1a47346b6f46bdbb916e7d9b43
+vendor/lib64/libgps.utils.so|e178821db6e45204310da49b173eb0f63a4f56f0
+vendor/lib64/libizat_client_api.so|c4bab8714a378aa5773a24c78d7b7af09437dc47
+vendor/lib64/libizat_core.so|aecb6d3f4ceba32a4524cb086afc39f13fd1e69f
+vendor/lib64/liblbs_core.so|783ea543eb99f612f8000d48c298cf26146277df
+-vendor/lib64/libloc_api_v02.so|2a98b16df385a6b73f93b86974b63fb318d58761
+vendor/lib64/libloc_socket.so|10a385d643babf67edaab4a616987bd16212bb7f
+vendor/lib64/liblocation_api.so|fe3a227e511bfd52a6c52efae64ac32cfc492669
+vendor/lib64/liblocationservice_glue.so|d08f9e61fc5f731b224692f434cf43a4aa2b6eb8
+vendor/lib64/liblocationservice.so|b1553eb7c02451d7570d0e91bf33be91d8cdb7ff
+vendor/lib64/libloc_core.so|107da3079c22d9505d3737033bab1e22c3005f53
+vendor/lib64/liblowi_client.so|fd5cb6bb1c4eaacf3ef8a93e083d37d117137096
+vendor/lib64/liblowi_wifihal.so|db68a6c99c2fb8315d5f7a6954cdcb894a7de8ad
+vendor/lib64/libqdma_file_agent.so|f86c29c4a23558be984248b512ccf4b1de672946
+vendor/lib64/libslimclient.so|4ef9783dfa3c3815b7a3caa6b634de5158a866be
+vendor/lib64/libxtadapter.so|453f9095f8979213c5bec9de73b1b7c6d085e265
+vendor/lib64/vendor.qti.gnss@1.0.so|7d6828171016def19f56c6986b2ce1d08fe3ec57
+vendor/lib64/vendor.qti.gnss@1.1.so|786e0626473bdee3e55c9f5f34ee0f1c21a08f5d
+vendor/lib64/vendor.qti.gnss@1.2.so|e0b46a905d1aa17b6667bcbec42bce60a03129c1
+vendor/lib64/vendor.qti.gnss@2.0.so|60f8a7f1cfd27da6394373e9b34e733b3701ad04
+vendor/lib64/vendor.qti.gnss@2.1.so|391a0e7bdd477ba519aaddc1b0711840e3362dc8
+vendor/lib64/vendor.qti.gnss@3.0.so|b67a1ff507cfb4165a9dc970dc54aa26cc731e6f
+vendor/lib64/vendor.qti.gnss@4.0.so|7d343c73e6720434045cc38ea0e570ae9d03cd51
+vendor/lib64/vendor.qti.gnss@4.0-service.so|3c75d133af5193436167380aa89abcf05d079968
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|19a1f7ffb8118c207aa8cb2318996605771c339a
+vendor/lib/vendor.qti.gnss@1.0.so|b514e1d781b9408ac94436c439fa3da22be7b72c
+vendor/lib/vendor.qti.gnss@1.1.so|542572f61057f6a0e3484dd5c2cffa55b1a58f30
+vendor/lib/vendor.qti.gnss@1.2.so|c828525a8a18ba121cea03277dbfe2903b995c8b
+vendor/lib/vendor.qti.gnss@2.0.so|05bffd6d5aee75d3e9a0f22c69812f34acb09eb3
+vendor/lib/vendor.qti.gnss@2.1.so|107d8b865f2e96da8958c365d557c9d01fa30c34
+vendor/lib/vendor.qti.gnss@3.0.so|6978e91dddcb88f415c35ffeb37a9c55d9a3268d
+vendor/lib/vendor.qti.gnss@4.0.so|fa07168d9a64393efee9b8b6eeae705e34565d23
+vendor/lib/vendor.qti.gnss@4.0-service.so|981cb921a5cdf66fd6b4af854e2e817c2e4a9fdc
+vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so|cbf8c380f74d18def7f9dbe466ac213270d3ba7e
 
 # Graphics - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
@@ -418,11 +427,11 @@ vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
 vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 
-# Peripheral manager - from repo2 - casuarina_rus-user-10-QKQ1.200311.002-V430E_RUS_U_B2_201013
-vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd
-vendor/bin/pm-service|fa484756ab4dc2f74871eb24dd8a01750a755c6c
-vendor/lib/libperipheral_client.so|022054d6b2428c5f505e812b55628555420e40a1
-vendor/lib64/libperipheral_client.so|0afe9a901303a7206e2e8ad7ae3e35779d1dbfb5
+# Peripheral manager - from repo8 - pnx_sprout-PNX_00WW_FIH-user-11-RKQ1.200906.002-00WW_6_100-release-keys
+vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
+vendor/bin/pm-service|28f5e8d8f98c8e97941f514bafdc0b369cc5b600
+vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
+vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
 
 # Postprocessing - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
 vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
