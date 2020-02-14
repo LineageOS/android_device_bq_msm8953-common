@@ -77,6 +77,9 @@ function blob_fixup() {
         vendor/lib/hw/camera.msm8953.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
         ;;
+        vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc)
+                sed -i -e '$a\\    capabilities NET_BIND_SERVICE' "${2}"
+        ;;
         lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
                 patchelfv08 --remove-needed "libunwind.so" "${2}"
                 patchelfv08 --remove-needed "libkeymaster1.so" "${2}"
