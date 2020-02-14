@@ -235,6 +235,12 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
    user root
    group system wakelock
 
+#pd-mapper
+service vendor.pd_mapper /vendor/bin/pd-mapper
+    class core
+    user system
+    group system
+
 service vendor.per_mgr /system/vendor/bin/pm-service
     class core
     user system
