@@ -520,7 +520,6 @@ PRODUCT_PACKAGES += \
 
 # Wi-FI
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/hostapd_default.conf:$(TARGET_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \

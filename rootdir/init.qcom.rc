@@ -537,28 +537,6 @@ service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
     disabled
     oneshot
 
-# FST Manager with hostapd (softap) - all settings inside ini file
-service vendor.fstman /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini
-    user wifi
-    group wifi net_admin net_raw
-    class main
-    disabled
-    oneshot
-
-# FST Manager with supplicant - connect to supplicant socket
-service vendor.fstman_wlan0 /vendor/bin/fstman -B -ddd -c /data/vendor/wifi/fstman.ini @android:wpa_wlan0
-    user wifi
-    group wifi net_admin net_raw
-    class main
-    disabled
-    oneshot
-
-on property:netd.fstman.start=true
-    start vendor.fstman
-
-on property:netd.fstman.start=false
-    stop vendor.fstman
-
 service vendor.cnss_diag /system/vendor/bin/cnss_diag -q
     class main
     user system
