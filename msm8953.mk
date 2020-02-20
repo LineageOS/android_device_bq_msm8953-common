@@ -421,6 +421,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+# QMI Configuration
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/vendor/etc/qmi_fw.conf:$(TARGET_COPY_OUT_VENDOR)/etc/qmi_fw.conf
+
 # Qualcomm
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect
