@@ -1082,8 +1082,6 @@ vendor/lib64/libwvhidl.so|aedda339cf2d1a8961f0bd2ac9ec177a32a79b10
 vendor/bin/wcnss_service
 
 # Wi-Fi - from repo5
-vendor/bin/fstman|ab572620e830241023374ea01b302ecd168d7bfe
-vendor/etc/wifi/fstman.ini|0583604009194da2c311adb80ef6c2fa9e3f4998
 vendor/bin/cnss-daemon|d825c9a5089586d40055769b5460ee1af94367ab
 vendor/bin/cnss_diag|cfe4b361a0d3ae880e702f0004ecc8cfb16c496c
 
