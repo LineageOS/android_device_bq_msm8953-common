@@ -18,6 +18,7 @@ COMMON_PATH := device/bq/msm8953-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_DUP_RULES := true
 
 # Architecture
