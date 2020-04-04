@@ -3,3 +3,6 @@ allow qti_init_shell self:socket create;
 
 allow qti_init_shell vendor_radio_data_file:dir create_dir_perms;
 allow qti_init_shell vendor_radio_data_file:file create_file_perms;
+
+# Allow access to swapiness
+allow qti_init_shell proc_swap:file { open write };
