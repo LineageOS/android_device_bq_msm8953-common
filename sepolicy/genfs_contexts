@@ -24,3 +24,6 @@ genfscon sysfs   /devices/platform/soc/78b6000.i2c/i2c-2/2-001d/power_supply/par
 
 # Network
 genfscon sysfs   /devices/soc/a000000.qcom,wcnss-wlan/net             u:object_r:sysfs_net:s0
+
+# ProcFS
+genfscon proc /sys/vm/swappiness                                      u:object_r:proc_swap:s0
