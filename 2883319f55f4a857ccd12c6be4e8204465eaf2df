@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "463fe41e_9e57e65b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-04-08T18:46:43Z",
+      "side": 1,
+      "message": "repo6?",
+      "range": {
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 19,
+        "endChar": 19
+      },
+      "revId": "2883319f55f4a857ccd12c6be4e8204465eaf2df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
