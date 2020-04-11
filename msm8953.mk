@@ -520,7 +520,8 @@ PRODUCT_PACKAGES += \
     wlutil \
     hostapd \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    libqmiservices_shim
 
 # Wi-FI
 PRODUCT_COPY_FILES += \

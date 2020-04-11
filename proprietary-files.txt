@@ -1148,8 +1148,8 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|23f5dd5911cf58a86574ec95
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
 vendor/lib64/libwvhidl.so|bb5e637d9d337fd55adcb9637691e1a92aa135b3
 
-# Wi-Fi - from repo1 - motorola-river-10-QPU30.52-2-5ecf2
-vendor/bin/wcnss_service|659ff91b516d6b1996737fad4757da770133813b
+# Wi-Fi - from repo2 - daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+vendor/bin/wcnss_service|1a7da5ec11248ea69af665d711a846e4cc7c95be|89bccb32bdf320cc31118c4fd93b1c4f257c3897
 
 # Wi-Fi - from repo1 - motorola-river-10-QPU30.52-2-5ecf2
 vendor/bin/cnss-daemon|fa9ee746a3ea8f0121957ab96a352152c427505c
