@@ -98,7 +98,7 @@ function blob_fixup() {
         vendor/bin/netmgrd)
                 sed -i -e 's|qti_filter_ssdp_dropper|oem_filter_ssdp_dropper|g' "${2}"
         ;;
-        vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
+        vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
                 patchelf --add-needed "libbase_shim.so" "${2}"
         ;;
         vendor/bin/wcnss_service)

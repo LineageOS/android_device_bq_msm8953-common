@@ -69,14 +69,14 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Bluetooth
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1cdbc1f5d7ec60a362f2832c9d728a807b7044d7|085124d46ca01a921f67196008ee3de0c018096c
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
 # Bluetooth - from repo1 - motorola-river-10-QPU30.52-2-5ecf2
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|ddb05464e0aecdb02b4f43c6dcd19f249dd5d7bc
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib/btaudio_offload_if.so|13ccd90e1240871c8bc79e509b3ae27b029bce1c
 vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so|0bc8d91b7398a8164b3b50fa37acb1c244b0f7e0
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|01449b2c8df7a11465a786686254189631d47350
 vendor/lib/hw/audio.bluetooth_qti.default.so|c0857a39d428074fd191b55d66455ff4f95c7b67
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|51a64219295345f063f7f794c9b529be57526559
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|924ffbc5e4a7da062f7c6c0a1d82667e3571ba92
@@ -90,7 +90,6 @@ vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|dd6e5951a11ceaceb909814f18b6
 vendor/lib/vendor.qti.hardware.fm@1.0.so|89be4233a7e547850903ec9bc60a2353abe9b65f
 vendor/lib64/btaudio_offload_if.so|af484f56ab8a4e16dbfa24e7002f6f21e5cee3c3
 vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|88a831c9aac9323ae5ea159a8837c9e550084efd
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1cdbc1f5d7ec60a362f2832c9d728a807b7044d7|085124d46ca01a921f67196008ee3de0c018096c
 vendor/lib64/hw/audio.bluetooth_qti.default.so|92ec8f9d7e845499eb4946d7d624955e58f15bed
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|abb16b94d6e221314001211eba545e94f26e1df1
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|0d0fbcd28f5df0fd3be1ad307c9d3025c3d6043f
