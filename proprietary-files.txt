@@ -94,6 +94,9 @@ vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 
 # CNE - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
+system/etc/cne/Nexus/ATT/ATT_profiles.xml|a0039cb3a4c5a4ca1adf897904b61c91e32d06f7|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+system/etc/cne/Nexus/ROW/ROW_profiles.xml|e3907ff71cbbe0f1073ec1bf0223d26c8282aa35|238e785e9674b27c4b2365958d127533d7293132
+system/etc/cne/Nexus/VZW/VZW_profiles.xml|0d35b3266ea656d8868ae8f5d7e938f4859e9b0a|0f63b632e3a3f114def7aeadaabd13851c8ceec5
 system/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|f8f816fe57dcc2ffa08d761bac2af5ebee136b6b|be4a81231963f9102f27972674946fa06ad2be7b
 system/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|8d9d0ee3043107e6bc0edf79994437902c65fc23|8c984752dde6448de15620d8da14ba7273d743c7
 system/framework/vendor.qti.data.factory-V1.0-java.jar|f0a14b08ab6c2fb85342383235be6b75d67806fb
@@ -105,6 +108,11 @@ system/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar|2d2d18476583a
 system/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|853b3d936a1c99c399ec5087051fb863ccebad4f
 system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
 system/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
+vendor/lib/vendor.qti.hardware.data.iwlan@1.0.so|9e623b1556fde6f0b732b00cf995a40e91b951b3
+vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|c590f63e1f84bfd648989bb161b1932dcf61f4c8
+-vendor/app/CACertService/CACertService.apk|0a599f0a0f5afedde9828d71d946ca6df40747b4
+-vendor/app/CneApp/CneApp.apk|c2d4ef5957231743187154d02edf14a849f58834
+-vendor/app/IWlanService/IWlanService.apk|7d197b65cc0f1eb9160166836f3443ab328c3401
 vendor/bin/cnd|7bdff52af70480681a7aefb2db57f055cb13c741
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -138,6 +146,7 @@ vendor/lib64/libcacertclient.so|e04aa49d3b3b4534f5eb2b1ccea69ff8fee0182c
 vendor/lib64/libcneapiclient.so|f928af5cd743a4686971d5d779537451be39c30d
 vendor/lib64/libcneoplookup.so|475f3a0d30caab2c5d62c8aaf75908e741528648
 vendor/lib64/libcneqmiutils.so|be80bfeaaa2bdc6c94d7130be2ea13887fe62b49
+vendor/lib64/libjnihelper.so|3ac4372197d50e1fd9988a71c6d30aa3eb403e5c
 vendor/lib64/libcne.so|544be87d29b9671332a3866e10df885bdb321e20
 vendor/lib64/libwqe.so|695b37889f5f82d44efcb5a5e8b45a3fb5d8160d
 vendor/lib64/libxml.so|dee8885f6f90b4cc02cebbdb3939bce6832dbc18
