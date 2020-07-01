@@ -1,4 +1,4 @@
-# ADSP - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# ADSP - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
 vendor/lib/libadsprpc.so|c93da729078866919ea4a41ffc9b7f26993192fb
 vendor/lib/libfastcvadsp_stub.so|9f82a7d713f92772e9b47570d50ba08c3c051991
@@ -20,7 +20,7 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Audio - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Audio - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libacdb-fts.so|805b2bf5ef9ead6bf7a435db1682445437f0ff2e
 vendor/lib/libacdbloader.so|dc271f4679afb169461e8364c6ebca44e253a55b
 vendor/lib/libacdbrtac.so|f3485e8d607c607503ce50679874b4cce258cfd4
@@ -72,7 +72,7 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
-# Bluetooth - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Bluetooth - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8429b451d671b1b5d55e171bf824952f4f67c381
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib/btaudio_offload_if.so|a847cd8ea9e714732a7842df1301c5e331be2936
@@ -102,7 +102,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|d11a6abbaddbfee605c57a1a23
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|22e4ecfff33c62adae5f1a0e399d3affb8f31c38
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|9eb88f44f2231ca4f39bee678e3f71de8ef6ebb4
 
-# Bluetooth (ANT+) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Bluetooth (ANT+) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 product/lib64/com.qualcomm.qti.ant@1.0.so|d374b4deb0df088dfc6151c37385a9b125bf3427
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|9dc1bc2f1d726d71af31cc8c955aba122bbcdb1e
 product/lib/com.qualcomm.qti.ant@1.0.so|80c75a75d5d6c500f1373e3cc6e7b5c5eed20e3e
@@ -449,7 +449,7 @@ vendor/lib/libchromatix_s5k4h8_OFF0380_snapshot.so
 vendor/lib/libchromatix_s5k4h8_OFF0380_zsl_preview.so
 vendor/lib/libchromatix_s5k4h8_OFF0380_zsl_video.so
 
-# Camera - Firmware - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Camera - Firmware - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/firmware/cpp_firmware_v1_10_0.fw|a3c0fc706eb3f23b99852fe8c52c26f63999f70c
 vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
 vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
@@ -470,7 +470,7 @@ vendor/etc/camera/s5k2l7_8953_chromatix.xml
 vendor/etc/camera/s5k2l7_chromatix.xml
 vendor/etc/camera/s5k4h8_OFF0380_chromatix.xml
 
-# CNE - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# CNE - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|335d6da6763240d58a1598f95bed50bb80e3e71d|75e8a824d368cd4172985c884796381327d950da
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|f21207db1805ec6ba512f526b795822794ff6274|620c9fa0047bb681e918af2d1e7a98c648f45fb7
 product/framework/vendor.qti.data.factory-V1.0-java.jar|f0a14b08ab6c2fb85342383235be6b75d67806fb
@@ -534,10 +534,10 @@ product/lib64/vendor.qti.hardware.factory@1.0.so|753b0457eb4b8f83bd1704262b19757
 product/lib64/vendor.qti.hardware.factory@1.1.so|be7a7c501d5132464d7d75fc00aca97e017900c3
 vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
-# Charger - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Charger - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hvdcp_opti|b9f8d4842004e909512c45364425d96782345d23
 
-# DPM - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# DPM - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/dpmQmiMgr|1a468bf799fb8845391a00a922dcefe70d723d10
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
@@ -545,7 +545,7 @@ vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|02ff9892f8ecf0ad8c4afd668f9eb623b9da893c
 vendor/lib/libdpmqmihal.so|c89cf1e53597b5c0e739d4482d24cd1c8d4295d3
 
-# DRM - Qualcomm Trusted Execution Enviornment - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# DRM - Qualcomm Trusted Execution Enviornment - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/qseecomd|d7acc05039d38acafe862e39a73d0ffa2df27180
 vendor/lib/libQSEEComAPI.so|bfa1d200090f27f6c67022dbdf3f6638143d0988
 vendor/lib64/libGPreqcancel.so|bfff7b7d51e917a16b9a15a27fb81e16d0359348
@@ -598,19 +598,19 @@ lib64/hw/csfingerprint.default.so
 lib64/hw/fingerprint.default.so
 lib64/hw/swfingerprint.default.so
 
-# FM - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# FM - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
 vendor/bin/fm_qsoc_patches|65c533accf649b121cad07ec2d02f8adc7b6c07b
 vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 
-# Gatekeeper - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Gatekeeper - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/hw/gatekeeper.msm8953.so|c153dbbd2c31ccee8633837961ce79909257af04
 vendor/lib64/hw/gatekeeper.msm8953.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 
-# GPS - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# GPS - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/slim_daemon|3f74b6fdf3ee78f88c65819ff15a18fcbb5f724d
 
-# GPS - from repo7 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# GPS - from repo7 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
 etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
 etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
@@ -669,7 +669,7 @@ vendor/lib/vendor.qti.gnss@2.0.so|fd0a70fe2f9a1b8a210f8998688f30da08dbc8b4
 vendor/lib/vendor.qti.gnss@2.1.so|83bf3df80b873bb5a90bbe0b2a4e9dc9b7fe0d80
 vendor/lib/vendor.qti.gnss@3.0.so|0a0acec0d1390c811771293a7ad2efadb1f59bf6
 
-# Graphics - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Graphics - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|25391818f65a4dfe3fdf0603109eacc4eedc4c13
 vendor/lib/egl/eglSubDriverAndroid.so|c1bbd0acd7b4e5f04f1e5a4c763862396a565be3
@@ -713,15 +713,15 @@ vendor/lib64/libmm-hdcpmgr.so|3d8ddd744e6243d15267164c042aebaf200bb350
 vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
 vendor/lib64/librs_adreno_sha1.so|39b9e52af687b7cd444b68097890f6ea4e4233cd
 
-# Graphics (hwcomposer) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
-vendor/lib/hw/hwcomposer.msm8953.so|e6581e6f369cce025133ec132ed7f719ea572e92
+# Graphics (hwcomposer) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
+vendor/lib/hw/hwcomposer.msm8953.so|96514249ef013adec26005e21f4c597666be4792
 vendor/lib/libsdmutils.so|ee5f7fede614b510cc50b6881577bd91fdaa1ef6
 vendor/lib/libsdmcore.so|eebd558c7f26910dbf90dd232c8d00341ca29670
-vendor/lib64/hw/hwcomposer.msm8953.so|0e49ce94d0b496f06c0c91ed617474ac8b638459
+vendor/lib64/hw/hwcomposer.msm8953.so|9617f9e6c804b6a0431481ea5a91fa250b12a24f
 vendor/lib64/libsdmutils.so|aa13ae299b3196f71a99cd11d455b21ea1170acd
 vendor/lib64/libsdmcore.so|5d13438d08e5a6f5db769421a6f2c3d7baf10f32
 
-# Graphics (SDM) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Graphics (SDM) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libscalar.so|19694644ccc2feac6af99f46cbefac687b31e39f
 vendor/lib/libsdm-color.so|bc7199edbe27656d2c90f48357b8d53ee3a54b29
 vendor/lib/libsdm-diag.so|851f807ce504bb6edb413277eefc2cf3923ac4b3
@@ -735,7 +735,7 @@ vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
 vendor/lib64/libsdmextension.so|81a9efff22e7b79e548faa00c0c086ec82299379
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
-# Graphics (Vulkan) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Graphics (Vulkan) - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/hw/vulkan.msm8953.so|c31bc9b375c829cb6b79403141c83085ff719751
 vendor/lib64/hw/vulkan.msm8953.so|8661436409684c3fc8b47f1b82d08052b096a05d
 
@@ -746,23 +746,23 @@ vendor/firmware/a506_zap.b02|3e301fa5905acd05f15836959595791c1241a017
 vendor/firmware/a506_zap.elf|0236da4ef05e1f0b57ec20d1be8aee6e0daf545b
 vendor/firmware/a506_zap.mdt|894c2d9ef7066316e902e78b89374a2d1d1e69cd
 
-# Graphics firmware - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Graphics firmware - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Keymaster - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Keymaster - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/hw/keystore.msm8953.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
 vendor/lib64/hw/keystore.msm8953.so|9f4d991dfa359299739bd443b63731528d9cb5d0
 
-# Listen - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Listen - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/hw/sound_trigger.primary.msm8953.so|512674a7541b6a678c4b93ecd5bf4f8c02900c14
 vendor/lib/libadpcmdec.so|0b00273d1321f4fde109b1f8be514ab0ac6bedf1
 vendor/lib/libsmwrapper.so|5b3e34fd89883a2c308f377988da031c519a7b38
 
-# Media - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Media - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libOmxVideoDSMode.so|56987c4b7197bf5db1efd619400ef9b7475d1daa
 
-# Media - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Media - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libI420colorconvert.so|4feec5034de3e21d95602ca93c559550c682e19b
 vendor/lib/libmmosal_proprietary.so|e6bc0d4dea15a126af00d3ae522eea50e9e3e762
 vendor/lib/libOmxAacDec.so|ae44d84c01b6ab86b977f71cc24a2aeea4c4ad63
@@ -792,7 +792,7 @@ vendor/lib64/libOmxWmaDec.so|78784ee22115a0ba68e87b687e5b6c865f4d0f81
 -vendor/lib64/libgpustats.so|dd2ecc6c5ef439a8d427a52ab9d153f8e747deff
 vendor/lib64/libmm-color-convertor.so|60efd198ec7461154746c5987e5a267f12f8dbc1
 
-# Modem - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Modem - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libwms.so|741ea8ecbe922db174e4bf0aa2d12cf3b40d5b99
 vendor/lib64/libwms.so|59bfa19fd491c8c987d74604ec97d806399abe83
 
@@ -806,10 +806,10 @@ vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
 vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
 vendor/etc/perf/targetresourceconfigs.xml|8d2c2976902884c512cf33b2cc66bfa28b340b83
 
-# Perf Energy Awareness - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Perf Energy Awareness - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
 
-# Perf - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Perf - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 product/lib/vendor.qti.hardware.perf@1.0.so|14433f3baf7e760208f3e6ebbcb5583c5cfbf91c
 product/lib/vendor.qti.hardware.perf@2.0.so|67fbeed3fce2a6521f9c1d39b6cab1cd1550bd2a
 product/lib64/vendor.qti.hardware.perf@1.0.so|125a5c14b4e768ef7ce1d89abee9b2421f17b7ba
@@ -832,13 +832,13 @@ vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 vendor/lib64/vendor.qti.hardware.perf@1.0.so|afd9b13e1a08a77afa0603731c90e58c4cc570f9
 vendor/lib64/vendor.qti.hardware.perf@2.0.so|8330f1eb40d6288641a86afae4dd5ba8a154533b
 
-# Peripheral manager - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Peripheral manager - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd
 vendor/bin/pm-service|fa484756ab4dc2f74871eb24dd8a01750a755c6c
 vendor/lib/libperipheral_client.so|022054d6b2428c5f505e812b55628555420e40a1
 vendor/lib64/libperipheral_client.so|0afe9a901303a7206e2e8ad7ae3e35779d1dbfb5
 
-# Postprocessing - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Postprocessing - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|65c3df756342920eda4982747f7d8312da35ba8d
 vendor/bin/mm-pp-dpps|65ddee432e43b9a1e76e68a00ab595b5195c83aa
@@ -853,7 +853,7 @@ vendor/lib64/vendor.display.color@1.0.so|cd604706cd50989b899c04a252f7f02d17996ba
 vendor/lib64/vendor.display.postproc@1.0.so|cc62ff1b3e8ff0e11b750ae59a0f851fdab50962
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|841104a6d894f2afb733bb2317b70092298a8537
 
-# QMI - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# QMI - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 lib/libqmi_cci_system.so|92bb8ca813d2eacafd1f00a5f722262a638a1a9c
@@ -890,20 +890,20 @@ vendor/lib64/libqmi_csi.so|20c62309e3a09b3049925be63b9ece103aab44e7
 vendor/lib64/libqmi_encdec.so|eedf39676bf4447cb2e3f629d1d18dcad846ab85
 -vendor/lib64/libqmiservices.so|866a7f7e5c8234e8ee420d2dfed09767aaa55b48
 
-# RIL - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# RIL - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/rmt_storage|078a2353f501c50e1bf900cff784d2917e57d41a
 
-# RIL - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
--vendor/app/embms/embms.apk|2f0affb52b08c64aa3303e0d18bc73030c9c9f9f
-vendor/etc/permissions/embms.xml|5589ed8da213acd27e2ad2109094561eb1be30a7
+# RIL - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
+-product/app/embms/embms.apk|2f0affb52b08c64aa3303e0d18bc73030c9c9f9f
+product/etc/permissions/embms.xml|5589ed8da213acd27e2ad2109094561eb1be30a7
 product/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
 
-# RIL - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# RIL - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 -product/app/QtiTelephonyService/QtiTelephonyService.apk|2b8cf7ae42143f08dd1f23e4c45acb408163092f
 product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
 product/framework/qcrilhook.jar|102437428232b7a036f522c8a12c00ebbb644bd9
-product/framework/qti-telephony-common.jar|48aa5dd9d3dfb596cd4369f95df5849f6594447b
+product/framework/qti-telephony-common.jar|a3c13a564243cceb927cb825f23f1ed9d217b10b
 product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60050523c74c473eb72c9b8b8ae37057251157b1
 vendor/bin/adpl|66bcdb6711c58ccadc235add0779139e86c7d289
@@ -936,12 +936,12 @@ vendor/lib64/libnlnetmgr.so|08d7ccfd052b7ff38d6596b5bd4ab30ee8b25c5c
 vendor/lib64/libpdmapper.so|e061adb1a4c38b2ba1cc0072c7734863f26e58dd
 vendor/lib64/libpdnotifier.so|a249a3730563de47ca04c9e5353b08213a4909a7
 vendor/lib64/libqcmaputils.so|0371a984538e11e65ab3be83a64a72c125c61aaf
-vendor/lib64/libqcrilFramework.so|fd6ad2bee3f84b9623a3a66a47178049d4225197
+vendor/lib64/libqcrilFramework.so|0c0606dbae7b5ab7a8e1b50c83a078d2c29cf483
 vendor/lib64/libqmiservices.so|866a7f7e5c8234e8ee420d2dfed09767aaa55b48
 vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
 vendor/lib64/libqsocket.so|40816476d857f2ad07490415f6ff7433517ccef8
 vendor/lib64/libqti_vndfwk_detect.so|d1da6c6253eb4a37c87faf510cae4c9e01fe95eb
-vendor/lib64/libril-qc-hal-qmi.so|52c4f8f388b276531ac1e46301b7707e9e85fcfa
+vendor/lib64/libril-qc-hal-qmi.so|4d1aaef2adeae3626a055499d90eda963a2e50d3
 vendor/lib64/libril-qc-ltedirectdisc.so|890a80888e75e236de838a4834a734dc433a7680
 vendor/lib64/libril-qc-qmi-1.so|a2f86b8552c16ed177401a256ca7b86b2bf5c16b
 vendor/lib64/libril-qc-radioconfig.so|9d2e6792031cfa76664f3b5d8d66101c5bbd27db
@@ -950,8 +950,8 @@ vendor/lib64/librilqmiservices.so|619a19659c7c1c6ded341d20615839c4e0256317
 vendor/lib64/libsettings.so|13923ce577d6cc9efc551b8bcc877adb5af91a69
 vendor/lib64/libsystem_health_mon.so|a2d59fb81c8365261757ed4a371b790122073165
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
-vendor/lib64/qtibus.so|6d36e2fd21d2a4e8db6db583dea0beed40d30b37
-vendor/lib64/qtimutex.so|3af9ae4b57d0e263fccda20068fe1940a78f22a2
+vendor/lib64/qtibus.so|decb64dfb35d5e611dc975e551bbff36f193d762
+vendor/lib64/qtimutex.so|993c6843f0191d1bfcaeb3f4bc45ae30c7d4a294
 vendor/lib64/vendor.qti.data.slm@1.0.so|084a5d9a2b92b797e1f4d90492f825dcd55e0c11
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|9cda53aef085c47d3823f64357d657036a8025ff
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|911044a68202287cdfcd0f43ad1482675c529aa6
@@ -1008,9 +1008,9 @@ vendor/lib/vendor.qti.hardware.radio.uim@1.2.so|726a0013ca78583e7157b2d70b767e54
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so|0100962b04d06ea71a1fd788e2c02e152b2cff91
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so|7ee8fcfaadc6196d9ac0179c1ed7c51e279aa09d
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so|e6dc135e94ccd0bb1f3c8d61217cbdd13c3bf150
-vendor/radio/qcril_database/qcril.db|bd7412ef90c076dac8f3a69596e2ed8d4b3f55fd
+vendor/radio/qcril_database/qcril.db|16fc73400bc7d789cd6552a4c905f9f959eea3f2
 
-# RIL IMS - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# RIL IMS - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 -product/priv-app/ims/ims.apk|92b7dd8e8f4f62c8918ea01cb1eeb34e3c6bc54a
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|d52cdba3a8f1c00098568965c0cbaa03502f961e
@@ -1027,7 +1027,7 @@ product/lib64/lib-imscamera.so|2b6e58ed6af90e8647d5a4aef70cfe9c0f030438
 product/lib64/libimsmedia_jni.so|448795a73bbf72fc0c9876f86a13769139ea8022
 product/lib64/lib-imsvideocodec.so|dae8af6c82017fae5d234e60a623e4caa98a44c8
 product/lib64/lib-imsvtextutils.so|c8065a0ddf21c3ba9cffdc61c2b5b6488081b8be
-vendor/lib64/lib-imsvt.so|278dd3fe86d5f866f491f7f0ce7de6518407ad56
+product/lib64/lib-imsvt.so|278dd3fe86d5f866f491f7f0ce7de6518407ad56
 product/lib64/lib-imsvtutils.so|8e9bba6bbad8e8e5d3cfa40831262db5c745e073
 product/lib64/vendor.qti.ims.callinfo@1.0.so|bf2a4a99c4ac33e3453e196e9961568b175f5b1e
 product/lib64/vendor.qti.ims.rcsconfig@1.0.so|3c009fdc33fe7ccfef9025c2911cec0ba9242516
@@ -1039,7 +1039,7 @@ product/lib/lib-imscamera.so|c9dbc08b11d1ceece663451e75391038c8aab635
 product/lib/libimsmedia_jni.so|e62cda8bcde179ad2c59dfa36594edefe9ee4920
 product/lib/lib-imsvideocodec.so|87169b8c57663478d77dd137def5f1d5a33789d4
 product/lib/lib-imsvtextutils.so|3c2d7a1d2dfa17d2b4d9c02aa50348e2e2692c8e
-vendor/lib/lib-imsvt.so|4f7968a920017ba2f0e40859318109e079ac67b8
+product/lib/lib-imsvt.so|4f7968a920017ba2f0e40859318109e079ac67b8
 product/lib/lib-imsvtutils.so|bb85b29ceb1190600fab8e73b234db67b842b326
 product/lib/vendor.qti.ims.callinfo@1.0.so|6152cc83fff0a0e39085222615fcd6eb09b9dec5
 product/lib/vendor.qti.ims.rcsconfig@1.0.so|3a6f266c9ca1a66eab40ce696f728e7e77a1a04f
@@ -1104,8 +1104,8 @@ vendor/lib/vendor.qti.imsrtpservice@2.0.so|eb40658b04378d39877ada67cf1fd47301b2c
 vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|fc076cfac0c680a614e29effd860ed482e4c4a9f
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|bce5af543e08c9e77f9ad9c0d3024ae336f9fe43
 
-# Sensors - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
-vendor/bin/sensors.qti|03514eecea125f71494bd6f96addce8fca0b170f
+# Sensors - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
+vendor/bin/sensors.qti|d0afb37317ac08b21b45048759c700439a3560a4
 vendor/lib/hw/activity_recognition.msm8953.so|8ab8f2bd7c2f5c9a30db5edb3924f823a6ad9bf2
 vendor/lib/libsensor1.so|74871f3284937af2bfc25b518af22a056e6f8bc3
 vendor/lib/libsensor_reg.so|75d11f3c78beb720d2b64ae9bf2108f10d3ee7e6
@@ -1115,19 +1115,19 @@ vendor/lib64/libsensor1.so|1c0a480379e7aed17c2ebb84b164380ca29b0ff0
 vendor/lib64/libsensor_reg.so|719d7495beb984989f52eab7eaeaaeb05a5c90bd
 vendor/lib64/sensors.ssc.so|66a80eb4c59176b86da051e9a4daa3f4077bc478
 
-# Thermal - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
-vendor/bin/thermal-engine|5d0d63dddb90b4fa4f5be83616d25414377c7a88
+# Thermal - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
+vendor/bin/thermal-engine|3c3334c157fa9476ab2d4250b9724061d692d82f
 vendor/lib/libthermalclient.so|c0089a7fdd34bc5f3ea0556e5f4a087ab02fc34f
 vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
 
-# Time services - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
--vendor/app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|574ced409fa532f4f548b595efc90b852f27f1f8
+# Time services - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
+-vendor/app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|4a37afd1395758d946580af184a738e3c657b1e2
 vendor/bin/time_daemon|283961a78ebd6e6309f64384df555f0c236b6f9c
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
-# TUI - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# TUI - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|d4d025e0a12af87f65104fe07801517938733603
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|705e64a3b388cf8d0a3e5fa1b602b4116576812f
@@ -1136,19 +1136,19 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|182440c6d1f9dde20ee12420ec63191
 # USB
 etc/firmware/ice40.bin
 
-# Widevine - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Widevine - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|31901223513e3748c761d6f721ac09e860e648a8
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
 vendor/lib64/libwvhidl.so|243a2f599de2769479d74b0cd839f4a998639754
 
-# Wi-Fi - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Wi-Fi - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/wcnss_service|6866b7973d4bf20d7f5807483b852f1ef11ef849|8f8506074fed6fa98965e2d955ddad120f1f1df4
 
-# Wi-Fi - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Wi-Fi - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/cnss-daemon|c12bae97506f959b557c620d01d3b9fc97e97698
 vendor/bin/cnss_diag|375db74f4843ca46ec5d0b740517ecea8762c9f0
 
-# Wi-Fi Display - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B7_200425
+# Wi-Fi Display - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
