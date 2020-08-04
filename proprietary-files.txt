@@ -1,13 +1,12 @@
-# ADSP - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
-vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
-vendor/lib/libadsprpc.so|c93da729078866919ea4a41ffc9b7f26993192fb
-vendor/lib/libfastcvadsp_stub.so|9f82a7d713f92772e9b47570d50ba08c3c051991
-vendor/lib/libfastcvopt.so|a90685612ef802ee629290bca59d36c16600c77f
-vendor/lib64/libadsp_default_listener.so|ec9a452e318db1ddc5d826dd7cc2b14dd5fb2a14
-vendor/lib64/libadsprpc.so|aa9a3c506400d565606e1c9eabcbefb87ac61bc2
+# ADSP - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
+vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
+vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
+vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
+vendor/lib/libfastcvopt.so|2df00c3827fe1db322084cb3935241f17d1532f4
+vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
+vendor/lib64/libadsprpc.so|3dd28423f6b786584a1c80b2cdb6e22a1c00b0ae
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
-vendor/lib/rfsa/adsp/libadsp_fd_skel.so|677d2932dac248049f031fc5893163e22b49439a
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
 vendor/lib/rfsa/adsp/libfastcvadsp.so|9818625bfa018f517e32a8f4a1e7fb4b255e5049
 vendor/lib/rfsa/adsp/libdspCV_skel.so|628985174b0088bed21c866d7984d23855e5e150
@@ -20,27 +19,27 @@ vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Audio - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
-vendor/lib/libacdb-fts.so|805b2bf5ef9ead6bf7a435db1682445437f0ff2e
-vendor/lib/libacdbloader.so|dc271f4679afb169461e8364c6ebca44e253a55b
-vendor/lib/libacdbrtac.so|f3485e8d607c607503ce50679874b4cce258cfd4
-vendor/lib/libadiertac.so|8d7a8c91a2d1b52f56ca513d4b6ca9f9955b8f2d
-vendor/lib/libadm.so|9fce53fde690b71022e1955fb2a4fcba92bbdd27
-vendor/lib/libaudcal.so|a7333a3cad2b752abbe520c3286d29ca3448488a
-vendor/lib/libsurround_3mic_proc.so|5b5fba472c80616674cfd0974a78963a679de78c
-vendor/lib/soundfx/libasphere.so|79433e8819cc43c1b48f192aebc4e9a6fd58e011
-vendor/lib/soundfx/libqcbassboost.so|47019065d12527dd5be7522d6c42431178762869
-vendor/lib/soundfx/libqcreverb.so|59903a89ec879a6ffc35a86a6fc0307c1e904543
-vendor/lib/soundfx/libqcvirt.so|2ca9735dfbcc2371dd1146323c9397be1b14dd27
-vendor/lib64/libacdb-fts.so|2885050a1ad939ae37bf35b3b8c4aeabbad50f82
-vendor/lib64/libacdbloader.so|68a2a72b7803731db0462253ca98f9ffc6c150b0
-vendor/lib64/libacdbrtac.so|c51eec00941c3a52e73f7e8703cd29af310a8317
-vendor/lib64/libadiertac.so|79da5ca1ca15fb1c319769c75702d0582f27dd2f
-vendor/lib64/libaudcal.so|6d793eb78735d7fdbbedd03bad977bf7d15b4b11
-vendor/lib64/soundfx/libasphere.so|27154ce2eed6902f36ed8c85324cf61c96c8af02
-vendor/lib64/soundfx/libqcbassboost.so|b5ccd9812bb61b20a70d83eef66eff3f57267fdb
-vendor/lib64/soundfx/libqcreverb.so|ecd398db65e48d77c2f6b68a8d40fd00e4f639e3
-vendor/lib64/soundfx/libqcvirt.so|4c98909b40307c9f0533c0ef5215fc4c51e417c7
+# Audio - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
+vendor/lib/libacdb-fts.so|9fb9fe8f1e22e38e41f1517b8f206a50bbb24419
+vendor/lib/libacdbloader.so|f33941720463b3c8215fc644b7d638c6d8ab74c7
+vendor/lib/libacdbrtac.so|f997dfef5413873af88bd8636a501401e9ea9631
+vendor/lib/libadiertac.so|6cfa3c70f01617a944ed2d8512189400ccdec21e
+vendor/lib/libadm.so|b373d5cb6e4c6e081f1d206f6d9538339f330fda
+vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
+vendor/lib/libsurround_3mic_proc.so|d8c1d2cb7d598eee79ccfe5b7ec83a185c8fef6c
+vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
+vendor/lib/soundfx/libqcbassboost.so|bc8ae80ff1ade557ff494631494c2f8261028acb
+vendor/lib/soundfx/libqcreverb.so|1b3cef3c4c9145662fddb03c5e1e7dd3a4f25e1e
+vendor/lib/soundfx/libqcvirt.so|41bf71787ffae3f511d9cb3e32b9e721a0a2e385
+vendor/lib64/libacdb-fts.so|662467af62f9607abfd5acb532dfbf69240bcc70
+vendor/lib64/libacdbloader.so|7c49e7d95090e20f6198f03959323359e4b2ed19
+vendor/lib64/libacdbrtac.so|54d114f280eb99f4aa73890c5e9cfbb5b55eb813
+vendor/lib64/libadiertac.so|5b511a0312721e9e6ff27fae9a3f035cf66ac6f7
+vendor/lib64/libaudcal.so|a2788d71d00be193e9704edefc1b363cbc847942
+vendor/lib64/soundfx/libasphere.so|f552a053f935299b3fd9be03a596eb4c40dee50e
+vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
+vendor/lib64/soundfx/libqcreverb.so|fbda7d0189603bb8c0c3e9d92563d75b8ab2dbc8
+vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
 # Audio ACDB
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -754,10 +753,10 @@ vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 vendor/lib/hw/keystore.msm8953.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
 vendor/lib64/hw/keystore.msm8953.so|9f4d991dfa359299739bd443b63731528d9cb5d0
 
-# Listen - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
-vendor/lib/hw/sound_trigger.primary.msm8953.so|512674a7541b6a678c4b93ecd5bf4f8c02900c14
-vendor/lib/libadpcmdec.so|0b00273d1321f4fde109b1f8be514ab0ac6bedf1
-vendor/lib/libsmwrapper.so|5b3e34fd89883a2c308f377988da031c519a7b38
+# Listen - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
+vendor/lib/hw/sound_trigger.primary.msm8953.so|991e0be9c5743d5d3394eb2f4b82740c3c0616f7
+vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
+vendor/lib/libsmwrapper.so|efed6475b26cafc15fed591a9aaa68b38cf6a37b
 
 # Media - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/lib/libOmxVideoDSMode.so|56987c4b7197bf5db1efd619400ef9b7475d1daa
