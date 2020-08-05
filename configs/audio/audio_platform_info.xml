@@ -191,7 +191,7 @@
         <device name="SND_DEVICE_IN_THREE_MIC" acdb_id="125"/>
         <device name="SND_DEVICE_IN_HANDSET_TMIC" acdb_id="126"/>
         <device name="SND_DEVICE_IN_VOICE_REC_TMIC" acdb_id="127"/>
-        <device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="129"/>
+        <device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="34"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="46"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_THREE_MIC" acdb_id="125"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_QUAD_MIC" acdb_id="125"/>

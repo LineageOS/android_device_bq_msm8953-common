@@ -1558,7 +1558,7 @@
     </path>
 
     <path name="unprocessed-handset-mic">
-        <path name="handset-mic" />
+        <path name="handset-stereo-dmic-ef" />
     </path>
 
     <path name="unprocessed-mic">
