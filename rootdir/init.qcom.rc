@@ -567,9 +567,6 @@ service hostapd_fst /vendor/bin/hostapd -dd -g /data/vendor/wifi/hostapd/global 
     oneshot
     disabled
 
-on property:persist.ims.regmanager.mode=1
-    start vendor.ims_regmanager
-
 service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     class main
     user radio
