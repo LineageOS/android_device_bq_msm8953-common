@@ -67,9 +67,8 @@ vendor/etc/drc/drc_cfg_AZ.txt
 vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
-# Bluetooth
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+# Bluetooth - from repo4 - misc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|dcdfce5f781baf1a30f2b9d49f7beeaad90a37ec|aa16d0f74d7e9193dac01be0375e2e7c6a1cd8f4
 
 # Bluetooth - from repo1 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8429b451d671b1b5d55e171bf824952f4f67c381
