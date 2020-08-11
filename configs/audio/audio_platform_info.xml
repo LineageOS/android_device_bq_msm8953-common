@@ -234,6 +234,8 @@
         <device name="SND_DEVICE_OUT_SPEAKER_PROTECTED_VBAT" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_PROTECTED_VBAT" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_PROTECTED_VBAT" interface="PRI_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_1" backend="smpa" acdb_id="14"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_EXTERNAL_2" backend="smpa" acdb_id="14"/>
         <device name="SND_DEVICE_OUT_SPEAKER_WSA" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WSA" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_WSA" interface="PRI_MI2S_RX"/>
