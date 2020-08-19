@@ -270,7 +270,7 @@
     <!-- ADSP testfwk end-->
 
     <path name="bt-sco-wb-samplerate">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
     </path>
 
     <!-- These are audio route (FE to BE) specific mixer settings -->
@@ -821,7 +821,7 @@
     </path>
 
     <path name="audio-record-compress bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="audio-record-compress bt-sco" />
     </path>
 
@@ -838,7 +838,7 @@
     </path>
 
     <path name="low-latency-record bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="low-latency-record bt-sco" />
     </path>
 
@@ -935,7 +935,7 @@
     </path>
 
     <path name="vowlan-call bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="vowlan-call bt-sco" />
     </path>
 
@@ -1012,7 +1012,7 @@
     </path>
 
     <path name="hfp-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="BTSCO_RATE_16KHZ" />
         <path name="hfp-sco" />
     </path>
 
