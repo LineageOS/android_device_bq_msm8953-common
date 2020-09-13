@@ -948,7 +948,7 @@ vendor/lib64/libril-qc-qmi-1.so|c9b91d5f87caf3665980a2277090464ae23127bd
 vendor/lib64/libril-qc-radioconfig.so|053ccc5ecb293201d0a59df8ce68db713e3444d3
 vendor/lib64/libril-qcril-hook-oem.so|33d99a966f8707d869d943d57d0d2c4aea094258
 vendor/lib64/librilqmiservices.so|85e072c4e3230fabde68938c32c296ef54fcd2fc
-vendor/lib64/libsettings.so|d14802afa2335f9d273f6fe2e2003ae4c9cee720
+vendor/lib64/libsettings.so|d14802afa2335f9d273f6fe2e2003ae4c9cee720|bdde1812cd1658f05d8d2d31eeacc73ca06371d7
 vendor/lib64/libsystem_health_mon.so|a2d59fb81c8365261757ed4a371b790122073165
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
 vendor/lib64/qtibus.so|8d83b1bd2b4ff298734e7a39291c6fc29b9442d3
@@ -1140,7 +1140,7 @@ etc/firmware/ice40.bin
 # Widevine - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|31901223513e3748c761d6f721ac09e860e648a8
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
-vendor/lib64/libwvhidl.so|0f55afa0bde820fc069528b626fc5b988a258f3b
+vendor/lib64/libwvhidl.so|0f55afa0bde820fc069528b626fc5b988a258f3b|035e4087f8aa95ec9cc32724a1ab145713be5a68
 
 # Wi-Fi - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
 vendor/bin/wcnss_service|57dd480cec43dcf94fe208ae5c0d9b096e00679f|bfc54ae329343745d1b824da2f17b7a567af6f5c
