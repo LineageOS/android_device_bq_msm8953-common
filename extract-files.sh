@@ -105,6 +105,12 @@ function blob_fixup() {
                 patchelf --add-needed "libqmiservices_shim.so" "${2}"
                 sed -i "s|dms_get_service_object_internal_v01|dms_get_service_object_shimshim_v01|g" "${2}"
         ;;
+        vendor/lib64/libril-qc-hal-qmi.so)
+                patchelf --replace-needed "android.hardware.radio.config@1.1.so" "android.hardware.radio.config@1.1_shim.so" "${2}"
+        ;;
+        vendor/lib64/android.hardware.radio.config@1.1_shim.so)
+                patchelf --set-soname "android.hardware.radio.config@1.1_shim.so" "${2}"
+                sed -i -e 's|android.hardware.radio.config@1.1::IRadioConfig\x00|android.hardware.radio.config@1.0::IRadioConfig\x00|g' "${2}"
         esac
 }
 # Reinitialize the helper for ${device}
