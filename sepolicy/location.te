@@ -1,2 +1,6 @@
 #xtra-demon
 hal_client_domain(location, vendor_qccsyshal);
+allow location hal_cacert_hwservice:hwservice_manager find;
+allow location vendor_qccsyshal_hwservice:hwservice_manager find;
+## Allow location clientdomain to perform binder IPC to qtidataservices_app serverdomain.
+binder_call(location, qtidataservices_app)
