@@ -1122,7 +1122,7 @@ vendor/lib/libthermalclient.so|c0089a7fdd34bc5f3ea0556e5f4a087ab02fc34f
 vendor/lib64/libthermalclient.so|20f1fd238fc81bf1c6828ec416121c0ef66e0df1
 
 # Time services - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
--vendor/app/TimeService/TimeService.apk:vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|54696fb92a9babc004b41de4ac5f6ce0331e5eb9
+-vendor/app/TimeService/TimeService.apk|54696fb92a9babc004b41de4ac5f6ce0331e5eb9
 vendor/bin/time_daemon|a1d1675ef502120ee99bc7acc20f78ff8d11f325
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|8f182be148c0cd0f4e2d00563494d892293df821
