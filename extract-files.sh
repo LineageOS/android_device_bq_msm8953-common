@@ -58,6 +58,9 @@ fi
 
 function blob_fixup() {
         case "${1}" in
+        lib64/libdpmframework.so)
+                patchelf --add-needed "libshim_dpmframework.so" "${2}"
+        ;;
         system/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|system/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml)
                 sed -i -e 's|xml version=\"2.0\"|xml version=\"1.0\"|g' "${2}"
         ;;
