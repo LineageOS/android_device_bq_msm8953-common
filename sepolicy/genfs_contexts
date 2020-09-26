@@ -29,6 +29,24 @@ genfscon sysfs   /devices/soc/a000000.qcom,wcnss-wlan/net             u:object_r
 genfscon sysfs /kernel/slab/zs_handle/store_user u:object_r:vendor_sysfs_slab_zshandle_storeuser:s0
 genfscon sysfs /kernel/slab/zspage/store_user u:object_r:vendor_sysfs_slab_zspage_storeuser:s0
 
+# PMIC devices wakeup nodes
+genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-000c/a8c000.i2c:qcom,smb1355@c:qcom,smb1355-charger@1000/power_supply/parallel/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-0010/a8c000.i2c:qcom,smb1390@10:qcom,charge_pump/power_supply/charge_pump_master/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,power-on@800/wakeup/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-04/c440000.qcom,spmi:qcom,pm6150l@4:qcom,power-on@800/wakeup/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,pm6150_rtc/rtc/rtc0/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/wakeup/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/usb/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,usb-pdphy@1700/usbpd/usbpd0/otg_default/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,pm6150_rtc/wakeup/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qpnp,qg/power_supply/bms/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/main/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/battery/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/dc/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm6150@0:qcom,qpnp-smb5/power_supply/pc_port/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-000c/88c000.i2c:qcom,smb1355@c:qcom,smb1355-charger@1000/power_supply/parallel/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/88c000.i2c/i2c-2/2-0010/88c000.i2c:qcom,smb1390@10:qcom,charge_pump/power_supply/charge_pump_master/wakeup u:object_r:sysfs_wakeup:s0
+
 # ProcFS
 genfscon proc /sys/vm/swappiness                                      u:object_r:proc_swap:s0
 genfscon proc /sys/vm/dirty_writeback_centisecs                       u:object_r:proc_dirty:s0
