@@ -5,8 +5,6 @@ LOCAL_PATH := $(call my-dir)
 ifndef BOARD_VNDK_VERSION
 
 VNDK_SP_LIBRARIES := \
-    libdexfile \
-    libartbase \
     libziparchive
 
 install_in_hw_dir := \
