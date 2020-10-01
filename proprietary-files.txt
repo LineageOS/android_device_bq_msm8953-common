@@ -689,7 +689,7 @@ vendor/lib/libllvm-glnext.so|4029ae6086e104d09c74d75bdb67aaedb6e186a6
 vendor/lib/libllvm-qcom.so|55a6038cb9514b2a071f508278de397d3de9166b
 vendor/lib/libmm-hdcpmgr.so|fe6f9ee46f0ad5117b928f77ac09bfae31da7264
 vendor/lib/librs_adreno.so|95918d3371fdc82aa119cb5de81f60d6e45895bb
-vendor/lib/librs_adreno_sha1.so|aa5da8c1643d640fe9c5854a29e5240c21fdf4bd
+vendor/lib/librs_adreno_sha1.so|418e15e6e092f78d4067c302e1af72a17ffbe87f
 vendor/lib64/egl/eglSubDriverAndroid.so|5c3a761b201e39d82ac64d86df086d4b02ad3f91
 vendor/lib64/egl/libEGL_adreno.so|e7a24af960182dc06474be9f5bafc65644ee0628
 vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
