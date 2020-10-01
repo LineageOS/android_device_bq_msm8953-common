@@ -178,6 +178,9 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# Power
+TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
+
 # Properties
 TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
 
