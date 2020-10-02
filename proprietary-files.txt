@@ -903,7 +903,6 @@ system/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
 system/etc/permissions/qcrilhook.xml|7319f2590bd76a006e54c41d4451b1027d91a289
 system/etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 system/framework/qcrilhook.jar|fa79d5a8fa2a459a8f6ab563f35a4e89f2f51fd9
-system/framework/qti-telephony-common.jar|9fb62872b20edc0ca17c20fda78a099ca68e45c0
 system/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 system/lib64/vndk-29/android.hardware.radio.config@1.1.so:vendor/lib64/android.hardware.radio.config@1.1_shim.so|19922e5208b4035610012737dbba3178b6c58b4a|a1dae2cff03889e2e9fe169f7212ff0c345bd079
 -system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|62e6c5782cc22ed3ff879db97b54c9b11a35a4f4
@@ -1104,6 +1103,9 @@ vendor/lib/vendor.qti.ims.rcsconfig@1.0.so|7173b7027f43e1203ee3692cfe1c1cc9b64d9
 vendor/lib/vendor.qti.imsrtpservice@2.0.so|eb40658b04378d39877ada67cf1fd47301b2c6b4
 vendor/lib/vendor.qti.imsrtpservice@2.1-service-Impl.so|fc076cfac0c680a614e29effd860ed482e4c4a9f
 vendor/lib/vendor.qti.imsrtpservice@2.1.so|bce5af543e08c9e77f9ad9c0d3024ae336f9fe43
+
+# RIL TC - from repo8 - cmi-qssi-user-11-RKQ1.200710.002-V12.1.2.0.RJACNXM-release-keys
+system_ext/framework/qti-telephony-common.jar|dbed34315fa8745bd22f758d1173924bf3cdfa9c
 
 # Sensors - from repo2 - casuarina_open-user-10-QKQ1.200311.002-V430A_OPN_U_B8_200625
 vendor/bin/sensors.qti|d0afb37317ac08b21b45048759c700439a3560a4
