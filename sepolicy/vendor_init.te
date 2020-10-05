@@ -1,3 +1,10 @@
 #============= vendor_init ==============
 allow vendor_init proc_swap:file { open write };
 allow vendor_init wcnss_device:chr_file { open write };
+
+allow vendor_init rootfs:dir r_dir_perms;
+# [NEVERALLOW]: Allow vendor_init to change SELinux labels { setattr relabelfrom }
+# [NEVERALLOW]: Allow vendor_init to access system_data_file
+allow vendor_init { system_data_file fingerprintd_data_file wallpaper_file icon_file }:{ dir file } { read open getattr setattr relabelfrom relabelto };
+# [NEVERALLOW]: Allow vendor_init to execute vendor_toolbox_exec { execute_no_trans }
+allow vendor_init vendor_toolbox_exec:file { execute_no_trans entrypoint };
