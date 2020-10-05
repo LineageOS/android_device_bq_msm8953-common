@@ -56,4 +56,8 @@
     <!-- Whether device needs to wait for Qualcomm MPCTL service to start
          before setting power profiles on boot. -->
     <bool name="config_waitForMpctlOnBoot">true</bool>
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when
+         user switches -->
+    <bool name="config_cleanupUnusedFingerprints">false</bool>
 </resources>
