@@ -178,6 +178,10 @@ PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_libui
 
+# b/166675194
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.camera.provider24.disable_mem_init=1
+
 # mct_pipeline
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/mct_pipeline.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mct_pipeline.xml
