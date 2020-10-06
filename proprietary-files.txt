@@ -68,7 +68,7 @@ vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg
 vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg
 
 # Bluetooth - from repo4 - misc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|dcdfce5f781baf1a30f2b9d49f7beeaad90a37ec|27aba523ccd833c09fedf83b19e0bf3146fe7963
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|0dc322d7674bbbfe23ba4fed494328823f555641|177f5f853d6ab0ec59ccf7927e70a0946171112e
 
 # Bluetooth - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|8429b451d671b1b5d55e171bf824952f4f67c381
