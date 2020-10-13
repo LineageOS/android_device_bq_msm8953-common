@@ -371,23 +371,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so
 
 PRODUCT_PACKAGES += \
-    vendor.nxp.hardware.nfc@1.2-service \
-    com.android.nfc_extras \
-    com.nxp.nfc.nq \
-    com.nxp.nfc.nq.xml \
-    libnqnfc-nci \
-    libnqnfc_nci_jni \
-    libnqp61-jcop-kit \
-    nfc_nci.nqx.default \
-    nqnfcee_access.xml \
-    nqnfcse_access.xml \
+    android.hardware.nfc@1.2-service \
     NfcNci \
+    com.gsma.services.nfc \
     SecureElement \
+    com.nxp.nfc.nq \
     Tag
-
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/opensource/pn5xx
 
 # OMX
 PRODUCT_PACKAGES += \
