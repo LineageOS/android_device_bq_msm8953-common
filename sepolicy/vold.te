@@ -1,2 +1,4 @@
 #============= vold ==============
-allow vold hal_bootctl_hwservice:hwservice_manager find;
+
+# talk to bootloader HAL
+hal_client_domain(vold, hal_bootctl)
