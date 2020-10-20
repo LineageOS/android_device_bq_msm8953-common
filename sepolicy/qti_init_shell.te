@@ -10,3 +10,6 @@ allow qti_init_shell proc_swap:file { open write };
 #allow configuring slub debug options
 allow vendor_qti_init_shell vendor_sysfs_slab_zshandle_storeuser:file w_file_perms;
 allow vendor_qti_init_shell vendor_sysfs_slab_zspage_storeuser:file w_file_perms;
+
+allow qti_init_shell ctl_start_prop:property_service set;
+allow qti_init_shell ctl_stop_prop:property_service set;
