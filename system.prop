@@ -15,3 +15,6 @@ telephony.lteOnCdmaDevice=1
 
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
+
+# Zygote
+zygote.critical_window.minute=10
