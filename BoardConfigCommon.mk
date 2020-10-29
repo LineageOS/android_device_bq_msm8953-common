@@ -203,6 +203,10 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/lib/hw/camera.msm8953.so|libshims_camera.so \
     /system/lib/libui.so|libshims_libui.so
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Tap to wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
 
