@@ -904,7 +904,7 @@ system/etc/permissions/qcrilhook.xml|7319f2590bd76a006e54c41d4451b1027d91a289
 system/etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 system/framework/qcrilhook.jar|fa79d5a8fa2a459a8f6ab563f35a4e89f2f51fd9
 system/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
-system/lib64/vndk-29/android.hardware.radio.config@1.1.so:vendor/lib64/android.hardware.radio.config@1.1_shim.so|19922e5208b4035610012737dbba3178b6c58b4a|a1dae2cff03889e2e9fe169f7212ff0c345bd079
+system/lib64/vndk-29/android.hardware.radio.config@1.1.so:vendor/lib64/android.hardware.radio.config@1.1_shim.so|19922e5208b4035610012737dbba3178b6c58b4a|66bf966273df811857b0d8ac0f0e212c82bf682c
 -system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|62e6c5782cc22ed3ff879db97b54c9b11a35a4f4
 vendor/bin/adpl|9103c8d64f11a8aca0efe14546889da86bd4e48c
 vendor/bin/ATFWD-daemon|4e70b30192946537acfa8cfc61b6236450ac4af7
@@ -941,7 +941,7 @@ vendor/lib64/libqmiservices.so|d0dfd40d94265216dc815821ac39a2da3643d8c9
 vendor/lib64/libqrtr.so|c7ca700c1f4759aa673a6c5478ca492487bbea70
 vendor/lib64/libqsocket.so|40816476d857f2ad07490415f6ff7433517ccef8
 vendor/lib64/libqti_vndfwk_detect.so|d1da6c6253eb4a37c87faf510cae4c9e01fe95eb
-vendor/lib64/libril-qc-hal-qmi.so|4acbcddfbf11790252c3fe99a29367430f5d630c|622f9f109b1cc64f85284846048911f853d51e1b
+vendor/lib64/libril-qc-hal-qmi.so|4acbcddfbf11790252c3fe99a29367430f5d630c|b0061b1037b20904c406f947aca3018ad3b89305
 vendor/lib64/libril-qc-ltedirectdisc.so|fd4a1265a0a61971ba4f46fd69d11affdf661ade
 vendor/lib64/libril-qc-qmi-1.so|c9b91d5f87caf3665980a2277090464ae23127bd
 vendor/lib64/libril-qc-radioconfig.so|053ccc5ecb293201d0a59df8ce68db713e3444d3
