@@ -110,6 +110,7 @@ function blob_fixup() {
         ;;
         vendor/lib64/libril-qc-hal-qmi.so)
                 patchelf --replace-needed "android.hardware.radio.config@1.1.so" "android.hardware.radio.config@1.1_shim.so" "${2}"
+                patchelf --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v28.so" "${2}"
         ;;
         vendor/lib/libsettings.so|vendor/lib64/libsettings.so)
                 patchelf --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v28.so" "${2}"
