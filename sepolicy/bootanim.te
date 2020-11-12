@@ -1,1 +1,2 @@
 r_dir_file(bootanim, sysfs_kgsl)
+get_prop(bootanim, userspace_reboot_exported_prop);
