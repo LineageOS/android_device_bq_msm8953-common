@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9e6489f4_303601a6",
+        "filename": "configs/component-overrides.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 24834
+      },
+      "writtenOn": "2020-11-22T16:17:32Z",
+      "side": 1,
+      "message": "In previous config hid was disabled",
+      "revId": "0bed2f3a1a6e87db35d4e3c8a17dc4800755ffb3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
