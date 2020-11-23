@@ -89,16 +89,13 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0 \
     android.hardware.audio.common@6.0-util \
     android.hardware.audio.effect@2.0-impl \
-    android.hardware.audio.effect@2.0-service \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
     android.hardware.soundtrigger@2.2-impl \
-    android.hardware.soundtrigger@2.0-service \
     audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
-    liba2dpoffload \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -213,7 +210,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm8953 \
     libdisplayconfig \
     memtrack.msm8953 \
-    liboverlay \
     libtinyxml \
     libqdMetaData \
     libqdMetaData.system
@@ -229,15 +225,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
-
-# IPv6
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes
-
-# Filesystem
-PRODUCT_PACKAGES += \
-	setup_fs
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -363,9 +350,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     NfcNci \
-    com.gsma.services.nfc \
     SecureElement \
-    com.nxp.nfc.nq \
     Tag
 
 # OMX
@@ -378,7 +363,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
@@ -422,7 +406,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
-    init.qti.fm.sh \
     init.msm.usb.configfs.rc \
     init.target.rc \
     ueventd.qcom.rc \
@@ -447,7 +430,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor \
     librmnetctl \
-    libcnefeatureconfig \
     libxml2 \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
@@ -497,7 +479,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service \
-    thermal.msm8953
 
 # Trust HAL
 PRODUCT_PACKAGES += \
@@ -543,14 +524,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
-    libqsap_sdk \
-    libQWiFiSoftApCfg \
     libwifi-hal-qcom \
     libwpa_client \
-    vendor.qti.hardware.wifi.supplicant@1.0_vendor \
     wificond \
-    wifilogd \
-    wlutil \
     hostapd \
     WifiOverlay \
     wpa_supplicant \
