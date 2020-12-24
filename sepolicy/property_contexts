@@ -6,3 +6,6 @@ persist.vendor.data.shsusr_load                 u:object_r:vendor_radio_prop:s0
 persist.vendor.data.qmipriod_load               u:object_r:vendor_radio_prop:s0
 
 vendor.target.init.complete                     u:object_r:vendor_mpctl_prop:s0
+
+# Camera
+persist.debug.sf.showfps                        u:object_r:camera_dbg_prop:s0
