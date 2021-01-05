@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+$(call inherit-product, vendor/bq/msm8953-common/msm8953-common-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

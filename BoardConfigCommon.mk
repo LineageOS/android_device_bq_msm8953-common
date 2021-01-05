@@ -223,3 +223,6 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 TARGET_DISABLE_WCNSS_CONFIG_COPY := true
 TARGET_USES_WCNSS_CTRL  := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+# inherit from the proprietary version
+-include vendor/bq/msm8953-common/BoardConfigVendor.mk
