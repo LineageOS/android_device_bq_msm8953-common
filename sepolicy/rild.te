@@ -1,1 +1,4 @@
 dontaudit rild vendor_file:file ioctl;
+
+# Allow binder communication with qtidataservices_app
+binder_call(rild, qtidataservices_app)
