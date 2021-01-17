@@ -1487,7 +1487,8 @@
     </path>
 
     <path name="voice-speaker-dmic-ef">
-        <path name="dmic-endfire" />
+        <!-- <path name="dmic-endfire" /> -->
+        <path name="voice-speaker-dmic-mono" />
     </path>
 
     <path name="voice-rec-dmic-ef">
