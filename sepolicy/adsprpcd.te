@@ -1,0 +1,2 @@
+allow adsprpcd_file self:filesystem associate;
+allow adsprpcd vendor_file:dir r_dir_perms;
