@@ -200,7 +200,6 @@ persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.fake_audio_up=1
 ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
-ro.telephony.use_old_mnc_mcc_format=true
 service.qti.ims.enabled=1
 telephony.lteOnCdmaDevice=1,1
 
