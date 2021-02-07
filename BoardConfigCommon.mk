@@ -127,11 +127,6 @@ USE_DEVICE_SPECIFIC_GPS := true
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
-ifdef BUILD_WITH_P_FIRMWARE
-    DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/vendor.hw.radio_p.xml
-else
-    DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/vendor.hw.radio_o.xml
-endif
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
