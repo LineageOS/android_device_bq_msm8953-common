@@ -405,10 +405,6 @@ vendor/etc/perf/targetresourceconfigs.xml|8d2c2976902884c512cf33b2cc66bfa28b340b
 vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
 
 # Perf - from repo1 - FP3-user-10-8901.3.A.0033.20200815-08150109-release-keys
-system/lib/vendor.qti.hardware.perf@1.0.so|14433f3baf7e760208f3e6ebbcb5583c5cfbf91c
-system/lib/vendor.qti.hardware.perf@2.0.so|67fbeed3fce2a6521f9c1d39b6cab1cd1550bd2a
-system/lib64/vendor.qti.hardware.perf@1.0.so|125a5c14b4e768ef7ce1d89abee9b2421f17b7ba
-system/lib64/vendor.qti.hardware.perf@2.0.so|d4f082dcf0fedec3376144f91bc163c3c863ebd4
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|98654005d78109d44fc1b53a41803184dd35939a
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
@@ -417,15 +413,11 @@ vendor/lib/libperfgluelayer.so|60aa1a8cbeb307c15a263176ed86186ab7c1b4b7
 vendor/lib/libqti-perfd-client.so|99d542254fb5d4dc3fe2f5432c5ac4845995f75b
 vendor/lib/libqti-perfd.so|d12d8902ce3d68039cb90d3a3b122fdf72d19f07
 vendor/lib/libqti-util.so|7f1b080e1d5c2e03261b80699232b3153146d215
-vendor/lib/vendor.qti.hardware.perf@1.0.so|2db730224a862d6e8bab9a8e56e912d4502d2dea
-vendor/lib/vendor.qti.hardware.perf@2.0.so|44ad97ec6a9abe51900d55b3c3111d86de7d493b
 vendor/lib64/libperfconfig.so|12eef9b5b6239a2aef2bd6fb8cbbec47853619a2
 vendor/lib64/libperfgluelayer.so|0bf84cafdc9922ad5b40d2a4aca05bd4fcd637be
 vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
 vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|afd9b13e1a08a77afa0603731c90e58c4cc570f9
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|8330f1eb40d6288641a86afae4dd5ba8a154533b
 
 # Peripheral manager - from repo2 - casuarina_rus-user-10-QKQ1.200311.002-V430E_RUS_U_B2_201013
 vendor/bin/pm-proxy|6317be13e38a4f7e5005ef544ab36bc7fe9cc3fd
