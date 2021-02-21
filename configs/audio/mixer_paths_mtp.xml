@@ -1268,7 +1268,7 @@
     </path>
 
     <path name="speaker">
-        <ctl name="quad Profile" value="loud" />
+        <ctl name="quad Profile" value="speech" />
     </path>
 
     <path name="speaker_hq">
