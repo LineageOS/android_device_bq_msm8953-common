@@ -413,9 +413,7 @@ vendor/lib64/libwms.so|59bfa19fd491c8c987d74604ec97d806399abe83
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2f71a69f37ec8261fb05b8
 
 # Perf Config - from repo4 - misc
-vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
 vendor/etc/perf/perfboostsconfig.xml|a11bb2da41dd1d54ecf07f8c4ec2d6bd7ffad38e
-vendor/etc/perf/perfconfigstore.xml|207ff980c296f4935928dd2f06e085b33bf59755
 vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
 vendor/etc/perf/targetresourceconfigs.xml|8d2c2976902884c512cf33b2cc66bfa28b340b83
 
@@ -426,6 +424,8 @@ vendor/bin/energy-awareness|056792da4f0bcfc34b1f85e3ee67820d8c80627f
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|98654005d78109d44fc1b53a41803184dd35939a
 vendor/bin/msm_irqbalance|0e967f5c7eaf8d863a50996459101be47adf96a2
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
+vendor/etc/perf/commonresourceconfigs.xml|89d443b2b67d58fff1ef34c33e3f1c393164cf5d
+vendor/etc/perf/perfconfigstore.xml|dfa3a78fd24cba4b870a3cd04d657cc9962c8331
 vendor/lib/libperfconfig.so|9c6280cded15fc4f174554cdc8d473a03d28e86e
 vendor/lib/libperfgluelayer.so|60aa1a8cbeb307c15a263176ed86186ab7c1b4b7
 vendor/lib/libqti-perfd-client.so|99d542254fb5d4dc3fe2f5432c5ac4845995f75b
