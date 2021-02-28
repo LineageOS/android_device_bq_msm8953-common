@@ -95,8 +95,7 @@ function blob_fixup() {
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
         ;;
         vendor/etc/izat.conf)
-                sed -i -e 's|^GTP_CELL *=.*|GTP_CELL=BASIC|g' "${2}"
-                sed -i -e 's|^GTP_WIFI *=.*|GTP_WIFI=BASIC|g' "${2}"
+                sed -i -e 's|^GTP_MODE *=.*|GTP_MODE=SDK_WIFI|g' "${2}"
                 sed -i -e 's|^NLP_MODE *=.*|NLP_MODE=4|g' "${2}"
         ;;
         vendor/bin/netmgrd)
