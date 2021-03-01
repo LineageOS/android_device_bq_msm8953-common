@@ -152,6 +152,7 @@ vendor.vidc.enc.disable.pq=true
 # Network manager
 persist.data.iwlan.enable=true
 persist.vendor.data.iwlan.enable=true
+persist.vendor.sys.cnd.iwlan=1
 ro.telephony.iwlan_operation_mode=legacy
 
 # Perf
@@ -199,6 +200,8 @@ persist.vendor.radio.sib16_support=1
 persist.vendor.radio.use_se_table_only
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.fake_audio_up=1
+persist.vendor.radio.snapshot_timer=22
+persist.vendor.radio.snapshot_enabled=1
 ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
 service.qti.ims.enabled=1
