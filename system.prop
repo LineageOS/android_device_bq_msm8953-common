@@ -131,6 +131,12 @@ vendor.hw.fm.init=0
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# IMS logging
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableDebugDataPathLogs=1
+persist.vendor.ims.vt.enableadb=1
+persist.vendor.ims.disableDebugLogs=1
+
 # Media
 media.msm8956hw=0
 mm.enable.smoothstreaming=true
