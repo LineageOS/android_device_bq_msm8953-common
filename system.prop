@@ -221,6 +221,10 @@ persist.data.qmi.adb_logmask=0
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953
+
 # Time Services
 persist.timed.enable=true
 
