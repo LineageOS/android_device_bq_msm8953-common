@@ -268,6 +268,17 @@
         "-novr"
       ],
       "Type": "Property"
+    },
+    {
+      "Name": "PowerHALPerfProfileState",
+      "Path": "vendor.powerhal.perf_profile",
+      "Values": [
+        "POWER_SAVE",
+        "BIAS_POWER_SAVE",
+        "BIAS_PERFORMANCE",
+        "HIGH_PERFORMANCE"
+      ],
+      "Type": "Property"
     }
   ],
   "Actions": [
@@ -600,6 +611,30 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "725000000"
+    },
+    {
+       "PowerHint": "PROFILE_POWER_SAVE",
+       "Node": "PowerHALPerfProfileState",
+       "Duration": 0,
+       "Value": "POWER_SAVE"
+    },
+    {
+       "PowerHint": "PROFILE_BIAS_POWER_SAVE",
+       "Node": "PowerHALPerfProfileState",
+       "Duration": 0,
+       "Value": "BIAS_POWER_SAVE"
+    },
+    {
+       "PowerHint": "PROFILE_BIAS_PERFORMANCE",
+       "Node": "PowerHALPerfProfileState",
+       "Duration": 0,
+       "Value": "BIAS_PERFORMANCE"
+    },
+    {
+       "PowerHint": "PROFILE_HIGH_PERFORMANCE",
+       "Node": "PowerHALPerfProfileState",
+       "Duration": 0,
+       "Value": "HIGH_PERFORMANCE"
     }
   ]
 }
