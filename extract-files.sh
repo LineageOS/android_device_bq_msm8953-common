@@ -76,6 +76,7 @@ function blob_fixup() {
         ;;
         vendor/lib/hw/camera.msm8953.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v27.so" "${2}"
+                patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
         lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
                 patchelfv08 --remove-needed "libunwind.so" "${2}"
@@ -84,8 +85,8 @@ function blob_fixup() {
         ;;
         vendor/lib/libmmcamera2_iface_modules.so)
                 # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
-                sed -i -e 's|\xfd\xb1\x20\x68|\xfd\xb1\x00\x20|g' "${2}"
-                PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "fdb10020" | wc -l)
+                sed -i -e 's|\x15\xB3\x20\x68|\x15\xB3\x00\x20|g' "${2}"
+                PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "15b30020" | wc -l)
                 if [ $PATTERN_FOUND != "1" ]; then
                    echo "Critical blob modification weren't applied on ${2}!"
                    exit;
