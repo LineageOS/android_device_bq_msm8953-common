@@ -1,6 +1,6 @@
 allow init wcnss_device:chr_file write;
 allow qti_init_shell {
-    fm_prop
+    vendor_fm_prop
 }:property_service set;
 
 # Allow init to bind mount loader config for media swcodec
