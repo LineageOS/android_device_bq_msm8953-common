@@ -2,5 +2,5 @@ allow hal_camera_default sysfs_thermal:file w_file_perms;
 
 userdebug_or_eng(`
   get_prop(hal_camera_default, camera_dbg_prop)
-  get_prop(hal_camera_default, sensors_dbg_prop)
+  get_prop(hal_camera_default, vendor_sensors_dbg_prop)
 ')
