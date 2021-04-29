@@ -605,10 +605,8 @@ vendor/lib64/libsdmextension.so|03c152e8587141efd22a79da4e765d8187555fdb
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # Graphics (Vulkan) - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
-vendor/lib/hw/vulkan.msm8953.so|559a3e527256efdba03fd5abacf8a2344e039237
-vendor/lib64/hw/vulkan.msm8953.so|7bb355c16bf3689edfd4843f2458b242d392654a
-vendor/lib/hw/vulkan.msm8953.so|559a3e527256efdba03fd5abacf8a2344e039237
-vendor/lib64/hw/vulkan.msm8953.so|7bb355c16bf3689edfd4843f2458b242d392654a
+vendor/lib/hw/vulkan.msm8953.so:vendor/lib/vulkan.msm8953.so|559a3e527256efdba03fd5abacf8a2344e039237
+vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/vulkan.msm8953.so|7bb355c16bf3689edfd4843f2458b242d392654a
 
 # Graphics firmware - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
 vendor/firmware/a506_zap.b00|21d74ee137e4096c2ffcd6f2545b5b2f8f384efa
