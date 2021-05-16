@@ -10,6 +10,9 @@ allow qti_init_shell proc_swap:file { open write };
 # Allow adjust page_cluster setting
 allow qti_init_shell proc_page_cluster:file { open write };
 
+allow qti_init_shell proc_sysctl_autogroup:file w_file_perms;
+allow qti_init_shell proc_sysctl_schedboost:file w_file_perms;
+
 #allow configuring slub debug options
 allow vendor_qti_init_shell vendor_sysfs_slab_zshandle_storeuser:file w_file_perms;
 allow vendor_qti_init_shell vendor_sysfs_slab_zspage_storeuser:file w_file_perms;
