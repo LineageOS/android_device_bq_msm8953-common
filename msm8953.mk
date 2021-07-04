@@ -101,7 +101,6 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
     liba2dpoffload \
-    libaacwrapper \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -581,6 +580,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
-# Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
