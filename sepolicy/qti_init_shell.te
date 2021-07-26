@@ -7,6 +7,9 @@ allow qti_init_shell vendor_radio_data_file:file create_file_perms;
 # Allow access to swapiness
 allow qti_init_shell proc_swap:file { open write };
 
+# Allow adjust page_cluster setting
+allow qti_init_shell proc_page_cluster:file { open write };
+
 #allow configuring slub debug options
 allow vendor_qti_init_shell vendor_sysfs_slab_zshandle_storeuser:file w_file_perms;
 allow vendor_qti_init_shell vendor_sysfs_slab_zspage_storeuser:file w_file_perms;
