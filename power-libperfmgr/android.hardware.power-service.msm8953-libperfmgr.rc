@@ -1,4 +1,4 @@
-service vendor.power-hal-aidl /vendor/bin/hw/android.hardware.power-service.xiaomi-libperfmgr
+service vendor.power-hal-aidl /vendor/bin/hw/android.hardware.power-service.msm8953-libperfmgr
     class hal
     user root
     group system
