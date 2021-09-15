@@ -15,7 +15,7 @@
  */
 
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
-#define LOG_TAG "android.hardware.power-service.xiaomi-libperfmgr"
+#define LOG_TAG "android.hardware.power-service.msm8953-libperfmgr"
 
 #include "Power.h"
 
