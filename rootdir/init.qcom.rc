@@ -615,7 +615,7 @@ on property:sys.qbcharger.enable=true
 on property:sys.qbcharger.enable=false
     stop vendor.qbcharger
 
-service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
+service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance_little_big.conf
     class core
     user root
     group root
