@@ -213,6 +213,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1
 
+# Use threaded GLES render engine
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.renderengine.backend=threaded
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
