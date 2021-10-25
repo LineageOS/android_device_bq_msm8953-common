@@ -217,6 +217,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.renderengine.backend=threaded
 
+# Skia
+# (b/183612348): Enable skia reduceOpsTaskSplitting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    renderthread.skia.reduceopstasksplitting=true
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
