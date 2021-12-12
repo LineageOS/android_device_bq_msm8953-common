@@ -205,6 +205,16 @@
       "ResetOnInit": true
     },
     {
+     "Name": "CompactionProActiveness",
+     "Path": "/proc/sys/vm/compaction_proactiveness",
+     "Values": [
+        "0",
+        "20"
+     ],
+      "DefaultIndex": 0,
+      "ResetOnInit": true
+    },
+    {
       "Name": "PMQoSCpuDmaLatency",
       "Path": "/dev/cpu_dma_latency",
       "Values": [
@@ -462,6 +472,12 @@
       "Node": "GPUIdleTimer",
       "Duration": 5000,
       "Value": "10000"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "CompactionProActiveness",
+      "Duration": 2000,
+      "Value": "20"
     },
     {
       "PowerHint": "CAMERA_LAUNCH",
