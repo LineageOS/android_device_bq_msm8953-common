@@ -957,11 +957,9 @@ system_ext/framework/qti-telephony-common.jar|6fab39f3bb691c64fb56bc1b9244f517c4
 
 # Sensors - from repo2 - casuarina_rus-user-10-QKQ1.200311.002-V430E_RUS_U_B2_201013
 vendor/bin/sensors.qti|3d32a78e24ce7f7c8b6e4d49523e2298701c48ea
-vendor/lib/hw/activity_recognition.msm8953.so|8ab8f2bd7c2f5c9a30db5edb3924f823a6ad9bf2
 vendor/lib/libsensor1.so|74871f3284937af2bfc25b518af22a056e6f8bc3
 vendor/lib/libsensor_reg.so|75d11f3c78beb720d2b64ae9bf2108f10d3ee7e6
 vendor/lib/sensors.ssc.so|904f04d46b4129762e1a86607566bad48c8d7269
-vendor/lib64/hw/activity_recognition.msm8953.so|de30f15694bf9e2ce0d344d6e81dee52418b99d7
 vendor/lib64/libsensor1.so|1c0a480379e7aed17c2ebb84b164380ca29b0ff0
 vendor/lib64/libsensor_reg.so|719d7495beb984989f52eab7eaeaaeb05a5c90bd
 vendor/lib64/sensors.ssc.so|66a80eb4c59176b86da051e9a4daa3f4077bc478
