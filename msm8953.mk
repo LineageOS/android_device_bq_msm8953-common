@@ -106,6 +106,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libtinycompress \
+    sound_trigger.primary.msm8953 \
     tinymix
 
 # Audio configuration files
