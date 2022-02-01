@@ -163,7 +163,8 @@ PRODUCT_PROPERTY_OVERRIDES += ro.kernel.ebpf.supported=1
 
 # Camera
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.frameworks.sensorservice@1.0.so:system/lib/android.frameworks.sensorservice@1.0-v28.so
+    prebuilts/vndk/v28/arm/arch-arm-armv7-a-neon/shared/vndk-core/android.frameworks.sensorservice@1.0.so:system/lib/android.frameworks.sensorservice@1.0-v28.so \
+    prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-core/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.radio.deprecated@1.0.so
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
