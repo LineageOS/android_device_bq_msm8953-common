@@ -134,53 +134,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.omx_default_rank.sw-audio=1
 PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.omx_default_rank=0
 
-PRODUCT_PROPERTY_OVERRIDES += \
-vendor.audio.feature.snd_mon.enable=true \
-vendor.audio.feature.compr_cap.enable=false \
-vendor.audio.feature.hifi_audio.enable=true \
-vendor.audio.feature.hdmi_edid.enable=true  \
-endor.audio.feature.spkr_prot.enable=true  \
-vendor.audio.feature.dsm_feedback.enable=false \
-vendor.audio.feature.ssrec.enable=true  \
-vendor.audio.feature.compr_voip.enable=true \
-vendor.audio.feature.kpi_optimize.enable=true \
-vendor.audio.feature.usb_offload.enable=false  \
-vendor.audio.feature.usb_offload_burst_mode.enable=false \
-vendor.audio.feature.usb_offload_sidetone_volume.enable=false \
-vendor.audio.feature.src_trkn.enable=true \
-vendor.audio.feature.ras.enable=false \
-vendor.audio.feature.a2dp_offload.enable=false \
-vendor.audio.feature.wsa.enable=true \
-vendor.audio.feature.compress_meta_data.enable=true \
-vendor.audio.feature.vbat.enable=true \
-vendor.audio.feature.display_port.enable=false \
-vendor.audio.feature.fluence.enable=true \
-vendor.audio.feature.custom_stereo.enable=true \
-vendor.audio.feature.anc_headset.enable=true \
-vendor.audio.feature.spkr_prot.enable=false \
-vendor.audio.feature.fm.enable=true \
-vendor.audio.feature.external_dsp.enable=false \
-vendor.audio.feature.external_speaker.enable=false \
-vendor.audio.feature.external_speaker_tfa.enable=false \
-vendor.audio.feature.hwdep_cal.enable=false \
-vendor.audio.feature.hfp.enable=true \
-vendor.audio.feature.ext_hw_plugin.enable=false \
-vendor.audio.feature.record_play_concurency.enable=false \
-vendor.audio.feature.hdmi_passthrough.enable=false \
-vendor.audio.feature.concurrent_capture.enable=false \
-vendor.audio.feature.compress_in.enable=false \
-vendor.audio.feature.battery_listener.enable=false \
-vendor.audio.feature.maxx_audio.enable=false \
-vendor.audio.feature.audiozoom.enable=false \
-vendor.audio.feature.auto_hal.enable=false \
-vendor.audio.read.wsatz.type=true \
-vendor.audio.feature.multi_voice_session.enable=true \
-vendor.audio.feature.incall_music.enable=true
-
 # Use custom platform defs, mixer paths and policy
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
-    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
+    $(LOCAL_PATH)/configs/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
 # Bluetooth
