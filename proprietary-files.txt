@@ -45,19 +45,19 @@ vendor/lib/libadiertac.so|6cfa3c70f01617a944ed2d8512189400ccdec21e
 vendor/lib/libadm.so|b373d5cb6e4c6e081f1d206f6d9538339f330fda
 vendor/lib/libaudcal.so|8c4d9a610c5cce20dee9721feb4864ea2470caf2
 vendor/lib/libsurround_3mic_proc.so|d8c1d2cb7d598eee79ccfe5b7ec83a185c8fef6c
+vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
+vendor/lib/soundfx/libqcbassboost.so|bc8ae80ff1ade557ff494631494c2f8261028acb
+vendor/lib/soundfx/libqcreverb.so|1b3cef3c4c9145662fddb03c5e1e7dd3a4f25e1e
+vendor/lib/soundfx/libqcvirt.so|41bf71787ffae3f511d9cb3e32b9e721a0a2e385
 vendor/lib64/libacdb-fts.so|662467af62f9607abfd5acb532dfbf69240bcc70
 vendor/lib64/libacdbloader.so|7c49e7d95090e20f6198f03959323359e4b2ed19
 vendor/lib64/libacdbrtac.so|54d114f280eb99f4aa73890c5e9cfbb5b55eb813
 vendor/lib64/libadiertac.so|5b511a0312721e9e6ff27fae9a3f035cf66ac6f7
 vendor/lib64/libaudcal.so|a2788d71d00be193e9704edefc1b363cbc847942
-
-# Audio2 - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
-vendor/lib/libaudioalsa.so|1455df26b622c518c04d7f54746683ed96aaa74f
--vendor/lib/libaudioparsers.so|4b980c4392b6e800fb23213a0daaa83b35c04051
-vendor/lib/libqtigef.so|fbedb509c61ff1a7d6e9c4a099af346ca781430a
-vendor/lib64/libaudioalsa.so|0a8f0746cc8fd381d001f52c7eb4460951802ac4
--vendor/lib64/libaudioparsers.so|67f6836de4391c33cc030faa5c885ab250324291
-vendor/lib64/libqtigef.so|70df5848c061154e4c33b147e06d4979e2391b5e
+vendor/lib64/soundfx/libasphere.so|f552a053f935299b3fd9be03a596eb4c40dee50e
+vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
+vendor/lib64/soundfx/libqcreverb.so|fbda7d0189603bb8c0c3e9d92563d75b8ab2dbc8
+vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
 # Bluetooth - from repo4 - misc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|0dc322d7674bbbfe23ba4fed494328823f555641|177f5f853d6ab0ec59ccf7927e70a0946171112e
@@ -473,7 +473,7 @@ vendor/lib64/hw/gatekeeper.msm8953.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 # GPS - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 vendor/bin/slim_daemon|8e39f5a44bd68d2adfa98fa3fa1f1213915da6dc
 
-# GPS - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+# GPS - from repo7 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
 etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
 etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
@@ -532,67 +532,85 @@ vendor/lib/vendor.qti.gnss@2.0.so|fd0a70fe2f9a1b8a210f8998688f30da08dbc8b4
 vendor/lib/vendor.qti.gnss@2.1.so|83bf3df80b873bb5a90bbe0b2a4e9dc9b7fe0d80
 vendor/lib/vendor.qti.gnss@3.0.so|0a0acec0d1390c811771293a7ad2efadb1f59bf6
 
-# Graphics - from repo7 - proprietary
-lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|68c45b0a37115ffe0bc503873cbc3b6a9ae913d9
-lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|131b769dcda8e95cd999f912a9fa48636c792092
-vendor/lib/egl/eglSubDriverAndroid.so|72f727554575728006e8ac05b0ad714481259690
-vendor/lib/egl/libEGL_adreno.so|b27eabcb8a90912d915f2fa3061116642e16d300
-vendor/lib/egl/libGLESv1_CM_adreno.so|d7afdc835b962b30580eec884ede914a869ef9bc
-vendor/lib/egl/libGLESv2_adreno.so|fddfa911dd52c69c6c7b60f553c0795138696bd8
-vendor/lib/egl/libq3dtools_adreno.so|87e6c7ee189baa3f957b795ef05e95ca08276715
-vendor/lib/libC2D2.so|78a61602407f15874b23214c58faab2cb4ccf928
-vendor/lib/libCB.so|d6dd4d7529d05ac102b936965be3e59d87f7d7d5
-vendor/lib/libOpenCL.so|065575c14a735bff3ce30a266d8b622008b3c465
-vendor/lib/libadreno_utils.so|f5f51b75191c09dd8c63e420e6f68a9f9d28348a
-vendor/lib/libc2d30_bltlib.so|9e25a5b0e6af79f5f97a6dad1446266d06ac6c28
-vendor/lib/libgsl.so|6377c09442221afa58e53468a203fe3ea7e5f5eb
-vendor/lib/libhdr_tm.so|04d3cc1e1c0f9b85ccbee1c86c913665d2fe02f2
-vendor/lib/libllvm-glnext.so|b5f653aa2c9e1ea25c30f84cf8875fa6cb3d94ee
-vendor/lib/libllvm-qcom.so|6ba8089262575b17e2702917af3e85cfedf69e24
-vendor/lib/libmm-hdcpmgr.so|4364ca206f8d7ffd87d6f552e4760196de62ad7b
-vendor/lib/librs_adreno.so|227edc6fa4e16599d92d3c202112c6021d354a54
-vendor/lib64/egl/eglSubDriverAndroid.so|d6dc70f08a0e68e897c2c8a956a8c2f3e036c540
-vendor/lib64/egl/libEGL_adreno.so|ca0184f73e4894a58cf1a53da9e025ddad9eb74d
-vendor/lib64/egl/libGLESv1_CM_adreno.so|b45486353fceb47ec419ef580fdf6d2305a842ff
-vendor/lib64/egl/libGLESv2_adreno.so|86d80c7f17b43d6f11e8731bd4fa481b2da31e0e
-vendor/lib64/egl/libq3dtools_adreno.so|189b9c3d400c6a98c87582b8df0910530cba6d44
-vendor/lib64/libC2D2.so|175115cc36fd471f9eb83af76be21b5f602b9460
-vendor/lib64/libCB.so|f4ee960e0169cd72082c18df22d90c2b04b47355
-vendor/lib64/libOpenCL.so|d49daef4801942017b90faf2183f0643fca49ce7
-vendor/lib64/libadreno_utils.so|2dc4b21766ab7947fba7f1c2c9b085e6d6129775
-vendor/lib64/libc2d30_bltlib.so|68dda7852c6093578b69e88ce4db10243a48e02a
-vendor/lib64/libgsl.so|4328c6da13f53efb538c13b5e67310bbb07e2a29
-vendor/lib64/libhdr_tm.so|a1b9bbad12217e6b79951774801aa54be6460fd6
-vendor/lib64/libllvm-glnext.so|8b96ab94cd535c163d0548a5802fae9af4930fb7
-vendor/lib64/libllvm-qcom.so|412245fac906f38a3e6ece376615003817eaacab
-vendor/lib64/libmm-hdcpmgr.so|faf9491a8b15b9ca98a71e216ed94a61eca87540
-vendor/lib64/librs_adreno.so|bf87696c917d75da5557c194098faaae5e303a0b
+# Graphics - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
+lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|25391818f65a4dfe3fdf0603109eacc4eedc4c13
+vendor/lib/egl/eglSubDriverAndroid.so|c1bbd0acd7b4e5f04f1e5a4c763862396a565be3
+vendor/lib/egl/libEGL_adreno.so|c187331b65eb23c4a1e93bfd4cd95ca1c43f3849
+vendor/lib/egl/libGLESv1_CM_adreno.so|e5bdebe27271194b315fef65bbc490e4144dd272
+vendor/lib/egl/libGLESv2_adreno.so|dbedc54b6d1e82285f6a7149bad7e4ddea766ed2
+vendor/lib/egl/libQTapGLES.so|cdff3ea4c0dc71dd9c558ea2affae95b5fb75b04
+vendor/lib/egl/libq3dtools_adreno.so|b970511e8c02f60fad60ee66a4adefcd3e25c6d7
+vendor/lib/libC2D2.so|e85a06abb140e40b88b119a53f62a96c584a4233
+vendor/lib/libCB.so|1d4ef6401ea3838815e5cb3302ac2054ecd59086
+vendor/lib/libOpenCL.so|90dd47a0a0bdcd5632e437d0c66a4e9aed9aa419
+vendor/lib/libRSDriver_adreno.so|9822b808be17d2f9683edd8936d9bdf0f2bb78be
+vendor/lib/libadreno_utils.so|5193b736f69a7705c0587662990797d3c04987ae
+vendor/lib/libbccQTI.so|428e8c5c5c86bce857a4c0deca2cd3797c775e2b
+vendor/lib/libc2d30_bltlib.so|d0428f5543b9c689d065a5c2fdc4bc3d6c585cfe
+vendor/lib/libgsl.so|516839427f822126bb334cbdd2b7ed8e6781a75a
+vendor/lib/libhdr_tm.so|2e6529b4b22c289ea5ace6901f58e3c0cd025a09
+vendor/lib/libllvm-glnext.so|4029ae6086e104d09c74d75bdb67aaedb6e186a6
+vendor/lib/libllvm-qcom.so|55a6038cb9514b2a071f508278de397d3de9166b
+vendor/lib/libmm-hdcpmgr.so|fe6f9ee46f0ad5117b928f77ac09bfae31da7264
+vendor/lib/librs_adreno.so|95918d3371fdc82aa119cb5de81f60d6e45895bb
+vendor/lib/librs_adreno_sha1.so|418e15e6e092f78d4067c302e1af72a17ffbe87f
+vendor/lib64/egl/eglSubDriverAndroid.so|5c3a761b201e39d82ac64d86df086d4b02ad3f91
+vendor/lib64/egl/libEGL_adreno.so|e7a24af960182dc06474be9f5bafc65644ee0628
+vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
+vendor/lib64/egl/libGLESv2_adreno.so|7719c6fdb74607273c266e62dab452ea549e29f6
+vendor/lib64/egl/libQTapGLES.so|05200db46341826aa9650004f898e1156746d753
+vendor/lib64/egl/libq3dtools_adreno.so|07c3b406aa055abfdb3358833d02cb5133964d37
+vendor/lib64/libC2D2.so|802802ac7ce0bb8bfc6918449a89ec820c6cfd53
+vendor/lib64/libCB.so|9604a131432f14cb43450f98dbaacc22d45beee1
+vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
+vendor/lib64/libRSDriver_adreno.so|dbeb4122053e468b8fe52496f8c93261945ffe99
+vendor/lib64/libadreno_utils.so|7723561e4c15c8cda5639ab36c0fb80cefbad783
+vendor/lib64/libbccQTI.so|42fdea81ea505ccadbf6d24af7ba37cf83760391
+vendor/lib64/libc2d30_bltlib.so|f76972674b571b32356c055c7703d33abfeeb3b9
+vendor/lib64/libgsl.so|22403f25e6cd2ba3ea4dd3451048f7c8e24d833b
+vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
+vendor/lib64/libllvm-glnext.so|59918fafffbad799d77b2de31b7ed1990167e943
+vendor/lib64/libllvm-qcom.so|f491c8e16ace42d96644272d0932f34e50967b33
+vendor/lib64/libmm-hdcpmgr.so|3d8ddd744e6243d15267164c042aebaf200bb350
+vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
+vendor/lib64/librs_adreno_sha1.so|7b2aa30daeb488c2bf96b4f219812a02dd9ed9f1
 
-# Graphics (SDM) - from repo7 - proprietary
-vendor/lib/libscalar.so|c78e4b32170501fd85daa8804aaa54afbcb40dd2
-vendor/lib/libsdm-color.so|6384a5eef8062889cf9e34e6eea0026fbfca44e9
-vendor/lib/libsdm-diag.so|62e295e92a09eb07ee77966c775ef1b136198a5e
--vendor/lib/libsdm-disp-vndapis.so|7bc8ae0bb731344312358edca4559a215dfa0f06
-vendor/lib/libsdmextension.so|34972380240e8448ede4c24dc702ea76e97d4cef
-vendor/lib/libtinyxml2_1.so|7410663300606be35e233783fb2c4969f66c9c0e
-vendor/lib64/libscalar.so|fb38a16b3c082a8cb861905c32dff71187dca2b7
-vendor/lib64/libsdm-color.so|d9bec7004ec8fd292bb0cd3388359448ca96bd23
-vendor/lib64/libsdm-diag.so|b6b6f2b602c2b19763d262a021ce6ee5562d7dc6
--vendor/lib64/libsdm-disp-vndapis.so|8e92d1f17735c26658c17148da6e1882b5bc6fb0
-vendor/lib64/libsdmextension.so|4428ff01496cc0c07f623fb813eb8e0047df1ecc
-vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
+# Graphics (hwcomposer) - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+vendor/lib/hw/hwcomposer.msm8953.so|19fc3546d6fe2106646323d4f077d58611529a80
+vendor/lib/libsdmutils.so|7d691ba056ae66fbdc4d95a362b339e55f6c2aab
+vendor/lib/libsdmcore.so|90ca50232d0ddae9d9e0223ae4ca9b8ef852dc2a
+vendor/lib64/hw/hwcomposer.msm8953.so|e30389c76402d190ea4398cfe070a550b5025f9c
+vendor/lib64/libsdmutils.so|7ddbc68ea150ebc39d4ce153e9c1623dba2e5a1d
+vendor/lib64/libsdmcore.so|6e2dcbc9e75baca54f397839d4bcd2980a8f0a3c
 
-# Graphics (Vulkan) - from repo7 - proprietary
-vendor/lib/hw/vulkan.adreno.so|d8605174a447fe05976ed195318797f73a943ed5
-vendor/lib64/hw/vulkan.adreno.so|242ba0af54ad1467998c8df1345b85d568889a4a
+# Graphics (SDM) - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+vendor/lib/libscalar.so|72315ef8655e5d92ad866fa2563995108b3ca144
+vendor/lib/libsdm-color.so|e0a09970328fa59883e4a51ee38528d2e84bc6c2
+vendor/lib/libsdm-diag.so|4b6fb07f48406b65d7185e319bbeaf9cd8aaa478
+-vendor/lib/libsdm-disp-vndapis.so|2bcfb8721de0d0668212722a78b86b92bd3f22d6
+vendor/lib/libsdmextension.so|0a11cdf124cb1736ce53a6d5f7b51675e4c2f811
+vendor/lib/libtinyxml2_1.so|ae18b1269052274ad98ff954bf8e1ce0fe50eccf
+vendor/lib64/libscalar.so|0e4966afdeb2de2e88dea9fc420eed931a64060b
+vendor/lib64/libsdm-color.so|fef2b577d7aa5e69122f49b45c3f5185e41b3d9d
+vendor/lib64/libsdm-diag.so|3a04410ad9dafd5c348afab5db6445390dae00cb
+-vendor/lib64/libsdm-disp-vndapis.so|5f2dfe8f37dd33f3f87ba9743bd228b0a90e13dd
+vendor/lib64/libsdmextension.so|03c152e8587141efd22a79da4e765d8187555fdb
+vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
-# Graphics firmware - from repo7 - proprietary
+# Graphics (Vulkan) - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+vendor/lib/hw/vulkan.msm8953.so|559a3e527256efdba03fd5abacf8a2344e039237
+vendor/lib64/hw/vulkan.msm8953.so|7bb355c16bf3689edfd4843f2458b242d392654a
+
+# Graphics firmware - from repo3 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 vendor/firmware/a506_zap.b00|21d74ee137e4096c2ffcd6f2545b5b2f8f384efa
-vendor/firmware/a506_zap.b01|a411ea3349bd2e907d6598183d3044e565f28bf6
+vendor/firmware/a506_zap.b01|29b1834931d0cf07ab85fff636a787eee5d187e2
 vendor/firmware/a506_zap.b02|3e301fa5905acd05f15836959595791c1241a017
-vendor/firmware/a506_zap.elf|5532e3511cea20c47ee816ac9a74cf69881de0ee
-vendor/firmware/a506_zap.mdt|8e49bac7a52230ec70ab640f26ac57f7a8596b39
-vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
+vendor/firmware/a506_zap.elf|d9e5782c288516a4fd4adf521855d7d477308eed
+vendor/firmware/a506_zap.mdt|14839ca79a58f2ddf1cc6c0bdae1b63a3b92c774
+
+# Graphics firmware - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
+vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
 # Keymaster - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
