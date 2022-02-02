@@ -544,7 +544,6 @@ vendor/lib/egl/libq3dtools_adreno.so|b970511e8c02f60fad60ee66a4adefcd3e25c6d7
 vendor/lib/libC2D2.so|e85a06abb140e40b88b119a53f62a96c584a4233
 vendor/lib/libCB.so|1d4ef6401ea3838815e5cb3302ac2054ecd59086
 vendor/lib/libOpenCL.so|90dd47a0a0bdcd5632e437d0c66a4e9aed9aa419
-vendor/lib/libRSDriver_adreno.so|9822b808be17d2f9683edd8936d9bdf0f2bb78be
 vendor/lib/libadreno_utils.so|5193b736f69a7705c0587662990797d3c04987ae
 vendor/lib/libbccQTI.so|428e8c5c5c86bce857a4c0deca2cd3797c775e2b
 vendor/lib/libc2d30_bltlib.so|d0428f5543b9c689d065a5c2fdc4bc3d6c585cfe
@@ -553,8 +552,6 @@ vendor/lib/libhdr_tm.so|2e6529b4b22c289ea5ace6901f58e3c0cd025a09
 vendor/lib/libllvm-glnext.so|4029ae6086e104d09c74d75bdb67aaedb6e186a6
 vendor/lib/libllvm-qcom.so|55a6038cb9514b2a071f508278de397d3de9166b
 vendor/lib/libmm-hdcpmgr.so|fe6f9ee46f0ad5117b928f77ac09bfae31da7264
-vendor/lib/librs_adreno.so|95918d3371fdc82aa119cb5de81f60d6e45895bb
-vendor/lib/librs_adreno_sha1.so|418e15e6e092f78d4067c302e1af72a17ffbe87f
 vendor/lib64/egl/eglSubDriverAndroid.so|5c3a761b201e39d82ac64d86df086d4b02ad3f91
 vendor/lib64/egl/libEGL_adreno.so|e7a24af960182dc06474be9f5bafc65644ee0628
 vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
@@ -564,7 +561,6 @@ vendor/lib64/egl/libq3dtools_adreno.so|07c3b406aa055abfdb3358833d02cb5133964d37
 vendor/lib64/libC2D2.so|802802ac7ce0bb8bfc6918449a89ec820c6cfd53
 vendor/lib64/libCB.so|9604a131432f14cb43450f98dbaacc22d45beee1
 vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
-vendor/lib64/libRSDriver_adreno.so|dbeb4122053e468b8fe52496f8c93261945ffe99
 vendor/lib64/libadreno_utils.so|7723561e4c15c8cda5639ab36c0fb80cefbad783
 vendor/lib64/libbccQTI.so|42fdea81ea505ccadbf6d24af7ba37cf83760391
 vendor/lib64/libc2d30_bltlib.so|f76972674b571b32356c055c7703d33abfeeb3b9
@@ -573,8 +569,6 @@ vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
 vendor/lib64/libllvm-glnext.so|59918fafffbad799d77b2de31b7ed1990167e943
 vendor/lib64/libllvm-qcom.so|f491c8e16ace42d96644272d0932f34e50967b33
 vendor/lib64/libmm-hdcpmgr.so|3d8ddd744e6243d15267164c042aebaf200bb350
-vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
-vendor/lib64/librs_adreno_sha1.so|7b2aa30daeb488c2bf96b4f219812a02dd9ed9f1
 
 # Graphics (hwcomposer) - from repo1 - FP3-REL-Q-3.A.0084-20210204-2.105300-user-fastbootimage
 vendor/lib/hw/hwcomposer.msm8953.so|19fc3546d6fe2106646323d4f077d58611529a80
