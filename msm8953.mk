@@ -209,10 +209,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
-# Enable backpressure for GL comp
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.enable_gl_backpressure=1
-
 # Use threaded GLES render engine
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.renderengine.backend=threaded
