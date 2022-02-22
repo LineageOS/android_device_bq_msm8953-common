@@ -1,1 +1,4 @@
 r_dir_file(mm-qcamerad, sysfs_kgsl)
+
+get_prop(mm-qcamerad, bootanim_system_prop)
+get_prop(mm-qcamerad, boot_status_prop)
