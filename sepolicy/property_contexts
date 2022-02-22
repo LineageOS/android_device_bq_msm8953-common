@@ -8,3 +8,5 @@ vendor.target.init.complete                     u:object_r:vendor_mpctl_prop:s0
 persist.debug.sf.showfps                        u:object_r:camera_dbg_prop:s0
 camera.                                         u:object_r:camera_prop:s0
 persist.camera.                                 u:object_r:camera_prop:s0
+persist.vendor.camera.                          u:object_r:camera_prop:s0
+ro.camera                                       u:object_r:camera_prop:s0
