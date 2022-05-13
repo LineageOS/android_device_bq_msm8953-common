@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.bluetooth@1.0.vendor \
     audio.bluetooth.default \
     libbt-vendor \
     libbase_shim
@@ -168,14 +169,15 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-core/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/android.hardware.radio.deprecated@1.0.so
 
 PRODUCT_PACKAGES += \
-    android.frameworks.displayservice@1.0_32 \
+    android.frameworks.displayservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     Gallery2 \
     libshims_camera \
-    libshims_libui
+    libshims_libui \
+    libstdc++.vendor
 
 # b/166675194
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -244,6 +246,7 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.4.vendor \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.4-service.clearkey
 
@@ -276,13 +279,21 @@ PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
 
-# Gatekeeper HAL
+# Gatekeeper and Keymaster for vendor
 PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
     android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.keymaster@3.0.vendor \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.1.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1.vendor \
     libjson
 
 PRODUCT_COPY_FILES += \
@@ -384,6 +395,7 @@ PRODUCT_PACKAGES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor \
     libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -402,8 +414,9 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.2.vendor \
     android.hardware.power-service-qti \
-    vendor.qti.hardware.perf@2.0
+    vendor.qti.hardware.perf@2.0.vendor
 
 # Protobuf
 PRODUCT_PACKAGES += \
@@ -416,7 +429,7 @@ PRODUCT_COPY_FILES += \
 
 # Qualcomm
 PRODUCT_PACKAGES += \
-    libqti_vndfwk_detect \
+    libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
@@ -447,16 +460,17 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.5 \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.1 \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.radio@1.2.vendor \
+    android.hardware.radio@1.3.vendor \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.0.vendor \
+    android.hardware.radio.config@1.1.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2 \
+    android.hardware.secure_element@1.2.vendor \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
@@ -465,6 +479,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     telephony-ext
+
+# Netd for vendor
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
