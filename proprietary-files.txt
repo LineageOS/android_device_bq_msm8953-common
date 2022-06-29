@@ -1,20 +1,15 @@
-# Audio ACDB - from repo4 - misc
-etc/acdbdata/MTP/MTP_General_cal.acdb:vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|3e73d98568e523f471a86d301f4bb0b345246de0
-etc/acdbdata/MTP/MTP_Global_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|b9974ab5dfba31a8e27a26c64e19e923248133dc
-etc/acdbdata/MTP/MTP_Handset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|3cdebf51d8ab88fd0fa7b534f9706d6981e5e1dc
-etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|e6bf45c31fd29bcc28fd066cb97895baaf4a7523
-etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|8a3970882672ae8a4c2a901303044c9c320bd13c
-etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|f5570491b35d14f2f28d48f5abc22d410b33f24f
-etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|362435608f47a13e1a1b62344fcff59adbd14a89
-etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|7a2a191001844876f97363f1573126a2287365c0
-etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|340b64559cf4ad01baeee2e4d4781ae14e6a6ccc
-etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|de44884fa71f23e08b970219142d46659d75a761
+# Audio ACDB - from repo9 - 3.0.0_20191205-0806-bardockpro-bq-user-913
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|f5570491b35d14f2f28d48f5abc22d410b33f24f
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|362435608f47a13e1a1b62344fcff59adbd14a89
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|7a2a191001844876f97363f1573126a2287365c0
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|340b64559cf4ad01baeee2e4d4781ae14e6a6ccc
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|de44884fa71f23e08b970219142d46659d75a761
+
+# Audio ACDB - from repo3 - 3.1.2_20200715-1428-zangyapro_bq-user-467-Fastboot-FW
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ceec50c7b46ce5cb73c7e405656cb162a918fc7d
 
 # Audio ACDB - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
-etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|d3ed862e9c2e291bf4c33b98c5e2158eba1aa06f
-etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|484bc532435e46d79d3013998a4f89cb664ba1f2
-etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|fde061e2d2cf67885dacc3d5d5ecff77f477b12d
-etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|e1ca01987bfef191dc31a122a43a710ed9d96fca
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|e1ca01987bfef191dc31a122a43a710ed9d96fca
 
 # ADSP - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
 vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
