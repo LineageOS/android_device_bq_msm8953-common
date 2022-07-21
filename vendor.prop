@@ -62,6 +62,7 @@ persist.vendor.cnss-daemon.kmsg_logging=0
 
 # Display
 debug.sf.disable_client_composition_cache=1
+debug.sf.predict_hwc_composition_strategy=0
 debug.sf.disable_hwc_vds=1
 debug.sf.hw=0
 debug.egl.hw=0
