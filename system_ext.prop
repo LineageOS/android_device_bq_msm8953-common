@@ -108,6 +108,8 @@ rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.radio.DROPSETENABLE=1
 persist.vendor.data.profile_update=true
+# Disable handling audio direction changes on IMS calls.
+ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
 
 # QMI
 persist.data.qmi.adb_logmask=0
