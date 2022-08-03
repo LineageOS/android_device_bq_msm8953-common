@@ -493,6 +493,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.enableadvancedscan=false
 
+# Disable handling audio direction changes on IMS calls.
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.handle_audio_direction_changes_between_call_state_changes=false
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
