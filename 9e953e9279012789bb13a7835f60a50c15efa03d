@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da343c04_b13af892",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2022-08-04T19:00:51Z",
+      "side": 1,
+      "message": "It\u0027s updated in 19.1 - TARGET_ENFORCES_QSSI",
+      "revId": "9e953e9279012789bb13a7835f60a50c15efa03d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
