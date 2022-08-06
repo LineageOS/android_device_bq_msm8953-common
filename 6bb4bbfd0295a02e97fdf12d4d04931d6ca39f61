@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "353f76a5_a94761ef",
+        "filename": "manifest.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-08-06T06:43:00Z",
+      "side": 1,
+      "message": "Are you sure you want to do this?\n\nOur modem stack does not support this according to QC and we end up with lots of VTS failures.",
+      "range": {
+        "startLine": 119,
+        "startChar": 8,
+        "endLine": 120,
+        "endChar": 43
+      },
+      "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4aec8596_87200629",
         "filename": "manifest.xml",
         "patchSetId": 1
@@ -14,6 +37,29 @@
       "writtenOn": "2022-08-04T19:04:23Z",
       "side": 1,
       "message": "2.0 is needed I think.",
+      "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58847d4d_083b7d6a",
+        "filename": "msm8953.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-08-06T06:43:00Z",
+      "side": 1,
+      "message": "Same as manifest.",
+      "range": {
+        "startLine": 468,
+        "startChar": 4,
+        "endLine": 468,
+        "endChar": 32
+      },
       "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
