@@ -62,6 +62,30 @@
       },
       "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71f27fe8_ebf25e97",
+        "filename": "msm8953.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2022-08-06T19:33:49Z",
+      "side": 1,
+      "message": "\u003e Same as manifest.\n\nNo, 1.5 lib is a dep. It\u0027s needed",
+      "parentUuid": "58847d4d_083b7d6a",
+      "range": {
+        "startLine": 468,
+        "startChar": 4,
+        "endLine": 468,
+        "endChar": 32
+      },
+      "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
