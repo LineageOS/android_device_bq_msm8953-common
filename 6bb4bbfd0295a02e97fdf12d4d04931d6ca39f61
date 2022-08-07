@@ -86,6 +86,30 @@
       },
       "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b4c4c49_79c7116d",
+        "filename": "msm8953.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 468,
+      "author": {
+        "id": 28232
+      },
+      "writtenOn": "2022-08-07T07:32:00Z",
+      "side": 1,
+      "message": "For which module?\n\nI didn\u0027t need it on FP3 as well as in stock.",
+      "parentUuid": "71f27fe8_ebf25e97",
+      "range": {
+        "startLine": 468,
+        "startChar": 4,
+        "endLine": 468,
+        "endChar": 32
+      },
+      "revId": "6bb4bbfd0295a02e97fdf12d4d04931d6ca39f61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
