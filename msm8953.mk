@@ -187,9 +187,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
-# Use threaded GLES render engine
+# Use skiagl threaded GLES render engine
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.renderengine.backend=threaded
+    debug.renderengine.backend=skiaglthreaded
 
 # ScalarConfig
 PRODUCT_PROPERTY_OVERRIDES += \
