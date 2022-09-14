@@ -3,6 +3,10 @@
     <item name="none">0</item>
     <item name="screen.on">103</item>
     <item name="screen.full">362</item>
+
+    <!-- Operating voltage for bluetooth controller in mV. -->
+    <item name="bluetooth.controller.voltage">3300</item>
+
     <item name="bluetooth.active">101</item>
     <item name="bluetooth.on">0.9</item>
     <item name="wifi.on">1.55</item>
