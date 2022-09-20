@@ -46,8 +46,6 @@ BOARD_USES_QCNE := true
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
-TARGET_USES_64_BIT_BINDER := true
-
 # API Override
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /vendor/bin/mm-qcamera-daemon=27 \
