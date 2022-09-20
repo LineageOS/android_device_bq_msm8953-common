@@ -45,7 +45,6 @@ BOARD_USES_QCNE := true
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
-TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # API Override
