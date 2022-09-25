@@ -123,6 +123,10 @@ DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
