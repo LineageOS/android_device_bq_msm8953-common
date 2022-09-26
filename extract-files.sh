@@ -77,6 +77,8 @@ function blob_fixup() {
         vendor/lib/hw/camera.msm8953.so)
                 patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v28.so" "${2}"
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
+                patchelf --add-needed libshims_camera.so "${2}"
+                patchelf --add-needed libshims_libui.so "${2}"
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
                 sed -i -e 's|\x61\xF0\x7F\xFE|\x00\xBF\x00\x00|g' "${2}"
                 sed -i -e 's|\x61\xF0\x79\xFE|\x00\xBF\x00\x00|g' "${2}"
