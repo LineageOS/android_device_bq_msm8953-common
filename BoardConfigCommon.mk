@@ -173,7 +173,7 @@ TARGET_PER_MGR_ENABLED := true
 TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 
 # Properties
-TARGET_SYSTEM_PROP := $(COMMON_PATH)/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
@@ -197,6 +197,9 @@ TARGET_LD_SHIM_LIBS := \
 
 # Tap to wake
 TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/wakeup_gesture_enable"
+
+# Treble
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
