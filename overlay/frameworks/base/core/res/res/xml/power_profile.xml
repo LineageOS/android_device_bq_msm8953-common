@@ -2,23 +2,53 @@
 <device name="Android">
     <item name="screen.on">63</item>
     <item name="screen.full">261</item>
-    <array name="cpu.speeds">
-        <value>200000</value>
-        <value>499200</value>
-        <value>533333</value>
-        <value>800000</value>
-        <value>998400</value>
-        <value>1094400</value>
-        <value>1209600</value>
+<array name="cpu.clusters.cores">
+        <value>4</value> <!-- Cluster 0 has 4 cores (cpu0, cpu1, cpu2, cpu3) -->
+        <value>4</value> <!-- Cluster 1 has 4 cores (cpu4, cpu5, cpu6, cpu7) -->
     </array>
-    <array name="cpu.active">
-        <value>151</value>
-        <value>169</value>
-        <value>177</value>
-        <value>195</value>
-        <value>259</value>
-        <value>307</value>
-        <value>353</value>
+    <array name="cpu.core_speeds.cluster0">
+        <value>652800</value>  <!-- 652 MHz CPU speed -->
+        <value>1036800</value> <!-- 1036 MHz CPU speed -->
+        <value>1401600</value> <!-- 1401 MHz CPU speed -->
+        <value>1689600</value> <!-- 1689 MHz CPU speed -->
+        <value>1804800</value> <!-- 1804 MHz CPU speed -->
+        <value>1958400</value> <!-- 1958 MHz CPU speed -->
+        <value>2016000</value> <!-- 2016 MHz CPU speed -->
+        <value>2150400</value> <!-- 2150 MHz CPU speed -->
+        <value>2208000</value> <!-- 2208 MHz CPU speed -->
+    </array>
+    <array name="cpu.core_speeds.cluster1">
+        <value>652800</value>  <!-- 652 MHz CPU speed -->
+        <value>1036800</value> <!-- 1036 MHz CPU speed -->
+        <value>1401600</value> <!-- 1401 MHz CPU speed -->
+        <value>1689600</value> <!-- 1689 MHz CPU speed -->
+        <value>1804800</value> <!-- 1804 MHz CPU speed -->
+        <value>1958400</value> <!-- 1958 MHz CPU speed -->
+        <value>2016000</value> <!-- 2016 MHz CPU speed -->
+        <value>2150400</value> <!-- 2150 MHz CPU speed -->
+        <value>2208000</value> <!-- 2208 MHz CPU speed -->
+    </array>
+    <array name="cpu.core_power.cluster0">
+        <value>10.85</value> <!-- 652 MHz CPU speed -->
+        <value>20.85</value> <!-- 1036 MHz CPU speed -->
+        <value>50.96</value> <!-- 1401 MHz CPU speed -->
+        <value>70.31</value> <!-- 1689 MHz CPU speed -->
+        <value>100.25</value> <!-- 1804 MHz CPU speed -->
+        <value>110.25</value> <!-- 1958 MHz CPU speed -->
+        <value>120.25</value> <!-- 2016 MHz CPU speed -->
+        <value>130.25</value> <!-- 2150 MHz CPU speed -->
+        <value>140.25</value> <!-- 2208 MHz CPU speed -->
+    </array>
+    <array name="cpu.core_power.cluster1">
+        <value>10.85</value> <!-- 652 MHz CPU speed -->
+        <value>20.85</value> <!-- 1036 MHz CPU speed -->
+        <value>50.96</value> <!-- 1401 MHz CPU speed -->
+        <value>70.31</value> <!-- 1689 MHz CPU speed -->
+        <value>100.25</value> <!-- 1804 MHz CPU speed -->
+        <value>110.25</value> <!-- 1958 MHz CPU speed -->
+        <value>120.25</value> <!-- 2016 MHz CPU speed -->
+        <value>130.25</value> <!-- 2150 MHz CPU speed -->
+        <value>140.25</value> <!-- 2208 MHz CPU speed -->
     </array>
     <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">1.6</item>
