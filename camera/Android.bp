@@ -17,13 +17,19 @@
 cc_library_shared {
     name: "libshims_camera",
     compile_multilib: "32",
+    defaults: ["hidl_defaults"],
+    include_dirs: [
+        "frameworks/native/include",
+    ],
     shared_libs: [
-        "libgui",
+        "libgui_vendor",
     ],
     srcs: [
      "Fence.cpp",
      "DisplayEventReceiver.cpp"
     ],
+
+    vendor: true,
 }
 
 cc_library_shared {
@@ -34,4 +40,5 @@ cc_library_shared {
     srcs: [
         "GraphicBuffer.cpp"
     ],
+    vendor: true,
 }
