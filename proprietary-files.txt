@@ -8,7 +8,7 @@ vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|de44884fa71f23e08b970219142d46659d7
 # Audio ACDB - from repo3 - 3.1.2_20200715-1428-zangyapro_bq-user-467-Fastboot-FW
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ceec50c7b46ce5cb73c7e405656cb162a918fc7d
 
-# Audio ACDB - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Audio ACDB - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|e1ca01987bfef191dc31a122a43a710ed9d96fca
 
 # ADSP - from repo5 - daisy-user-10-QKQ1.191002.002-V11.0.7.0.QDLMIXM-release-keys
@@ -54,7 +54,7 @@ vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
 vendor/lib64/soundfx/libqcreverb.so|fbda7d0189603bb8c0c3e9d92563d75b8ab2dbc8
 vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
-# Bluetooth - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Bluetooth - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|73d7132773572d87bdac6b5e454573e79d35316c
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
 vendor/lib/btaudio_offload_if.so|085c3ca187255db3d4f3def4622fc627fcb25051
@@ -69,7 +69,7 @@ vendor/lib/libbluetooth_audio_session_qti.so|ffd4c5557737015983c03673ba433baa942
 vendor/lib/libbt-hidlclient.so|4219b4ddf0cf35f1bb501174b1e0c45c4c205892
 vendor/lib/libbtnv.so|ecbbfefa5c3bfae15af9b1326a22bc2c1a70fda4
 vendor/lib/libsoc_helper.so|2536dc60e046ed527b767376cd43bc01fadcaa68
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|c737312d679204a49ce808c9a111fc1845eeed2a
+vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|14928c98c2d58e2aeeb68a293f9cb40627423c86
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|05622603cf51ec79358c5f9ea0cbf2210b9bc8c6
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|f7f4c06d3297f59877f3b1831e2deb8957671f09
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|b202b242b5d32079f1ce9888af3190ddcd222d90
@@ -95,7 +95,7 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|89febf652a6bafb3b25454a01c
 vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so|4d056faed3055e26853b1efb423164570f3e6fe9
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|a7c3fdcdfdf2d982b04baa89e0e4dc5f5d505bf7
 
-# Bluetooth (ANT+) - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Bluetooth (ANT+) - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bad2579ce576c46af6a50ee6687bd92fa7f76cd
 system_ext/lib/com.qualcomm.qti.ant@1.0.so|2c9b0ef686c0222903ebec996295dcc8787bf873
 
@@ -349,7 +349,7 @@ vendor/etc/camera/imx298_gt24c64_chromatix.xml|a2faed214a9af70ec4d8b23dac91dbc3d
 vendor/etc/camera/s5k2l7_8953_chromatix.xml|a3229b9e14a93b19f7369daf5079fb4b3157c9a0
 vendor/etc/camera/s5k4h8_OFF0380_chromatix.xml|9baba0bfca339ade8e03f5fb0c017f3faed7cd28
 
-# Camera - Firmware - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Camera - Firmware - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/firmware/cpp_firmware_v1_10_0.fw|a3c0fc706eb3f23b99852fe8c52c26f63999f70c
 vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
 vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
@@ -362,9 +362,9 @@ vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
 vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 
-# CNE - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
-product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|335d6da6763240d58a1598f95bed50bb80e3e71d|75e8a824d368cd4172985c884796381327d950da
-product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|f21207db1805ec6ba512f526b795822794ff6274|620c9fa0047bb681e918af2d1e7a98c648f45fb7
+# CNE - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
+product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a824d368cd4172985c884796381327d950da
+product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|620c9fa0047bb681e918af2d1e7a98c648f45fb7
 system_ext/framework/vendor.qti.data.factory-V1.0-java.jar|c8ec0ab32ebddd7dea5fbaac434061068474b68d
 system_ext/framework/vendor.qti.data.factory-V2.0-java.jar|69b3b2eb56857ee632ed611df41a94d7afb2c5ca
 system_ext/framework/vendor.qti.data.factory-V2.1-java.jar|59ede14468c62ec4ebbc8d3a683095266d5f1baa
@@ -467,15 +467,15 @@ vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
 vendor/bin/fm_qsoc_patches|d941ae10065c0cbaeba8e33b331cba4f612f3673
 vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 
-# Gatekeeper - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Gatekeeper - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/lib/hw/gatekeeper.msm8953.so|8197aba59f6700725f63c2fda6e10c4935c55357
 vendor/lib64/hw/gatekeeper.msm8953.so|d760257a98254b9e87ae258e267b1a45a0ed7ecb
 
-# GPS - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# GPS - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
 system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
 system_ext/etc/permissions/izat.xt.srv.xml|e7dddfa669a19e5f300641f695f563fdf22897c0
-lib/libcurl.so|205306c1ee646a3fa758835fe1f38da271b8733b
+lib/libcurl.so|da9cf4deb605fff1ec1e93cb85b794ac86ad55ec
 lib64/libcurl.so|cea1f38d40090697d5f3aaf9f853527b250ff6fc
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
@@ -608,18 +608,18 @@ vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 vendor/lib/hw/vulkan.msm8953.so:vendor/lib/vulkan.msm8953.so|559a3e527256efdba03fd5abacf8a2344e039237
 vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/vulkan.msm8953.so|7bb355c16bf3689edfd4843f2458b242d392654a
 
-# Graphics firmware - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Graphics firmware - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/firmware/a506_zap.b00|21d74ee137e4096c2ffcd6f2545b5b2f8f384efa
 vendor/firmware/a506_zap.b01|a411ea3349bd2e907d6598183d3044e565f28bf6
 vendor/firmware/a506_zap.b02|3e301fa5905acd05f15836959595791c1241a017
 vendor/firmware/a506_zap.elf|5532e3511cea20c47ee816ac9a74cf69881de0ee
 vendor/firmware/a506_zap.mdt|8e49bac7a52230ec70ab640f26ac57f7a8596b39
 
-# Graphics firmware - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Graphics firmware - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/firmware/a530_pfp.fw|35b72dce880191ff087af2524205afce40ea8c97
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Keymaster - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Keymaster - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/lib/hw/keystore.msm8953.so|1576284951387ada5f6d3a4e0689d2579c0f1713
 vendor/lib64/hw/keystore.msm8953.so|83a48633d4530c45e36cfb9cd7f3d63a8a5bc122
 
@@ -661,7 +661,7 @@ vendor/lib64/libOmxWmaDec.so|be14f292ce14ecba8cac17b4771f17cc05a823f3
 -vendor/lib64/libgpustats.so|dd2ecc6c5ef439a8d427a52ab9d153f8e747deff
 vendor/lib64/libmm-color-convertor.so|60efd198ec7461154746c5987e5a267f12f8dbc1
 
-# Modem - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Modem - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/lib/libwms.so|0f58cc868921fdc47979edc326f462099fb5e312
 vendor/lib64/libwms.so|1b91f43e9e9a8f143cddd1d945c63d384c65541c
 
@@ -690,7 +690,7 @@ vendor/lib64/libqti-perfd-client.so|7089fa216b06fc78127b51df6cade6518886a463
 vendor/lib64/libqti-perfd.so|e3d355239ba7e5b56cb78fbd7c543da7e809c392
 vendor/lib64/libqti-util.so|45a80be449435d277f09cc59e4a315fa86072c41
 
-# Peripheral manager - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Peripheral manager - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/pm-proxy|910437c11108aa66e803bbc760ce3998d141a6b4
 vendor/bin/pm-service|98827a6bf6693033a7c767e3fb4f097b9075a0ef
 vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
@@ -711,12 +711,12 @@ vendor/lib64/vendor.display.color@1.0.so|cd604706cd50989b899c04a252f7f02d17996ba
 vendor/lib64/vendor.display.postproc@1.0.so|cc62ff1b3e8ff0e11b750ae59a0f851fdab50962
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|841104a6d894f2afb733bb2317b70092298a8537
 
-# QMI - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# QMI - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 system/etc/permissions/qti_libpermissions.xml:system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 vendor/bin/irsc_util|e590882aefe9da28c1d57e9bf46962198f1dabcd
 vendor/etc/sec_config|38ed44170badad7ae9a05f53223e1addf8780083
-vendor/lib64/libdiag.so|d3f0d4a19b1d00a86369779a439b9a0e7a93f997
+vendor/lib64/libdiag.so|174ff3f940288d2d1503230465dfe917ab9d155b
 -vendor/lib64/libdsi_netctrl.so|b622c0ff82676d5e02fb92445c6a030742f0c6c4
 vendor/lib64/libdsutils.so|0b466344eb6628feb1b5aba00d1ef3f680e5aa9a
 vendor/lib64/libidl.so|79ebe1a5b1fb81d9cdc972c71cec2667cdcf6599
@@ -732,7 +732,7 @@ vendor/lib64/libqmi_client_qmux.so|600fe6c17ae7a5ca01d02bcbbbf7fb2c0510bd41
 vendor/lib64/libqmi_csi.so|6d22ed6353c791ea1804c195b92b02dc28a679c3
 vendor/lib64/libqmi_encdec.so|8a365cf7472c187c02fa0649e09fee529ded7563
 -vendor/lib64/libqmiservices.so|2e259463cbeb329caec303b642ab4068c8d10be5
-vendor/lib/libdiag.so|7980d9d4b18ba69fed44626367704d321a4bf432
+vendor/lib/libdiag.so|0a9a6aa74b1728bfb9c6b3ccd7cf0a5bdbc29434
 -vendor/lib/libdsi_netctrl.so|ea451bc3c9171ee2c6b475a876b52e9706541168
 vendor/lib/libdsutils.so|60135d6d64ecba72fa0eb637a434578290beaaff
 vendor/lib/libidl.so|dc8d161c035f70e7e6c55461b0238fbe916c5a7d
@@ -749,7 +749,7 @@ vendor/lib/libqmi_csi.so|90930481c581a6b319bd87b6799b8e0ee882e52c
 vendor/lib/libqmi_encdec.so|e45cfc088efc2141047d304c9577f466bdb5dfbc
 -vendor/lib/libqmiservices.so|52244e9d54c4d352d148d276044a4b7cc4c78bf4
 
-# RIL - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# RIL - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 -system_ext/app/ConferenceDialer/ConferenceDialer.apk|380916049968df339be21684769c0a7e58cb93e0
 -system_ext/app/DeviceInfo/DeviceInfo.apk|8e69ce4a72f7c2f3bf72af92e242dcbb4fa8ac51
 -system_ext/app/DynamicDDSService/DynamicDDSService.apk|b465591ae55de50ecd2e49398a4211bed7bf262b
@@ -793,6 +793,7 @@ system_ext/etc/spn-conf.xml|ac8a0750445f66091e7e77928fc055ff50369f42
 system_ext/framework/qcrilhook.jar|7b1352344ab743c031502365c09d771d96a1283b
 system_ext/framework/qti-telephony-common.jar|4c1b043536ab8ad9d156668d94b60bc86ffbe278
 -vendor/app/IWlanService/IWlanService.apk|a8bdac9638bc711e23269d2eead3f46a7b3b6a25
+vendor/bin/ATFWD-daemon|8d2b9db2e2f3cfa59f7aede4ab912d20066f77ea
 vendor/bin/hw/qcrild|9ebae4b7b4bc8fb31371f3926634206737d73bb2
 vendor/bin/adpl|c6e56a34827222135596c7266343187e055bda06
 vendor/bin/netmgrd|f3eafb4d5e31e3f90544f380667625dfdc22aa37|cb129330f9a43c894525570469e29fdd81a228cd
@@ -812,6 +813,7 @@ vendor/etc/init/ims_rtp_daemon_legacy.rc|104b2a879db4d3dd44e74a3d7f6e69f6972c912
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
 vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
+vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
 vendor/lib64/libconfigdb.so|6634f23eebd1156c9053b5a77163ee7a058a1916
 vendor/lib64/liblqe.so|02191d7bfeca08ec8b89550a27bef02c3291609e
 vendor/lib64/libmdmdetect.so|1acafe6bd37e770d97649b703d2b695d790d2191
@@ -870,8 +872,8 @@ vendor/lib/libnetmgr_nr_fusion.so|baed5624b74746515e24fb952d5f6fe66643b60d
 vendor/lib/libnetmgr_rmnet_ext.so|3565169910956be7f68e126af5dacc9d28bae88d
 vendor/lib/libpdmapper.so|5cb456461d7c614dba30ea23711b506d44800725
 vendor/lib/libpdnotifier.so|c29308c825e5154eb4430a81263edc339c2fc571
-vendor/lib/libprotobuf-cpp-full-3.9.1.so|4b8814962780d58dfcd9883a7a0e9885bbfd8356
-vendor/lib/libprotobuf-cpp-lite-3.9.1.so|d826a96985c233623426ee4be08974b681433f90
+vendor/lib/libprotobuf-cpp-full-3.9.1.so|ef9353290f65317d42f6a75aa9c8cd900d6739cb
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so|92bba4e94f82a65f27c2e322e390bb663e62efb0
 vendor/lib/libqcrilFramework.so|84747dc74cada93f5dfa220dd5b724c85d67839c
 vendor/lib/libqrtr.so|b91f1562efae1024952364a28a977a6f8ddc49c5
 vendor/lib/libqsocket.so|ea07e2ef46c43581bcd926b7f8ef8d6c56d74268
@@ -892,9 +894,9 @@ vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql|0571aacaf9fc
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863edadc7a8422b8310d267c594d11a0
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
 
-# RIL IMS - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# RIL IMS - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 -system_ext/app/imssettings/imssettings.apk|cb9ef8ac8cccf1deededfca80b2a79f8972f82df
--system_ext/priv-app/ims/ims.apk|110fee7e100147de5274c44ed9ebff3800609a01
+-system_ext/priv-app/ims/ims.apk|298c0db66e70060cca2a380d19e5fe07f059ad23
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
@@ -964,6 +966,7 @@ vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so|3c760d54508c404a802294da677db6
 vendor/lib64/com.qualcomm.qti.uceservice@2.0.so|333c782d6cc5961e44a4d128d838f543acec65cb
 vendor/lib64/com.qualcomm.qti.uceservice@2.1.so|d8ae76c62bf03be478f059911f3cd06a2bd987df
 vendor/lib64/com.qualcomm.qti.uceservice@2.2.so|bd8b1c93c7feb6ce62d2cb8f41d203e0537b555d
+vendor/lib64/com.qualcomm.qti.uceservice@2.3.so|597dbdf8bb12602c141da99b50ab1d5d838adc7e
 vendor/lib64/lib-imscmservice.so|1256a36db63ed10e3f7f6c659d5086bf1ed8752f
 vendor/lib64/lib-imsdpl.so|18c2071b74fc8dfefeabf0c2e075720ebaa81ab2
 vendor/lib64/lib-imsqimf.so|d0813dc6a1360c31bc2736b6d59d2fa3a0c614f8
@@ -1006,25 +1009,25 @@ vendor/lib64/libsensor1.so|1c0a480379e7aed17c2ebb84b164380ca29b0ff0
 vendor/lib64/libsensor_reg.so|719d7495beb984989f52eab7eaeaaeb05a5c90bd
 vendor/lib64/sensors.ssc.so|66a80eb4c59176b86da051e9a4daa3f4077bc478
 
-# Thermal - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Thermal - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/thermal-engine|7e4bd3bfdf72b669f17cd9befa7f286ebf871c38
 vendor/lib/libthermalclient.so|b9c1bfd3aa5ee2d092941141bf9f6e456ee2fb43
 vendor/lib64/libthermalclient.so|f95bc07fbb05944489c2890397c4a603a7cbe021
 
-# Time services - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Time services - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 -vendor/app/TimeService/TimeService.apk|258cf62182f96b07f04d053b8245f99ed2176f5d
 vendor/bin/time_daemon|3fdbe5c7aeee2fc7e8b699bedd7309f768aae5c7
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|894c08b9e6882c9b179409eb4109dc7a25d71517
 -vendor/lib64/libtime_genoff.so|5f9b4a016db1f2d96a6b8281b6cb88d87e4cdd63
 
-# TUI - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# TUI - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|ccdb6027a199d5549fc92de8ce2ddb006b4b486d
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|f6b0e0e951394b609f0cb5c19e83a37447d9d292
 
-# Venus - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Venus - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/firmware/venus.b00|1e8c41cd78c34b0d29b1d116a9cef442bcf85a36
 vendor/firmware/venus.b01|c6bcfb7a833a3a28466d1427278b5ca332a1204d
 vendor/firmware/venus.b02|0807ec9204a8a23da039c4186e12ff2fc5e81487
@@ -1033,15 +1036,16 @@ vendor/firmware/venus.b04|c1756e0567d10a1173f481cd367ff4637b2dd77f
 vendor/firmware/venus.mbn|eea201b418d8a4ddf8201d05b11df77b08d1a5f7
 vendor/firmware/venus.mdt|2410732fd3012613aeb9d9f33fd410a3bfe960bb
 
-# Widevine - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|57d280849768bc5d5e9e954b9ac90a5a31c54172
+# Widevine - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|fa78ebe6b6f1a67c7476c9680bb6f5b777655749
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|ac0b1ec273600257cbba84f43f153d8ebf4db872
+vendor/lib/libwvhidl.so|a3fe4a491e8d7425a6ba278d4760f096b9de9698
+vendor/lib64/libwvhidl.so|df699e384041beeab9628a90189dddc56a5a1c3b
 
-# Wi-Fi - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Wi-Fi - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/wcnss_service|18a234235418d01f7b6faa8a6bea78de5f4d346a|c70f837b570e2b7fd31fba93af1b4c6ac2dce86e
 
-# Wi-Fi - from repo7 - FP3-REL-8901.4.A.0010-gms-f74c58a8-user-fastbootimage
+# Wi-Fi - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/cnss-daemon|0f40b41161c6ba1b9e8020aee20b05ccf6de31bf
 vendor/bin/cnss_diag|bda27206da1332b6a9b647840b7133cad6c6630b
