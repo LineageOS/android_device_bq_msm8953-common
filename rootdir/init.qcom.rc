@@ -615,7 +615,7 @@ on charger
 #    start logdumpd
 
 on property:init.svc.surfaceflinger=restarting
-    restart vendor.hwcomposer-2-3
+    restart vendor.hwcomposer-2-1
 
 #Set GPU Opengles version
 on property:vendor.opengles.version=*
