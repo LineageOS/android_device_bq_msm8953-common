@@ -669,7 +669,7 @@ vendor/lib64/libwms.so|1b91f43e9e9a8f143cddd1d945c63d384c65541c
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so|e78f2c9e7a5cb0001d2f71a69f37ec8261fb05b8
 
 # Perf Config - from repo4 - misc
-vendor/etc/perf/perfboostsconfig.xml|a11bb2da41dd1d54ecf07f8c4ec2d6bd7ffad38e
+vendor/etc/perf/perfboostsconfig.xml|38b4b759cd949ed4afc81722cd8d0f05b52726ba
 vendor/etc/perf/targetconfig.xml|da6f9af50d310b46c80bc172178884dca3ebee73
 vendor/etc/perf/targetresourceconfigs.xml|d2d51844b46583e61049f05dc6844fbdb832b104
 
