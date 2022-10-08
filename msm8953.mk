@@ -271,7 +271,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint (Sunwave)
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/sw_config.xml:system/etc/sw_config.xml
+    $(LOCAL_PATH)/configs/sw_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sw_config.xml
 
 # FM packages
 PRODUCT_PACKAGES += \

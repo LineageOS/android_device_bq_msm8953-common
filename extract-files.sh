@@ -83,10 +83,14 @@ function blob_fixup() {
                 sed -i -e 's|\x61\xF0\x7F\xFE|\x00\xBF\x00\x00|g' "${2}"
                 sed -i -e 's|\x61\xF0\x79\xFE|\x00\xBF\x00\x00|g' "${2}"
         ;;
-        lib64/hw/fingerprint.default.so|lib64/hw/swfingerprint.default.so|lib64/libgoodixfingerprintd_binder.so)
+        vendor/lib64/hw/csfingerprint.default.so|vendor/lib64/hw/fingerprint.default.so|vendor/lib64/hw/swfingerprint.default.so|vendor/lib64/libgf_ca.so|vendor/lib64/libgf_hal.so|vendor/lib64/libgoodixfingerprintd_binder.so)
+                patchelfv08 --remove-needed "libbacktrace.so" "${2}"
                 patchelfv08 --remove-needed "libunwind.so" "${2}"
                 patchelfv08 --remove-needed "libkeymaster1.so" "${2}"
                 patchelfv08 --remove-needed "libsoftkeymaster.so" "${2}"
+
+                sed -i -e 's|system/etc/firmware|////vendor/firmware|g' "${2}"
+                sed -i -e 's|/system/etc/sw_config.xml|/vendor/etc/sw_config.xml|g' "${2}"
         ;;
         vendor/lib/libmmcamera2_iface_modules.so)
                 # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
