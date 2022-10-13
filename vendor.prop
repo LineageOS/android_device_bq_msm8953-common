@@ -5,7 +5,6 @@
 # Audio
 af.fast_track_multiplier=1
 audio.deep_buffer.media=true
-audio.heap.size.multiplier=7
 vendor.audio.parser.ip.buffer.size=262144
 vendor.audio.playback.mch.downsample=true
 vendor.audio.pp.asphere.enabled=false
@@ -33,8 +32,6 @@ vendor.audio.offload.buffer.size.kb=64
 vendor.audio.offload.gapless.enabled=true
 audio.offload.min.duration.secs=30
 vendor.audio.offload.multiple.enabled=false
-audio.offload.pcm.16bit.enable=true
-audio.offload.pcm.24bit.enable=true
 vendor.audio.offload.track.enable=true
 audio.offload.video=true
 vendor.audio.offload.passthrough=false
@@ -49,58 +46,29 @@ vendor.audio.flac.sw.decoder.24bit=true
 ro.af.client_heap_size_kbyte=7168
 
 # Bluetooth
-bluetooth.hfp.client=1
 vendor.qcom.bluetooth.soc=smd
-ro.bluetooth.hfp.ver=1.7
-ro.bluetooth.dun=true
-ro.bluetooth.sap=true
-ro.qualcomm.bluetooth.ftp=true
-ro.qualcomm.bluetooth.hfp=true
-ro.qualcomm.bluetooth.hsp=true
-ro.qualcomm.bluetooth.map=true
-ro.qualcomm.bluetooth.nap=true
-ro.qualcomm.bluetooth.opp=true
-ro.qualcomm.bluetooth.pbap=true
 
 # Camera
-vidc.enc.dcvs.extra-buff-count=2
 #force HAL1 for below packages
 vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 persist.sys.camera.display.umax=1920x1080
 persist.sys.camera.display.lmax=1280x720
-camera.lowpower.record.enable=1
-camera.vidhance.reduction=0.6
-persist.vendor.camera.isp.clock.optmz=0
-persist.vendor.camera.CDS=off
-persist.vendor.camera.video.CDS=off
-persist.vendor.camera.fd_tuning=libchromatix_face_bardock.so
 
 # CNE
 persist.vendor.cne.feature=1
 
-# ConfigFS
-ro.boot.usbconfigfs=true
-
 # Display
-#property to enable VDS WFD solution
-persist.hwc.enable_vds=1
 debug.sf.disable_hwc_vds=1
 debug.sf.hw=0
 debug.egl.hw=0
-persist.hwc.mdpcomp.enable=true
 debug.mdpcomp.logs=0
 dev.pm.dyn_samplingrate=1
-persist.demo.hdmirotationlock=false
 debug.enable.sglscale=1
 debug.gralloc.enable_fb_ubwc=1
 debug.sf.enable_hwc_vds=1
 debug.sf.recomputecrop=0
-persist.mm.sta.enable=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=msm8953
-
-#Disable Skip Validate
-sdm.debug.disable_skip_validate=1
 
 #Property to enable display default color mode
 vendor.display.enable_default_color_mode=1
@@ -109,12 +77,6 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
 
-
-# DPM
-persist.dpm.feature=1
-ro.vendor.display.cabl=2
-
-ro.qualcomm.cabl=0
 ro.sf.lcd_density=480
 vendor.opengles.version=196610
 
@@ -124,45 +86,27 @@ drm.service.enabled=true
 # Fingerprint
 persist.qfp=false
 
-# FM
-vendor.hw.fm.init=0
-
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
-# IMS logging
-persist.vendor.ims.disableIMSLogs=1
-persist.vendor.ims.disableDebugDataPathLogs=1
-persist.vendor.ims.vt.enableadb=1
-persist.vendor.ims.disableDebugLogs=1
-
 # Media
-media.msm8956hw=0
-mm.enable.smoothstreaming=true
-mmp.enable.3g2=true
-media.aac_51_output_enabled=true
-av.debug.disable.pers.cache=1
 vendor.audio.hw.aac.encoder=true
-vendor.mm.enable.qcom_parser=262029
 vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable_pframes=1
 vendor.vidc.enc.disable.pq=true
 vendor.vidc.enc.narrow.searchrange=1
-vendor.video.disable.ubwc=1
 vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.dec.downscalar_height=1088
 vendor.vidc.disable.split.mode=1
 vendor.vidc.enc.disable.pq=true
 
 # Network manager
-persist.data.iwlan.enable=true
 persist.vendor.data.iwlan.enable=true
 persist.vendor.sys.cnd.iwlan=1
 ro.telephony.iwlan_operation_mode=legacy
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.qti.am.reschedule_service=true
 ro.vendor.gt_library=libqti-gt.so
 ro.vendor.at_library=libqti-at.so
 
@@ -170,33 +114,11 @@ ro.vendor.at_library=libqti-at.so
 ro.vendor.use_data_netmgrd=true
 persist.vendor.data.mode=concurrent
 
-# NFC
-persist.nfc.smartcard.config=SIM1
-ro.nfc.port=I2C
-ro.se.type=HCE,UICC
-
-# NITZ
-persist.rild.nitz_plmn=
-persist.rild.nitz_long_ons_0=
-persist.rild.nitz_long_ons_1=
-persist.rild.nitz_long_ons_2=
-persist.rild.nitz_long_ons_3=
-persist.rild.nitz_short_ons_0=
-persist.rild.nitz_short_ons_1=
-persist.rild.nitz_short_ons_2=
-persist.rild.nitz_short_ons_3=
-
 # RADIO
 net.tcp.2g_init_rwnd=10
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
-rild.libargs=-d /dev/smd0
-ril.subscription.types=NV,RUIM
-DEVICE_PROVISIONED=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=0
 persist.dbg.wfc_avail_ovr=1
-persist.radio.DROPSETENABLE=1
-persist.vendor.data.profile_update=true
 persist.vendor.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.custom_ecc=1
 persist.radio.multisim.config=dsds
@@ -212,7 +134,6 @@ persist.vendor.radio.snapshot_enabled=1
 ro.telephony.call_ring.multiple=false
 ro.telephony.default_network=22,22
 service.qti.ims.enabled=1
-telephony.lteOnCdmaDevice=1,1
 
 # Surfaceflinger
 debug.sf.early_phase_offset_ns=1500000
@@ -222,15 +143,9 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_virtual_display_dimension=4096
 
-# QMI
-persist.data.qmi.adb_logmask=0
-
 # SoC
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM450
-
-# Time Services
-persist.timed.enable=true
 
 # Trim properties
 ro.vendor.qti.sys.fw.use_trim_settings=true
@@ -244,6 +159,3 @@ persist.vendor.usb.config.extra=none
 
 # Wi-Fi
 wifi.interface=wlan0
-
-# Zygote
-persist.device_config.runtime_native.usap_pool_enabled=true
