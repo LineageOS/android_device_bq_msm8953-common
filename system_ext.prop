@@ -1,0 +1,120 @@
+# Audio
+audio.heap.size.multiplier=7
+
+# Audio offload
+audio.offload.pcm.16bit.enable=true
+audio.offload.pcm.24bit.enable=true
+
+# Bluetooth
+bluetooth.hfp.client=1
+ro.bluetooth.hfp.ver=1.7
+ro.bluetooth.dun=true
+ro.bluetooth.sap=true
+ro.qualcomm.bluetooth.ftp=true
+ro.qualcomm.bluetooth.hfp=true
+ro.qualcomm.bluetooth.hsp=true
+ro.qualcomm.bluetooth.map=true
+ro.qualcomm.bluetooth.nap=true
+ro.qualcomm.bluetooth.opp=true
+ro.qualcomm.bluetooth.pbap=true
+
+# BPF
+ro.kernel.ebpf.supported=1
+
+# Camera
+vidc.enc.dcvs.extra-buff-count=2
+camera.lowpower.record.enable=1
+camera.vidhance.reduction=0.6
+persist.vendor.camera.isp.clock.optmz=0
+persist.vendor.camera.CDS=off
+persist.vendor.camera.video.CDS=off
+persist.vendor.camera.fd_tuning=libchromatix_face_bardock.so
+
+# ConfigFS
+ro.boot.usbconfigfs=true
+
+# Display
+#property to enable VDS WFD solution
+persist.hwc.enable_vds=1
+persist.hwc.mdpcomp.enable=true
+persist.demo.hdmirotationlock=false
+persist.mm.sta.enable=0
+
+#Disable Skip Validate
+sdm.debug.disable_skip_validate=1
+
+# DPM
+persist.dpm.feature=1
+
+persist.qfp=false
+
+# FM
+vendor.hw.fm.init=0
+
+# IMS logging
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableDebugDataPathLogs=1
+persist.vendor.ims.vt.enableadb=1
+persist.vendor.ims.disableDebugLogs=1
+
+# Media
+media.msm8956hw=0
+mm.enable.smoothstreaming=true
+mmp.enable.3g2=true
+media.aac_51_output_enabled=true
+av.debug.disable.pers.cache=1
+vendor.mm.enable.qcom_parser=262029
+vendor.video.disable.ubwc=1
+
+# Network manager
+persist.data.iwlan.enable=true
+
+# Perf
+ro.vendor.qti.am.reschedule_service=true
+
+# NFC
+persist.nfc.smartcard.config=SIM1
+ro.nfc.port=I2C
+ro.se.type=HCE,UICC
+
+# NITZ
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
+
+# RADIO
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+persist.radio.DROPSETENABLE=1
+persist.vendor.data.profile_update=true
+
+# QMI
+persist.data.qmi.adb_logmask=0
+
+# Time Services
+persist.timed.enable=true
+
+# Zygote
+persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Skia
+# (b/183612348): Enable skia reduceOpsTaskSplitting
+renderthread.skia.reduceopstasksplitting=true
+
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=1024
