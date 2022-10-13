@@ -6,6 +6,7 @@ audio.offload.pcm.16bit.enable=true
 audio.offload.pcm.24bit.enable=true
 
 # Bluetooth
+bluetooth.device.class_of_device=90,2,12
 bluetooth.hfp.client=1
 ro.bluetooth.hfp.ver=1.7
 ro.bluetooth.dun=true
