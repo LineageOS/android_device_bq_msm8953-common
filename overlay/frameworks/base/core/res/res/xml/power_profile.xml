@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
-    <item name="screen.on">63</item>
-    <item name="screen.full">261</item>
-<array name="cpu.clusters.cores">
-        <value>4</value> <!-- Cluster 0 has 4 cores (cpu0, cpu1, cpu2, cpu3) -->
-        <value>4</value> <!-- Cluster 1 has 4 cores (cpu4, cpu5, cpu6, cpu7) -->
+    <item name="none">0</item>
+    <item name="screen.on">103</item>
+    <item name="screen.full">362</item>
+    <item name="bluetooth.active">101</item>
+    <item name="bluetooth.on">0.9</item>
+    <item name="wifi.on">1.55</item>
+    <item name="wifi.active">55.4</item>
+    <item name="wifi.scan">91.7</item>
+    <item name="dsp.audio">18</item>
+    <item name="dsp.video">92</item>
+    <item name="camera.avg">553.13</item>
+    <item name="camera.flashlight">269.7</item>
+    <item name="gps.on">48.22</item>
+    <item name="radio.active">116.42</item>
+    <item name="radio.scanning">146.69</item>
+    <array name="radio.on">
+        <value>17</value>
+        <value>3</value>
+    </array>
+    <array name="cpu.clusters.cores">
+        <value>8</value> <!-- Cluster 0 has 8 cores (cpu0, cpu1, cpu2, cpu3, cpu4, cpu5, cpu6, cpu7) -->
     </array>
     <array name="cpu.core_speeds.cluster0">
-        <value>652800</value>  <!-- 652 MHz CPU speed -->
-        <value>1036800</value> <!-- 1036 MHz CPU speed -->
-        <value>1401600</value> <!-- 1401 MHz CPU speed -->
-        <value>1689600</value> <!-- 1689 MHz CPU speed -->
-        <value>1804800</value> <!-- 1804 MHz CPU speed -->
-        <value>1958400</value> <!-- 1958 MHz CPU speed -->
-        <value>2016000</value> <!-- 2016 MHz CPU speed -->
-        <value>2150400</value> <!-- 2150 MHz CPU speed -->
-        <value>2208000</value> <!-- 2208 MHz CPU speed -->
-    </array>
-    <array name="cpu.core_speeds.cluster1">
-        <value>652800</value>  <!-- 652 MHz CPU speed -->
+        <value>652800</value> <!-- 653 MHz CPU speed -->
         <value>1036800</value> <!-- 1036 MHz CPU speed -->
         <value>1401600</value> <!-- 1401 MHz CPU speed -->
         <value>1689600</value> <!-- 1689 MHz CPU speed -->
@@ -29,28 +34,27 @@
         <value>2208000</value> <!-- 2208 MHz CPU speed -->
     </array>
     <array name="cpu.core_power.cluster0">
-        <value>10.85</value> <!-- 652 MHz CPU speed -->
-        <value>20.85</value> <!-- 1036 MHz CPU speed -->
-        <value>50.96</value> <!-- 1401 MHz CPU speed -->
-        <value>70.31</value> <!-- 1689 MHz CPU speed -->
-        <value>100.25</value> <!-- 1804 MHz CPU speed -->
-        <value>110.25</value> <!-- 1958 MHz CPU speed -->
-        <value>120.25</value> <!-- 2016 MHz CPU speed -->
-        <value>130.25</value> <!-- 2150 MHz CPU speed -->
-        <value>140.25</value> <!-- 2208 MHz CPU speed -->
+        <value>8.24</value> <!-- 653 MHz CPU speed -->
+        <value>20.2</value> <!-- 1036 MHz CPU speed -->
+        <value>28.57</value> <!-- 1401 MHz CPU speed -->
+        <value>51.23</value> <!-- 1689 MHz CPU speed -->
+        <value>62.6</value> <!-- 1804 MHz CPU speed -->
+        <value>70.2</value> <!-- 1958 MHz CPU speed -->
+        <value>73.6</value> <!-- 2016 MHz CPU speed -->
+        <value>78.1</value> <!-- 2150 MHz CPU speed -->
+        <value>82.2</value> <!-- 2208 MHz CPU speed -->
     </array>
-    <array name="cpu.core_power.cluster1">
-        <value>10.85</value> <!-- 652 MHz CPU speed -->
-        <value>20.85</value> <!-- 1036 MHz CPU speed -->
-        <value>50.96</value> <!-- 1401 MHz CPU speed -->
-        <value>70.31</value> <!-- 1689 MHz CPU speed -->
-        <value>100.25</value> <!-- 1804 MHz CPU speed -->
-        <value>110.25</value> <!-- 1958 MHz CPU speed -->
-        <value>120.25</value> <!-- 2016 MHz CPU speed -->
-        <value>130.25</value> <!-- 2150 MHz CPU speed -->
-        <value>140.25</value> <!-- 2208 MHz CPU speed -->
+    <item name="cpu.cluster_power.cluster0">4.27</item>
+    <item name="cpu.suspend">3.993</item>
+    <item name="cpu.idle">3.8</item>
+    <item name="cpu.awake">15</item>
+    <item name="cpu.active">1.26</item>
+    <item name="battery.capacity">3100</item>
+    <array name="wifi.batchedscan">
+        <value>.0092</value>
+        <value>.0744</value>
+        <value>.5883</value>
+        <value>4.699</value>
+        <value>37.59</value>
     </array>
-    <item name="cpu.awake">1.6</item>
-    <item name="cpu.idle">1.6</item>
-    <item name="battery.capacity">2000</item>
 </device>
