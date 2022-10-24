@@ -13,6 +13,9 @@
 # Camera
 /data/vendor/qcam(/.*)?									u:object_r:vendor_camera_data_file:s0
 
+# MMC
+/sys/devices/platform/soc/7824900.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/discard_max_bytes u:object_r:sysfs_mmc_host:s0
+
 # Rootfs files
 /bt_firmware(/.*)?									u:object_r:bt_firmware_file:s0
 /firmware(/.*)?										u:object_r:firmware_file:s0
