@@ -167,8 +167,6 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     Gallery2 \
-    libshims_camera \
-    libshims_libui \
     libstdc++.vendor
 
 # b/166675194
