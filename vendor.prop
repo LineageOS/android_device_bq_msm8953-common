@@ -57,6 +57,9 @@ persist.sys.camera.display.lmax=1280x720
 # CNE
 persist.vendor.cne.feature=1
 
+# CNSS daemon logging
+persist.vendor.cnss-daemon.kmsg_logging=0
+
 # Display
 debug.sf.disable_hwc_vds=1
 debug.sf.hw=0
