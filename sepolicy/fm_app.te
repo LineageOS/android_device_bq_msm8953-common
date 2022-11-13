@@ -26,3 +26,6 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 set_prop(vendor_fm_app, vendor_fm_prop)
+set_prop(vendor_fm_app, ctl_fm_prop)
+
+allow vendor_fm_app fm_radio_device:chr_file r_file_perms;

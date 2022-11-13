@@ -10,3 +10,7 @@ camera.                                         u:object_r:camera_prop:s0
 persist.camera.                                 u:object_r:camera_prop:s0
 persist.vendor.camera.                          u:object_r:camera_prop:s0
 ro.camera                                       u:object_r:camera_prop:s0
+
+# FM radio
+ctl.start$vendor.fm                             u:object_r:ctl_fm_prop:s0
+ctl.stop$vendor.fm                              u:object_r:ctl_fm_prop:s0
