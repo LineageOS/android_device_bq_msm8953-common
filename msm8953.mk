@@ -212,6 +212,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system
 
+# Display Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/displayconfig/display_id_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_0.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
