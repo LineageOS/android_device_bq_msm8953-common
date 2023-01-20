@@ -1,0 +1,4 @@
+service vendor.qti.vibrator /vendor/bin/hw/vendor.qti.hardware.vibrator.service.bq-msm8953-common
+    class hal
+    user system
+    group system input
