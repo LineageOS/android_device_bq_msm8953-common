@@ -500,10 +500,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
+    vendor.qti.hardware.vibrator.service.bq-msm8953-common
 
 PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:vendor/etc/excluded-input-devices.xml
+    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:vendor/etc/excluded-input-devices.xml
 
 # VNDK:
 PRODUCT_PACKAGES += \

@@ -1,0 +1,42 @@
+Common_CFlags = ["-Wall"]
+Common_CFlags += ["-Werror"]
+
+cc_library_shared {
+    name: "vendor.qti.hardware.vibrator.impl.bq-msm8953-common",
+    vendor: true,
+    cflags: Common_CFlags,
+    srcs: [
+        "Vibrator.cpp",
+    ],
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "liblog",
+        "libqtivibratoreffect",
+        "libbinder_ndk",
+        "android.hardware.vibrator-V2-ndk",
+    ],
+    export_include_dirs: ["include"]
+}
+
+cc_binary {
+    name: "vendor.qti.hardware.vibrator.service.bq-msm8953-common",
+    vendor: true,
+    relative_install_path: "hw",
+    init_rc: ["vendor.qti.hardware.vibrator.service.bq-msm8953-common.rc"],
+    vintf_fragments: [
+        "vendor.qti.hardware.vibrator.service.bq-msm8953-common.xml",
+    ],
+    cflags: Common_CFlags,
+    srcs: [
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.vibrator-V2-ndk",
+        "vendor.qti.hardware.vibrator.impl",
+    ],
+}
