@@ -96,6 +96,9 @@ persist.qfp=false
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+
 # Media
 vendor.audio.hw.aac.encoder=true
 vendor.vidc.enc.disable_bframes=1
