@@ -98,6 +98,10 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # LMKD
 ro.lmk.kill_heaviest_task=true
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.downgrade_pressure=30
 
 # Media
 vendor.audio.hw.aac.encoder=true
