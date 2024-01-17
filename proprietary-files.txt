@@ -364,18 +364,6 @@ vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 
 # CNE - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
-product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a824d368cd4172985c884796381327d950da
-product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|620c9fa0047bb681e918af2d1e7a98c648f45fb7
-system_ext/framework/vendor.qti.data.factory-V1.0-java.jar|c8ec0ab32ebddd7dea5fbaac434061068474b68d
-system_ext/framework/vendor.qti.data.factory-V2.0-java.jar|69b3b2eb56857ee632ed611df41a94d7afb2c5ca
-system_ext/framework/vendor.qti.data.factory-V2.1-java.jar|59ede14468c62ec4ebbc8d3a683095266d5f1baa
-system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar|c6e5d125ce87fa585eb666b82642c565501eb4c1
-system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar|ebb1435d9dd340b5ff7d5f94644da6a29824ab15
-system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar|da83f28bb82ca6cb016612ff126aba2123e3516a
-system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar|b776f0042dbb7fb5f6619dbc5b97c42248b4e4f2
-system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|68068cdbd044dca2872284ebcd2909eb74c3a804
-system_ext/framework/vendor.qti.latency-V2.0-java.jar|239a5cf7f057d3e93c0fe7cb33ee6be088ad2aac
--vendor/app/CACertService/CACertService.apk|e33ff0c06356a8fa843f49dfa27ee21c77733738
 -vendor/app/CneApp/CneApp.apk|551d0e3251eeda3af8dfa8bb55cd83b858365db8
 -vendor/app/IWlanService/IWlanService.apk|a8bdac9638bc711e23269d2eead3f46a7b3b6a25
 vendor/bin/cnd|78d2771551abf43a093a0fbe0aba933c9f6a8097
@@ -757,48 +745,18 @@ vendor/lib/libqmi_encdec.so|e45cfc088efc2141047d304c9577f466bdb5dfbc
 -vendor/lib/libqmiservices.so|52244e9d54c4d352d148d276044a4b7cc4c78bf4
 
 # RIL - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
--system_ext/app/ConferenceDialer/ConferenceDialer.apk|380916049968df339be21684769c0a7e58cb93e0
--system_ext/app/DeviceInfo/DeviceInfo.apk|8e69ce4a72f7c2f3bf72af92e242dcbb4fa8ac51
--system_ext/app/DynamicDDSService/DynamicDDSService.apk|b465591ae55de50ecd2e49398a4211bed7bf262b
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|fb276d576e5775bfdeed30b4a87f8c1b1e95a7f0
--system_ext/app/SimContact/SimContact.apk|047ee974ad37646d3652fcecdc52669870b2ed52
--system_ext/app/atfwd/atfwd.apk|8b1c9e20b992ec7382dadf14e0b5428cd3798b73
--system_ext/app/embms/embms.apk|09134a1bd2d67e55caf81af08ac44f02abd55d18
--system_ext/app/imssettings/imssettings.apk|cb9ef8ac8cccf1deededfca80b2a79f8972f82df
--system_ext/app/remotesimlockservice/remotesimlockservice.apk|a0f6b09ffde308c724f7f62382f3ee86a0a49905
--system_ext/app/uimgbaservice/uimgbaservice.apk|0a6eb494b9ea5ed4190afea2803d888bddd383cf
--system_ext/app/uimlpaservice/uimlpaservice.apk|0a357aab84fd37bd09d727c69fe2b27aa2523b77
--system_ext/app/uimremoteclient/uimremoteclient.apk|464c6aedd19160b3241652ba4023765c43bb401a
--system_ext/app/uimremoteserver/uimremoteserver.apk|a2c5f6bc46b3f940a21cf30c855438ec60916f21
--system_ext/app/xdivert/xdivert.apk|15cc850345c0a3e766880f91df7bf83f2951fba6
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|9628504bb7540ebedad3c1f618647421c8288b7e
-system_ext/etc/permissions/RemoteSimlock.xml|4232db05c6ad81466c7bad8816d7f5428672704c
-system_ext/etc/permissions/RemoteSimlockManager.xml|66080efd74f7c85922e248087434bfbb6b1b18a0
-system_ext/etc/permissions/UimGba.xml|50859c150aa2c5b9f2de40ce6ff68f8d201c77b6
-system_ext/etc/permissions/UimGbaManager.xml|38abcdb5cdb43a30e55044887b53107af4133b04
-system_ext/etc/permissions/UimService.xml|1ae50bdfe1ba181bbe2a5bf02249dec5b1930a68
-system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
 system_ext/etc/permissions/com.qti.media.secureprocessor.xml|8aa5c6399bb2ef26a4cc0b0b16d35ddab3757e27
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
 system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
-system_ext/etc/permissions/embms-noship_product_privapp_permissions_qti.xml|fe893ef12f3fe036e3d462e010f031b94f218e38
-system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
-system_ext/etc/permissions/lpa.xml|616bb190e6020c307049932346e55a7363dfee34
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
-system_ext/etc/permissions/uimremoteclient.xml|e495591644efcac1310cfb065088c3b9709ab511
-system_ext/etc/permissions/uimremoteserver.xml|99e292b0d73718a89a586f9803205dac014ff508
-system_ext/etc/spn-conf.xml|ac8a0750445f66091e7e77928fc055ff50369f42
 system_ext/framework/qcrilhook.jar|7b1352344ab743c031502365c09d771d96a1283b
-system_ext/framework/qti-telephony-common.jar|4c1b043536ab8ad9d156668d94b60bc86ffbe278
 -vendor/app/IWlanService/IWlanService.apk|a8bdac9638bc711e23269d2eead3f46a7b3b6a25
 vendor/bin/ATFWD-daemon|8d2b9db2e2f3cfa59f7aede4ab912d20066f77ea
 vendor/bin/hw/qcrild|9ebae4b7b4bc8fb31371f3926634206737d73bb2
@@ -902,18 +860,7 @@ vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql|0734c6a2863ed
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|fcb2cba3bfd718ecdc8d3cfac3a0b2b2c7e8c506
 
 # RIL IMS - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
--system_ext/app/imssettings/imssettings.apk|cb9ef8ac8cccf1deededfca80b2a79f8972f82df
 -system_ext/priv-app/ims/ims.apk|298c0db66e70060cca2a380d19e5fe07f059ad23
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
-system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
-system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar|bc9bce9bcc7250bfba907db6a16b74a92bcb8e38
-system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar|13df5f82893912b9c040fa72ff2ca97ebc6023b6
-system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar|b95b2b4dccd365ae7b09b8982b61184fe82630f7
-system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar|e373bf8dddb0a7b79e36653c22637666cef296be
-system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar|7a073d87c95fb3c65fd5a9b1454d20b38f8e258f
-system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar|3993d8d98969d0eaa7b5676128e85718588677d0
-system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|abbfa2c4003a0b6e4906225c623c7d001ed6258a
 system_ext/lib64/libdiag_system.so|ead4f1d1065abca6ef47b522c1934eb7623c1813
 system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|ba875bc00dc4a7a08365ad7149e5b0c36ce9dcd7
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|c6354e16b958c1b3cb4a59acb3be861c7a81bbbb
