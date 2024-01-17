@@ -2,9 +2,6 @@
 # system props for msm8953
 #
 
-# Charger
-ro.charger.enable_suspend=true
-
 # Radio
 DEVICE_PROVISIONED=1
 persist.sys.fflag.override.settings_network_and_internet_v2=true

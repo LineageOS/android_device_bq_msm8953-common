@@ -588,14 +588,6 @@ service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
     capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
     task_profiles ServiceCapacityLow
 
-service charger /system/bin/charger
-    class charger
-    user system
-    group system graphics input
-    capabilities SYS_BOOT
-    seclabel u:r:charger:s0
-    task_profiles ServiceCapacityLow
-
 service vendor.qbcharger /charger -m 1
     disabled
     oneshot
@@ -614,7 +606,7 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     disabled
     task_profiles ServiceCapacityLow
 
-on charger
+on property:init.svc.vendor.charger=running
     setprop persist.sys.usb.config charging
 
 # Logcat dump daemon, dumps logs to logdump partition
