@@ -712,6 +712,12 @@ vendor/lib64/vendor.display.color@1.0.so|cd604706cd50989b899c04a252f7f02d17996ba
 vendor/lib64/vendor.display.postproc@1.0.so|cc62ff1b3e8ff0e11b750ae59a0f851fdab50962
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|841104a6d894f2afb733bb2317b70092298a8537
 
+# Prebuilts - from repo4 - misc
+prebuilts/vndk/v28/arm64/arch-arm-armv8-a/shared/vndk-core/libprotobuf-cpp-lite.so:vendor/lib/libprotobuf-cpp-lite-v28.so|c808c01bf9a559373f3022d93f22129d25fae153
+prebuilts/vndk/v28/arm64/arch-arm-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:vendor/lib/libprotobuf-cpp-full-v28.so|bc32c97e54f62a9b3e8a55bbefb338e13ad50452
+prebuilts/vndk/v28/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-lite.so:vendor/lib64/libprotobuf-cpp-lite-v28.so|17911576b7965c599bc607f66bb72994ce1825ff
+prebuilts/vndk/v28/arm64/arch-arm64-armv8-a/shared/vndk-core/libprotobuf-cpp-full.so:vendor/lib64/libprotobuf-cpp-full-v28.so|385cce9e0f496feea662ec48c5f5d1b1fc406d23
+
 # QMI - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 system/etc/permissions/qti_libpermissions.xml:system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
 system/etc/permissions/qti_permissions.xml:system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
