@@ -49,6 +49,9 @@ persist.vendor.camera.fd_tuning=libchromatix_face_bardock.so
 # ConfigFS
 ro.boot.usbconfigfs=true
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 #property to enable VDS WFD solution
 persist.hwc.enable_vds=1
