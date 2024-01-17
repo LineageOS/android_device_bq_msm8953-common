@@ -6,8 +6,8 @@
 /dev/block/bootdevice/by-name/boot		/boot				emmc	defaults							defaults
 /dev/block/bootdevice/by-name/recovery		/recovery			emmc	defaults							defaults
 
-/dev/block/bootdevice/by-name/system		/system				ext4	ro								wait,recoveryonly
-/dev/block/bootdevice/by-name/oem           /vendor             squashfs    ro                              wait,recoveryonly
+/dev/block/by-name/system			/system				ext4		ro							wait,first_stage_mount
+/dev/block/by-name/oem				/vendor				squashfs	ro							wait,first_stage_mount
 /dev/block/bootdevice/by-name/userdata		/data				ext4	nosuid,nodev,noatime,noauto_da_alloc,discard			latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts,formattable
 /dev/block/bootdevice/by-name/cache		/cache				ext4	nosuid,nodev,noatime						wait,formattable,check
 /dev/block/bootdevice/by-name/persist		/mnt/vendor/persist		ext4	noatime,nosuid,nodev,barrier=1					wait,check,no_sehash_xattr
