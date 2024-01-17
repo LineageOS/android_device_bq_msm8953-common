@@ -75,7 +75,6 @@ function blob_fixup() {
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
         ;;
         vendor/lib/hw/camera.msm8953.so)
-                patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v28.so" "${2}"
                 patchelf --remove-needed "android.hidl.base@1.0.so" "${2}"
                 patchelf --replace-needed libui.so libui_cam.so "${2}"
                 sed -i -e 's|/data/misc/camera|/data/vendor/qcam|g' "${2}"
@@ -83,7 +82,6 @@ function blob_fixup() {
                 sed -i -e 's|\x61\xF0\x79\xFE|\x00\xBF\x00\x00|g' "${2}"
         ;;
         vendor/lib/libcam.vidhance.so)
-                patchelf --replace-needed "android.frameworks.sensorservice@1.0.so" "android.frameworks.sensorservice@1.0-v28.so" "${2}"
                 patchelf --replace-needed libui.so libui_cam.so "${2}"
         ;;
         vendor/lib/libui_cam.so)
