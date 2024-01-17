@@ -529,7 +529,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     libwifi-hal-qcom \
     libwpa_client \
     wificond \
