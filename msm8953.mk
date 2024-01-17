@@ -167,7 +167,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     Gallery2 \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # b/166675194
 PRODUCT_PROPERTY_OVERRIDES += \

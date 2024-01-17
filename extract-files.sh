@@ -94,6 +94,7 @@ function blob_fixup() {
                 patchelfv08 --remove-needed "libunwind.so" "${2}"
                 patchelfv08 --remove-needed "libkeymaster1.so" "${2}"
                 patchelfv08 --remove-needed "libsoftkeymaster.so" "${2}"
+                patchelf --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
 
                 sed -i -e 's|system/etc/firmware|////vendor/firmware|g' "${2}"
                 sed -i -e 's|/system/etc/sw_config.xml|/vendor/etc/sw_config.xml|g' "${2}"
@@ -131,6 +132,9 @@ function blob_fixup() {
         ;;
         vendor/lib/libwvhidl.so|vendor/lib64/libwvhidl.so)
                 patchelf --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite-v28.so" "${2}"
+        ;;
+        vendor/lib/libvidhance.so)
+                patchelf --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
         ;;
         esac
 }
