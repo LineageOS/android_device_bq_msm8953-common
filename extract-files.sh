@@ -134,6 +134,9 @@ function blob_fixup() {
         vendor/lib/libvidhance.so)
                 patchelf --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
         ;;
+        vendor/lib64/libgoodixfingerprintd_binder.so)
+                patchelf --add-needed "libbinder_shim.so" "${2}"
+        ;;
         esac
 }
 
