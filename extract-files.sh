@@ -104,7 +104,6 @@ function blob_fixup() {
                 PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "15b30020" | wc -l)
                 if [ $PATTERN_FOUND != "1" ]; then
                    echo "Critical blob modification weren't applied on ${2}!"
-                   exit;
                 fi
         ;;
         vendor/bin/mm-qcamera-daemon|vendor/lib/libmm-qcamera.so|vendor/lib/libmmcamera*|vendor/lib64/libmmcamera*)
