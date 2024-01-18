@@ -106,7 +106,6 @@ vendor.vidc.enc.disable.pq=true
 # Network manager
 persist.vendor.data.iwlan.enable=true
 persist.vendor.sys.cnd.iwlan=1
-ro.telephony.iwlan_operation_mode=legacy
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
