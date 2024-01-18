@@ -78,7 +78,7 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so|598c07d5eeace0fd1c361f440be95a275760541
 vendor/lib64/btaudio_offload_if.so|fdbc5b73e9923587080cdb9be5e979f125efdc60
 vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|dc3862c552ee60808385ae05267372f7b27e8a08
 vendor/lib64/hw/audio.bluetooth_qti.default.so|207b6650f26647c8e2d298a3e9260abb38eb127a
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1e238b1e84d889f424001f5134f0d2994d13251a|a35df776008e6877802b7a6bc1e04b2b43b9c0b0
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|1e238b1e84d889f424001f5134f0d2994d13251a|e922973f27bb15f05ca8fc10262e1f930336ceea
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|15cb4a03856ddea15e60be15c7a1d5c499ebc463
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|a608c234bdc93e46431dc51b321f28fd93b0eaf7
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|68848631511ed0117adc540725d0e2fa57843bd9
@@ -100,13 +100,13 @@ system_ext/lib64/com.qualcomm.qti.ant@1.0.so|2bad2579ce576c46af6a50ee6687bd92fa7
 system_ext/lib/com.qualcomm.qti.ant@1.0.so|2c9b0ef686c0222903ebec996295dcc8787bf873
 
 # Camera - from repo9 - 3.0.0_20191205-0806-bardockpro-bq-user-913
-lib/libui.so:vendor/lib/libui_cam.so|90cdd3e84d81397b97a42a65b96a9c8d169df541|dce652d09ccb9c9b4dc00c6dbd3dd43a2f18f4ec
+lib/libui.so:vendor/lib/libui_cam.so|90cdd3e84d81397b97a42a65b96a9c8d169df541|e933f293b624d20d616a66870bac18a90ec098e9
 vendor/bin/mm-qcamera-daemon|3de305b04eb43b554f025a0ba34ffb802035cd24
 vendor/bin/mm-qcamera-app|278447add92b347ca8de06181b7703d1b0207eee
-vendor/lib/libcam.vidhance.so|c51ecc545e0380f3acfbf7dafd62c7e9254baff2|fac60657ec323f3312000a52f6a46150c7210b7c
+vendor/lib/libcam.vidhance.so|c51ecc545e0380f3acfbf7dafd62c7e9254baff2|ea53c36b7e1aed462d47f0f9c50b5b5c25526a46
 vendor/lib/libvidhance.so|d16669c0f64fa758c219600c8aeaa5bf26127f41
 vendor/lib/libqomx_core.so|97acd9d60bdcb7d281e715689b363459d317053d
-vendor/lib/hw/camera.msm8953.so|dc274423bf0a1c9f98509917ef75d0fcb62c5c4a|2a5f91e68d96fa0e2f55977e46610581e6ab5717
+vendor/lib/hw/camera.msm8953.so|dc274423bf0a1c9f98509917ef75d0fcb62c5c4a|8552445c164372d0f2d3926e2f9936c00b2747e6
 vendor/lib/libmmcamera_dcrf_lib.so|87ee48580e684ef0dc1ad11cfdf1cae5c3afcb8e
 vendor/lib/libflash_pmic.so|b93da05603069e4328c3a0a05bd989af9deb77c8
 vendor/lib/libflash_gpio.so|bfb830cbd578af75e2fe3480f35fbb1cd5053538
@@ -1045,7 +1045,7 @@ vendor/lib/libwvhidl.so|a3fe4a491e8d7425a6ba278d4760f096b9de9698
 vendor/lib64/libwvhidl.so|df699e384041beeab9628a90189dddc56a5a1c3b
 
 # Wi-Fi - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
-vendor/bin/wcnss_service|18a234235418d01f7b6faa8a6bea78de5f4d346a|c70f837b570e2b7fd31fba93af1b4c6ac2dce86e
+vendor/bin/wcnss_service|18a234235418d01f7b6faa8a6bea78de5f4d346a|ec6042aeb5b50e868801bb3f33f0363d71cfe741
 
 # Wi-Fi - from repo7 - FP3-REL-8901.4.A.0017.3-gms-15368f27-user-fastbootimage
 vendor/bin/cnss-daemon|0f40b41161c6ba1b9e8020aee20b05ccf6de31bf
