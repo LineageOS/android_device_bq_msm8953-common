@@ -280,8 +280,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti_recovery
 
 # HIDL
-PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
-
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     libhidltransport \
