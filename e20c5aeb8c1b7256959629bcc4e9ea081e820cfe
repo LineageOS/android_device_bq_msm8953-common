@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef3cd9e9_ccca3742",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32990
+      },
+      "writtenOn": "2024-04-02T12:31:47Z",
+      "side": 1,
+      "message": "Try this instead remove proprietary file.\nhttps://review.lineageos.org/c/LineageOS/android_device_qcom_sepolicy/+/388126",
+      "revId": "e20c5aeb8c1b7256959629bcc4e9ea081e820cfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
