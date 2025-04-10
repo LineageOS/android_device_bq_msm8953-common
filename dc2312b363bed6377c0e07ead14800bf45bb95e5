@@ -16,6 +16,23 @@
       "message": "Fjc",
       "revId": "dc2312b363bed6377c0e07ead14800bf45bb95e5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f96bbf90_9782d9e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35140
+      },
+      "writtenOn": "2025-04-10T06:56:05Z",
+      "side": 1,
+      "message": "dalvik.vm.isa.arm64.variant",
+      "revId": "dc2312b363bed6377c0e07ead14800bf45bb95e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
